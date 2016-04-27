@@ -1,1 +1,1 @@
-http://www.skolkahafik.cz/
+skolkahafik.cz
