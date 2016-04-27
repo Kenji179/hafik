@@ -1,0 +1,482 @@
+/*!
+ * Tomas Svoboda
+ * Copyright 2015 SwDESIGN, s.r.o.
+ * Panda Template
+ */
+
+html,
+body {
+    color: #555;
+    line-height: 1.231;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+h1 {
+    font-size: 30px;
+    margin-top: 0;
+}
+h2 {
+    font-size: 26px;
+}
+a {
+    color: #1DAEEA;
+}
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: #1194aa;
+}
+header {
+    margin: 10px 0 20px;
+}
+.logo {
+    width: 125px;
+    display: inline-block;
+}
+.logo img {
+    max-width: 120px;
+}
+.logo a {
+    color: #333;
+}
+.logo a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.logo-h1 {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 15px;
+    vertical-align: middle;
+    margin-bottom: 0;
+    color: #F7972D;
+}
+.logo-h1 span {
+    display: block;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+a.karellen {
+    background-color: #efefef;
+    color: #15b9d5;
+    border-radius: 4px;
+    padding: 7px 14px;
+    float: right;
+}
+a.karellen:hover {
+    text-decoration: none;
+    background-color: #eaeaea;
+}
+.menu {
+    background-color: #44AC4D;
+    margin: 10px 0 5px 0;
+}
+ul.nav li {
+    display: inline-block;
+}
+ul.nav li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px;
+}
+ul.nav li a:hover,
+ul.nav li.open a,
+ul.nav li a:visited,
+ul.nav li.open a:active,
+ul.nav li.open a:focus,
+li.active a {
+    background-color: #388E3F;
+}
+li.active:first-child a {
+    background-color: transparent;
+}
+header .dropdown-menu {
+    background-color: #388E3F;
+    min-width: 140px;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+}
+ul.nav li ul li a {
+    font-size: 14px;
+    padding: 5px 10px;
+    text-transform: none;
+}
+ul.nav li ul li a:hover {
+    color: #333;
+}
+.form-control {
+    box-shadow: none;
+}
+.info-text {
+    position: absolute;
+    background-color: rgba(233, 21, 139, 0.8);
+    ;
+    color: #fff;
+    max-width: 700px;
+    padding: 5px 20px;
+    right: 0px;
+    top: 211px;
+    height: 130px;
+}
+.header {
+    position: relative;
+    text-align: center;
+}
+.header img {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+.info-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.info-text p {
+    line-height: 1.5;
+}
+.long-message h2,
+.main h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+a.news {
+    margin-bottom: 20px;
+    color: #333;
+}
+a.news:hover,
+a.news:active,
+a.news:focus,
+a.news:visited {
+    text-decoration: none;
+    opacity: 0.8;
+}
+a.news img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+a.news span {
+    font-size: 12px;
+}
+a.news h4 {
+    font-weight: 600;
+    font-size: 14px;
+    margin: -10px 0 0 0;
+    line-height: 1.5;
+}
+.more {
+    float: right;
+    margin-top: 15px;
+}
+.more-left {
+    float: left;
+    margin-top: 15px;
+}
+.title {
+    margin: 10px 0 20px;
+}
+.title hr {
+    position: absolute;
+    width: 90%;
+    margin-top: 31px;
+    right: 0;
+    border-top: 2px solid #1DADED;
+}
+.title h2,
+.title h4 {
+    position: relative;
+    float: left;
+    z-index: 88;
+    background-color: #fff;
+    padding-right: 10px;
+}
+.event {
+    line-height: 1.5;
+    padding: 5px 0;
+}
+.event span {
+    color: #15b9d5;
+}
+.event a {
+    color: #333;
+}
+.event a:hover {
+    color: #1194aa;
+}
+.gallery .col-md-6 {
+    padding: 3px;
+}
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-top: 50px;
+}
+.bottom {
+    text-align: right;
+    background-color: #e5e5e5;
+}
+.fancybox:hover img {
+    opacity: 0.8;
+}
+.special-link a {
+    color: #333;
+}
+.special-link a h4 {
+    font-weight: 600;
+}
+.special-link .title {
+    margin: 0;
+}
+.special-link .title hr {
+    margin-top: 20px;
+    border-top: 2px solid #f3a46b;
+}
+.mobile {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 15px;
+    display: none;
+    width: 100%;
+    text-align: left;
+}
+.mobile:focus {
+    outline: none;
+}
+.nav.active,
+.nav.active li {
+    display: block;
+    text-align: center;
+}
+.nav.active .dropdown-menu {
+    width: 100%;
+}
+.sub-nav {
+    background-color: #f4f4f4;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+.breadcrumb li.active {
+    font-weight: 600;
+    font-size: 16px;
+}
+.news-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+a .share {
+    position: relative;
+    margin-bottom: 1px;
+    padding-left: 20px;
+    line-height: 42px;
+    color: #f9fafc;
+    font-weight: 600;
+    margin-top: 1px;
+    background-color: #69d3bd;
+}
+.share i {
+    position: relative;
+    float: right;
+    width: 42px;
+    height: 42px;
+    border-left: 1px solid #f9fafc;
+    text-align: center;
+    color: #f9fafc;
+    background-color: #1bbc9b;
+    font-size: 17px;
+    line-height: 44px;
+}
+a:hover .share {
+    background-color: #1bbc9b;
+}
+p.mem-name {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: #F4982F;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+ul.fa-ul {
+    margin: 0;
+    padding: 15px 40px;
+    background-color: #FFE1BE;
+}
+.fa-li {
+    top: .45em;
+}
+.table-condensed>tbody>tr>td,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>td,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>thead>tr>th {
+    padding: 4px 12px;
+}
+.form-group {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+.form-control {
+    height: 40px;
+}
+.form-group.checkbox {
+    width: 100%;
+    margin: 0;
+}
+.form-group.full {
+    width: 100%;
+}
+form h3 label {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    padding: 10px;
+}
+form h5 {
+    padding-left: 10px;
+}
+button.btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #44AC4D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+button.btn:hover {
+    color: #fff;
+    background-color: #328239;
+}
+button.btn.disabled {
+    background-color: #333;
+}
+form a.btn {
+    padding-top: 0;
+}
+form a.btn,
+form a.btn:focus {
+    color: #E81F2B;
+}
+form a.btn.collapsed {
+    color: #1DAEEA;
+}
+form a.btn.collapsed span.rmv-date,
+form a.btn span.add-date {
+    display: none;
+}
+form a.btn.collapsed span.add-date,
+form a.btn span.rmv-date {
+    display: inline-block;
+}
+form a.btn i.fa-plus {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transition: All 0.2s ease;
+}
+form a.btn.collapsed i.fa-plus {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transition: All 0.2s ease;
+}
+p.category {
+    padding: 10px 10px 5px 0;
+    color: #F49831;
+    width: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+ul.share-list {
+    float: right;
+    padding-top: 10px;
+}
+ul.share-list li {
+    list-style: none;
+    display: inline-block;
+}
+ul.share-list li a {
+    display: block;
+    padding: 0 10px;
+}
+p.article-date {
+    font-size: 12px;
+    font-weight: 600;
+    color: #E7158A;
+}
+.article-header h1 {
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+@media (max-width: 1200px) {
+    .info-text {
+        top: 153px;
+    }
+}
+@media (max-width: 992px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo-h1 {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+    }
+    .header img {
+        float: none;
+    }
+    .info-text {
+        width: 100%;
+        position: relative;
+        height: auto;
+        max-width: none;
+        right: auto;
+        top: auto;
+        margin-top: 10px;
+    }
+    .more {
+        margin-top: 0;
+    }
+    .more-left {
+        margin-top: 0;
+    }
+    .title {
+        margin: 40px 0 20px;
+    }
+    .nav {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
