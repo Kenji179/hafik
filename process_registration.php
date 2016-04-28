@@ -2,9 +2,6 @@
 include 'helpers.php';
 
 startSession();
-var_dump('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-var_dump('Location: http://'. $_SERVER['HTTP_HOST'] .'/rezervace.php');
-exit;
 
 $formFields = $_POST;
 if (empty($formFields)) {
