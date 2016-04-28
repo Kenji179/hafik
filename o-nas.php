@@ -30,19 +30,19 @@ include('inc_header.php');
         <div class="row">
             <div class="col-md-12">
                 <h1>Informace o nás</h1>
-                <h2>Vážení rodiče, vítáme vás na webových stránkách dětského centra „HAFÍK“ v Kutné Hoře.</h2>
+                <h2>Vážení rodiče, vítáme vás na webových stránkách dětského centra „HAFÍK“ v Kutné Hoře</h2>
                 <p>Každý rodič miluje své děti nadevše a udělá vše proto, aby se měly co nejlépe.</p>
                 <p>Mohou však nastat chvíle, kdy si potřebuje zajít k lékaři, máte neodkladnou pracovní schůzku, důležitý přijímací pohovor. Přes prázdniny jste pracovně vytíženi. vaše školka, škola je mimo provoz a vy nevíte, kdo se o vaše děti postará. A nebo prostě jen potřebujete chvilku pro sebe.</p>
                 <p>Ne vždy se najde "hlídací tetička, strýček, babička nebo dědeček", kteří mohou vaše děti pohlídat. Proto je dobré mít místo, kde můžete své děti vždy a bez obav nechat a za pár hodin si je zase vyzvednout.</p>
             </div>
             <div class="col-md-12">
-                <h2> Naše dětské centrum „HAFÍK“ je tu pro Vás.<br>Nabízíme vám, nepravidelné profesionální hlídání vašich dětí.</h2>
-                <p>Hlídání dětí je pro nás více zábavou, nežli prací. Staráme se, aby se děti ani na okamžik nenudily. Máme pro děti připravené velké množství aktivit, a to jak  vnitřních, tak i venkovních. Vytváříme harmonické a podnětné prostředí, takové, ve kterém se budou cítit dobře a kam se budou rády Respektujeme "vývojová stádia" dětí a pomáháme jim přirozeně růst. vracet a vědomostně se obohatí.</p>
-                <h3>Prioritou jsou pro nás radostné a spokojené</h3>
+                <h2> Naše dětské centrum „HAFÍK“ je tu pro Vás.<br>Nabízíme vám, nepravidelné profesionální hlídání vašich dětí</h2>
+                <p>Hlídání dětí je pro nás více zábavou, nežli prací. Staráme se, aby se děti ani na okamžik nenudily. Máme pro děti připravené velké množství aktivit, a to jak  vnitřních, tak i venkovních. Respektujeme "vývojová stádia" dětí a pomáháme jim přirozeně růst. Vytváříme harmonické a podnětné prostředí, takové, ve kterém se budou cítit dobře a kam se budou rády vracet a vědomostně se obohatí.</p>
+                <h3>Prioritou jsou pro nás radostné a spokojené děti</h3>
             </div>
             <div class="col-md-12">
                 <h2>Na co se mohou děti těšit</h2>
-                <p>V našem centru si děti užijí velkou dětskou hernu, kde si mohou vybrat z velkého množství her, stavebnic, panenek, aut, knížek, omalovánek. Máme tu různé pohádkové postavičky, karnevalové V herně je také televize, kde se mohou děti podívat na pohádky nebo na různé dobrodružné filmy. Také je tu malý obchůdek, kde si mohou děti hrát na paní (a) prodavačku (e). Kluci mohou vyzkoušet náš pracovní stůl, kde jsou různá nářadí, šrouby, matice. kostýmy pro děvčata i chlapce. V herně jsou žíněnky na odpočívání. V malé kuchyňce si mohou děti připravit pohoštění pro ostatní kamarády.</p>
+                <p>V našem centru si děti užijí velkou dětskou hernu, kde si mohou vybrat z velkého množství her, stavebnic, panenek, aut, knížek, omalovánek. Máme tu různé pohádkové postavičky, karnevalové kostýmy pro děvčata i chlapce. V herně jsou žíněnky na odpočívání. V herně je také televize, kde se mohou děti podívat na pohádky nebo na různé dobrodružné filmy. Také je tu malý obchůdek, kde si mohou děti hrát na paní (a) prodavačku (e). V malé kuchyňce si mohou děti připravit pohoštění pro ostatní kamarády. Kluci mohou vyzkoušet náš pracovní stůl, kde jsou různá nářadí, šrouby, matice.</p>
                 <p>Naše dětské centrum má pro děti připravenou tělocvičnu, kde je skluzavka s tisíci barevnými kuličkami. V tělocvičně jsou žebřiny, velká žíněnka, houpací vak, míče, branky na fotbal, velké molitanové kostky na stavění hradů, mostů, bludiště atd. V tělocvičně se také bude konat přespávání.</p>
                 <p>Na venkovní zahradě je pro děti připravené pískoviště. Dřevěný domeček s kuchyňkou. Velkou zábavnou atrakcí na zahradě je čtvercová trampolína, kde si mohou děti vesele zaskákat.</p>
                 <p>Všechny prostory našeho dětského centra jsou nafocené a fotografie jsou vložené do galerie.</p>
@@ -50,8 +50,8 @@ include('inc_header.php');
             <div class="col-md-12">
                 <h2>Náš tým</h2>
                 <div class="members">
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="assets/img/member1.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="docs/pics/pic7.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Adéla Nejezchlebová</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>vedoucí Dětského centra "HAFÍK"</li>
@@ -61,15 +61,26 @@ include('inc_header.php');
                             <li><strong>motto: „Sestra v akci“</strong></li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="assets/img/member1.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="docs/pics/pic9.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Martina Vecková</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>certifikovaná chůva</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>psychologie dítěte</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>vedoucí oddílového plavání</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe jako táborová vedoucí</li>
-                            <li><strong>motto: „Veselá chůva v akci“</strong></li>
+                            <li><strong>motto: „Veselá chůva“</strong></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="docs/pics/pic11.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                        <p class="mem-name">Maria Gaia Kovaříková</p>
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>péče o mentálně postižené děti i dospělé</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>práce v soc.službách</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>učitelka v MŠ</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>NZP</li>
+                            <li><strong>motto: „Radost za každého počasí“</strong></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
