@@ -1,5 +1,5 @@
 <?php
-$title = 'Registrace | Hafík - hlídání dětí v Kutné Hoře';
+$title = 'Rezervaceace | Hafík - hlídání dětí v Kutné Hoře';
 $menu = '2'; // 0 or an empty string for nothing highlighted
 
 include('inc_header.php');
@@ -14,7 +14,7 @@ include('inc_header.php');
             <div class="row">
                 <ol class="breadcrumb">
                     <li><a href="index.php">Úvod</a></li>
-                    <li class="active">Registrace</li>
+                    <li class="active">Rezervace</li>
                 </ol>
             </div>
         </div>
@@ -31,8 +31,9 @@ include('inc_header.php');
 
                 <?php displayFlash('registration'); ?>
 
-                <h1>Registrace</h1>
-                <p>Registrace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání.</p>
+                <h1>Rezervace</h1>
+                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 5. 2016. Děkujeme</p>
+                <p>Rezervace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání.</p>
                 <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
                     <h3>Období hlídání</h3>
                     <div class="form-group">
