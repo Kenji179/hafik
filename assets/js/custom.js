@@ -38,8 +38,11 @@ jQuery(document).ready(function ($) {
 
 function FillAddress(f) {
     if (f.sameAddress.checked == true) {
-        f.addressChild.value = f.addressGuardian.value;
-        f.cityChild.value = f.cityGuardian.value;
-        f.ZIPChild.value = f.ZIPGuardian.value;
+        f.childAddress.value = f.guardianAddress.value;
+        f.childCity.value = f.guardianCity.value;
+        f.childZIP.value = f.guardianZIP.value;
     }
 }
+
+//<a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
+
