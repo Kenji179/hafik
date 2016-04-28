@@ -55,17 +55,20 @@
         <section class="menu">
             <div class="container">
                 <div class="row">
-                    <button class="mobile" data-toggle="mobile"><i class="fa fa-bars"></i> MENU</button>
-                    <ul class="nav">
-                        <li <?php $menu==0 ? print( 'class="active"') : '' ?>><a href="index.php">Úvod</a></li>
-                        <li <?php $menu==1 ? print( 'class="active"') : '' ?>><a href="o-nas.php">O Nás</a></li>
-                        <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="sluzby.php">Služby</a></li>
-                    <!--    <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace</a></li> -->
-                        <li <?php $menu==4 ? print( 'class="active"') : '' ?>><a href="cenik.php">Ceník</a></li>
-                        <li <?php $menu==5 ? print( 'class="active"') : '' ?>><a href="provozni-rad.php">Provozní řád</a></li>
-                        <li <?php $menu==6 ? print( 'class="active"') : '' ?>><a href="co-s-sebou-do-batuzku.php">Co s sebou do batůžku</a></li>
-                        <li <?php $menu==7 ? print( 'class="active"') : '' ?>><a href="kudy-k-nam.php">Kudy k nám</a></li>
-                    </ul>
+                    <div class="relative">
+                        <button class="mobile" data-toggle="mobile"><i class="fa fa-bars"></i> MENU</button>
+                        <ul class="nav">
+                            <li <?php $menu==0 ? print( 'class="active"') : '' ?>><a href="index.php">Úvod</a></li>
+                            <li <?php $menu==1 ? print( 'class="active"') : '' ?>><a href="o-nas.php">O Nás</a></li>
+                            <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="sluzby.php">Služby</a></li>
+                            <!--    <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace</a></li> -->
+                            <li <?php $menu==4 ? print( 'class="active"') : '' ?>><a href="cenik.php">Ceník</a></li>
+                            <li <?php $menu==5 ? print( 'class="active"') : '' ?>><a href="provozni-rad.php">Provozní řád</a></li>
+                            <li <?php $menu==6 ? print( 'class="active"') : '' ?>><a href="co-s-sebou-do-batuzku.php">Co s sebou do batůžku</a></li>
+                            <li <?php $menu==7 ? print( 'class="active"') : '' ?>><a href="kudy-k-nam.php">Kudy k nám</a></li>
+                        </ul>
+                        <a class="social-btn" href="https://www.facebook.com/skolkahafik" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    </div>
                 </div>
             </div>
         </section>
