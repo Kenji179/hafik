@@ -15,16 +15,25 @@ $cleanedFields = checkInput($formFields);
 // email for employees of preschool is in file preschool-email.php
 // that file works with variable $cleanedFields
 $preschoolEmail = include 'preschool-email.php';
-sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
+//$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
+$preschoolEmailResult = sendMail('roman@swdesign.cz', 'Rezervace hlídání', $preschoolEmail);
 
 // email for customers is in file customer-registration-email.php which
 // uses variable $cleanedFields
 $customerEmail = include 'customer-registration-email.php';
-sendMail(
+$customerEmailResult = sendMail(
 	$cleanedFields['guardianEmail'],
 	'Dětské centrum Hafík - potvrzení registrace',
 	$customerEmail
 );
+
+if ($preschoolEmailResult) {
+	flash('registration', 'Registrace byla úšpěšně dokončena', 'alert alert-success');
+	header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
+} else {
+	flash('registration', 'Chyba při zpracování registrace. Pracujeme na nápravě.', 'alert alert-danger');
+	header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
+}
 
 function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 {
@@ -33,14 +42,8 @@ function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
 	$result = mail($to, $subject, $message, $headers);
-	if ($result) {
-		flash('registration', 'Registrace byla úšpěšně dokončena', 'alert alert-success');
-		header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
-	} else {
-		flash('registration', 'Chyba při zpracování registrace. Pracujeme na nápravě.', 'alert alert-danger');
-		header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
-	}
 
+	return $result;
 }
 
 function clean($value)
