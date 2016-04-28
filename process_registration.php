@@ -16,7 +16,7 @@ $cleanedFields = checkInput($formFields);
 // that file works with variable $cleanedFields
 $preschoolEmail = include 'preschool-email.php';
 //$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
-$preschoolEmailResult = sendMail('roman@swdesign.cz', 'Rezervace hlídání', $preschoolEmail);
+$preschoolEmailResult = sendMail('info@swdesign.cz', 'Rezervace hlídání', $preschoolEmail);
 
 // email for customers is in file customer-registration-email.php which
 // uses variable $cleanedFields

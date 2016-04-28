@@ -1,3 +1,7 @@
+<?php
+include 'helpers.php';
+startSession();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,19 +10,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Systém pro mateřské školy, který zjednodušší každodenní procesy ve škole, usnadní komunikaci s rodiči a přenese školu do moderní doby.">
+    <meta name="description" content="Hlídání dětí v Kutné Hoře">
 
     <!-- Apple meta -->
     <link rel="apple-touch-icon-precomposed" sizes="156x156" href="assets/img/apple-touch-156.png">
     <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-120.png">
-    <meta name="apple-mobile-web-app-title" content="Karellen.cz">
+    <meta name="apple-mobile-web-app-title" content="Skolkahafik.cz">
 
     <!-- FB Sharing -->
-    <meta property="og:image" content="http://www.karellen.cz/assets/img/fb-share.png">
-    <meta property="og:title" content="Karellen - Úžasné řešení každodenní agendy v mateřské škole">
-    <meta property="og:description" content="Systém pro mateřské školy, který zjednodušší každodenní procesy ve škole, usnadní komunikaci s rodiči a přenese školu do moderní doby.">
-    <meta property="og:url" content="http://www.karellen.cz">
-    <meta property="og:site_name" content="Karellen - Úžasné řešení každodenní agendy v mateřské škole">
+    <meta property="og:title" content="Hafík - Hlídání dětí v Kutné Hoře">
+    <meta property="og:description" content="Hlídání dětí v Kutné Hoře">
+    <meta property="og:url" content="http://www.skolkahafik.cz">
+    <meta property="og:site_name" content="Hafík - Hlídání dětí v Kutné Hoře">
     <meta property="og:type" content="website">
     <title>
         <?php print($title); ?>
@@ -41,11 +44,6 @@
 </head>
 
 <body>
-
-<?php
-include 'helpers.php';
-startSession();
-?>
 
     <header>
         <div class="container">
