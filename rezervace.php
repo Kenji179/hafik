@@ -32,7 +32,7 @@ include('inc_header.php');
                 <?php displayFlash('registration'); ?>
 
                 <h1>Rezervace</h1>
-                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 5. 2016. Děkujeme</p>
+                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 4. 2016. Děkujeme</p>
                 <p>Rezervace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání.</p>
                 <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
                     <h3>Období hlídání</h3>
