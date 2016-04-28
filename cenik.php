@@ -30,8 +30,12 @@ include('inc_header.php');
         <div class="row">
             <div class="col-md-12">
                 <h1>Ceník</h1>
-                <h2>Základní částka za hlídání je 80,-- Kč za 1 hod. (účtuje se každá započatá hodina)</h2>
-                <h2>Cena za přespávání je jednotná částka 450,-- Kč za dítě. (dle předchozího objednání)</h2>
+                <ul>
+                    <li>
+                        <h2>Základní částka za hlídání dětí je <strong>80,- Kč za 1 hodinu</strong> (účtuje se každá započatá hodina).</h2></li>
+                    <li>
+                        <h2>Částka za přespávání je jednotná <strong>450,- Kč za dítě</strong> (dle předchozího objednání).</h2></li>
+                </ul>
             </div>
         </div>
     </div>
