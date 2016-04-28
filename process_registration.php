@@ -1,5 +1,8 @@
 <?php
 include 'helpers.php';
+
+startSession();
+
 $formFields = $_POST;
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
@@ -12,8 +15,7 @@ $cleanedFields = checkInput($formFields);
 // email for employees of preschool is in file preschool-email.php
 // that file works with variable $cleanedFields
 $preschoolEmail = include 'preschool-email.php';
-//sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
-sendMail('roman@swdesign.cz', 'Rezervace hlídání', $preschoolEmail);
+sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
 
 // email for customers is in file customer-registration-email.php which
 // uses variable $cleanedFields
