@@ -1,4 +1,10 @@
 <?php
+// file for helper functions
+
+// creates flash message in session
+// $name name of flash message. it used to find the message
+// $message flash message
+// $class name of class for styling the <div>
 function flash($name, $message, $class)
 {
 	if (!empty($name)) {
@@ -16,6 +22,7 @@ function flash($name, $message, $class)
 	}
 }
 
+// displays flash message with name $name
 function displayFlash($name)
 {
 	if (!empty($_SESSION[$name])) {
@@ -25,6 +32,8 @@ function displayFlash($name)
 		unset($_SESSION[$name.'_class']);
 	}
 }
+
+// starts session in case it is stopped
 function startSession()
 {
 	if(!session_id()) {

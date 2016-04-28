@@ -67,7 +67,7 @@ $email .=				'<tr>';
 $email .=					'<td colspan="3">Bydliště: '. $cleanedFields['guardianAddress'] .', ' . $cleanedFields['guardianCity'] .' '. $cleanedFields['guardianZIP'] .'</td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
-$email .=					'<td>Kontakt telefon '. $cleanedFields['guardianPhone'] .'</td>';
+$email .=					'<td>Kontakt telefon: '. $cleanedFields['guardianPhone'] .'</td>';
 $email .=					'<td colspan="2">E-mail: '. $cleanedFields['guardianEmail'] .'</td>';
 $email .=				'</tr>';
 $email .=				'</table>';
@@ -86,7 +86,7 @@ $email .=				'</tr>';
 $email .=				'<tr>';
 $email .=					'<td colspan="2">Zdravotní pojišťovna: '. $cleanedFields['childHealthInsurance'] .'</td>';
 $email .=				'</tr>';
-$email .=				'<tr><td colspan="2">Zdravotní stav (v případě alergie, zdravotního omezení aj., prosím specifikujte:</td></tr>';
+$email .=				'<tr><td colspan="2">Zdravotní stav (v případě alergie, zdravotního omezení aj., prosím specifikujte):</td></tr>';
 $email .=				'<tr><td colspan="2">'. $cleanedFields['childImportantInfo'] .'</td></tr>';
 $email .=				'</table>';
 $email .=			'<p>';
@@ -98,13 +98,11 @@ $email .=			'</p>';
 $email .=			'<table>';
 $email .=				'<tr>
 							<th>Jméno a příjmení</th>
-							<th>Vztah k dítěti</th>
 							<th>Telefon</th>
 						</tr>';
 						foreach ($cleanedFields['otherGuardians'] as $otherGuardian) {
 $email .=				'<tr>';
 $email .=					'<td>'. $otherGuardian['name'] .' '. $otherGuardian['surname'] .'</td>';
-$email .=					'<td></td>';
 $email .=					'<td>'. $otherGuardian['phone'] .'</td>';
 $email .=				'<tr>';
 						}
@@ -126,7 +124,7 @@ $email .=			'<p>';
 $email .=				'V Kutné Hoře dne ' . date('d.m.Y');
 $email .=				'</p>';
 $email .=	'<p>Podpis zákonného zástupce:</p>';
-$email .=	'<p>Dítě bylo oprávněnou osobou v pořádku převzato dne  v  hod</p>';
+$email .=	'<p>Dítě bylo oprávněnou osobou v pořádku převzato dne ................... v ........... hod</p>';
 $email .=	'<p>Podpis oprávněné osoby:</p>';
 $email .=	'</td>';
 $email .=	'</tr>';

@@ -1,21 +1,30 @@
 <?php
 include 'helpers.php';
-
-startSession();
-
 $formFields = $_POST;
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
 	header('Location: http://localhost/hafik/rezervace.php');
 }
 
+// check if input fields are filled and uses htmlspecialchars to prevent XSS
 $cleanedFields = checkInput($formFields);
 
-// preschool-email.html needs $cleanedFields
-$message = include 'preschool-email.php';
-sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $message, 'rezervace@skolkahafik.cz');
+// email for employees of preschool is in file preschool-email.php
+// that file works with variable $cleanedFields
+$preschoolEmail = include 'preschool-email.php';
+//sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
+sendMail('roman@swdesign.cz', 'Rezervace hlídání', $preschoolEmail);
 
-function sendMail($to, $subject, $message, $from)
+// email for customers is in file customer-registration-email.php which
+// uses variable $cleanedFields
+$customerEmail = include 'customer-registration-email.php';
+sendMail(
+	$cleanedFields['guardianEmail'],
+	'Dětské centrum Hafík - potvrzení registrace',
+	$customerEmail
+);
+
+function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 {
 	$headers = "From: " . strip_tags($from) . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
