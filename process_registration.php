@@ -35,10 +35,10 @@ function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 	$result = mail($to, $subject, $message, $headers);
 	if ($result) {
 		flash('registration', 'Registrace byla úšpěšně dokončena', 'alert alert-success');
-		header('Location: http://'. $_SERVER['HTTP_HOST'] .'/rezervace.php');
+		header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
 	} else {
 		flash('registration', 'Chyba při zpracování registrace. Pracujeme na nápravě.', 'alert alert-danger');
-		header('Location: http://'. $_SERVER['HTTP_HOST'] .'/rezervace.php');
+		header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
 	}
 
 }
