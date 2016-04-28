@@ -15,6 +15,7 @@ $cleanedFields = checkInput($formFields);
 // email for employees of preschool is in file preschool-email.php
 // that file works with variable $cleanedFields
 $preschoolEmail = include 'preschool-email.php';
+
 //$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
 $preschoolEmailResult = sendMail('info@swdesign.cz', 'Rezervace hlídání', $preschoolEmail);
 
@@ -29,10 +30,10 @@ $customerEmailResult = sendMail(
 
 if ($preschoolEmailResult) {
 	flash('registration', 'Registrace byla úšpěšně dokončena', 'alert alert-success');
-	header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
+	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 } else {
 	flash('registration', 'Chyba při zpracování registrace. Pracujeme na nápravě.', 'alert alert-danger');
-	header('Location: http://' .$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
+	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 }
 
 function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
