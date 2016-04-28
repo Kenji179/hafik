@@ -2,6 +2,9 @@
 include 'helpers.php';
 
 startSession();
+var_dump('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+var_dump('Location: http://'. $_SERVER['HTTP_HOST'] .'/rezervace.php');
+exit;
 
 $formFields = $_POST;
 if (empty($formFields)) {
@@ -35,10 +38,10 @@ function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 	$result = mail($to, $subject, $message, $headers);
 	if ($result) {
 		flash('registration', 'Registrace byla úšpěšně dokončena', 'alert alert-success');
-		header('Location: http://localhost/hafik/rezervace.php');
+		header('Location: http://'. $_SERVER['HTTP_HOST'] .'/rezervace.php');
 	} else {
 		flash('registration', 'Chyba při zpracování registrace. Pracujeme na nápravě.', 'alert alert-danger');
-		header('Location: http://localhost/hafik/rezervace.php');
+		header('Location: http://'. $_SERVER['HTTP_HOST'] .'/rezervace.php');
 	}
 
 }
