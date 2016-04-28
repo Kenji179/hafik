@@ -48,7 +48,8 @@
                 <div class="logo">
                     <a href="index.php"><img src="assets/img/logo.jpg" alt="Hafík hlídání dětí - logo"></a>
                 </div>
-                <h1 class="logo-h1">Rodiče máte volno!<span>hlídací centrum pro děti od 2 - 8 let</span></h1>
+                <h1 class="logo-h1">Hlídání v Kutné Hoře<span> pro děti od 2 - 8 let</span></h1>
+                <div class="open-hours">OTEVŘENO: PO - PÁ 8:00 - 17:30 <span>Liché týdny přespání z PÁ 18:30 na SO 9:00</span></div>
             </div>
         </div>
         <section class="menu">
@@ -58,8 +59,8 @@
                     <ul class="nav">
                         <li <?php $menu==0 ? print( 'class="active"') : '' ?>><a href="index.php">Úvod</a></li>
                         <li <?php $menu==1 ? print( 'class="active"') : '' ?>><a href="o-nas.php">O Nás</a></li>
-<!--                        <li --><?php //$menu==2 ? print( 'class="active"') : '' ?><!--<a href="rezervace.php">Rezervace</a></li>-->
-                        <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="sluzby.php">Služby</a></li>
+                        <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="sluzby.php">Služby</a></li>
+                    <!--    <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace</a></li> -->
                         <li <?php $menu==4 ? print( 'class="active"') : '' ?>><a href="cenik.php">Ceník</a></li>
                         <li <?php $menu==5 ? print( 'class="active"') : '' ?>><a href="provozni-rad.php">Provozní řád</a></li>
                         <li <?php $menu==6 ? print( 'class="active"') : '' ?>><a href="co-s-sebou-do-batuzku.php">Co s sebou do batůžku</a></li>
