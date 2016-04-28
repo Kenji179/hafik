@@ -33,6 +33,7 @@ jQuery(document).ready(function ($) {
         fontAwesome: 1,
         todayHighlight: 1
     });
+    $('[data-toggle="popover"]').popover();
 });
 
 function FillAddress(f) {

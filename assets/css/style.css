@@ -15,13 +15,17 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
+    text-align: justify;
 }
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0;
+    border-bottom: 2px solid #1CADEE;
+    padding-bottom: 10px;
 }
-h2 {
-    font-size: 26px;
+h2,
+h3 {
+    font-size: 20px;
 }
 a {
     color: #1DAEEA;
@@ -57,11 +61,25 @@ header {
     vertical-align: middle;
     margin-bottom: 0;
     color: #F7972D;
+    border: none;
+    padding-bottom: 0;
 }
 .logo-h1 span {
     display: block;
     font-size: 18px;
     padding: 5px 10px;
+}
+.open-hours {
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    color: #E9202F;
+    padding-top: 7px;
+}
+.open-hours span {
+    display: block;
+    font-size: 14px;
 }
 a.karellen {
     background-color: #efefef;
@@ -134,7 +152,6 @@ ul.nav li ul li a:hover {
 }
 .header img {
     width: 100%;
-    max-width: 800px;
     margin-bottom: 20px;
 }
 .info-text h3 {
@@ -216,9 +233,6 @@ a.news h4 {
 .event a:hover {
     color: #1194aa;
 }
-.gallery .col-md-6 {
-    padding: 3px;
-}
 footer {
     text-align: center;
     background-color: #f4f4f4;
@@ -277,7 +291,6 @@ footer {
 }
 .breadcrumb li.active {
     font-weight: 600;
-    font-size: 16px;
 }
 .news-list {
     margin-left: -15px;
@@ -436,6 +449,19 @@ p.article-date {
 .article-header h1 {
     margin-bottom: 0px;
     margin-top: -10px;
+    border: none;
+    padding-bottom: 0;
+}
+address {
+    width: 270px;
+    display: inline-block;
+}
+address strong {
+    display: block;
+}
+.gallery .col-sm-3,
+.gallery .col-sm-4 {
+    padding: 5px;
 }
 @media (max-width: 1200px) {
     .info-text {
@@ -447,10 +473,12 @@ p.article-date {
         width: 100%;
         text-align: center;
     }
-    .logo-h1 {
+    .logo-h1,
+    .open-hours {
         text-align: center;
         display: block;
         padding-top: 10px;
+        float: none;
     }
     .header img {
         float: none;
@@ -478,5 +506,8 @@ p.article-date {
     }
     .mobile {
         display: block;
+    }
+    .form-group {
+        width: 100%;
     }
 }

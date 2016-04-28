@@ -28,9 +28,9 @@ include('inc_header.php');
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 ">
                 <h1>Provozní řád</h1>
-                <a href="documents/provozni_rad.pdf" target="_blank">Provozní řád ke stažení v PDF</a>
+                <a href="docs/provozni_rad.pdf" target="_blank">Provozní řád ke stažení v PDF</a>
                 <h2>Charakteristika poskytované služby centrem Hafík</h2>
                 <p>Centrum Hafík – hlídání dětí s.r.o. (dále také jen „Hafík“) nabízí své služby rodičům, kteří potřebují krátkodobě své děti pohlídat. Služba není náhradou za mateřskou školu, není ani pravidelnou docházkou a nezahrnuje v sobě výuku dětí, kterou poskytují předškolní zařízení. Na hlídání dítěte v Hafíkovi nevzniká podáním Přihlášky pro přijetí dítěte na hlídání v Hafíkovi (dále také jen Přihláška) žádný právní nárok. V Hafíkovi je rodičům nabízeno volné hraní jejich dětí pod dozorem zodpovědných osob a je určeno pro děti ve věku od 2 do 8 let. Provoz služby je zajištěn každý všední den od 8:00 do 17:30h. V době prázdnin může být provoz omezen.</p>
                 <h2>Materiální zajištění centra Hafík</h2>
@@ -78,7 +78,7 @@ include('inc_header.php');
                     <li>Stravování a pitný režim
                         <ul>
                             <li>Rodiče jsou povinni dětem (podle plánovaného času pobytu dítěte v centru Hafík) zajistit vlastní stravu formou suchých svačinek, v dostatečném množství, trvanlivého charakteru, balené a takové, které se nekazí. Jídlo nesmí obsahovat bonbony, čokolády, či jiné drobné sladkosti, které by se mohly snadno dostat do rukou ostatních dětí a způsobit jejich případné alergické reakce, dušení apod. Svačinky musí být při předání označeny jménem dítěte, aby se zabránilo záměně. Svačinky jsou v centru Hafík uchovávány na místě nepřístupném dětem. Přístup k nim jim umožňují pracovnice centra Hafík konkrétnímu dítěti, aby se zabránilo záměně. Pracovníci centra Hafík nesmí hlídaným dětem dávat jiné jídlo, než které jim bylo předáno rodiči spolu s dítětem, a to z důvodu možných alergických reakcí apod. Ze stejného důvodu budou děti potraviny konzumovat pouze pod dozorem personálu centra Hafík.</li>
-                            <li>V centru Hafík je dbáno na dodržování pitného režimu dětí. Nápoje dětem v dostatečném množství a dle délky doby hlídání zajišťují pro své děti jejich rodiče. Pro případ, že by hlídané dítě nemělo od rodičů zajištěno vlastní pití, zajistí centrum Hafík pitný režim dítěte využitím balené vody, která je v centru Hafík k dispozici</li>
+                            <li>V centru Hafík je dbáno na dodržování pitného režimu dětí. Nápoje dětem v dostatečném množství a dle délky doby hlídání zajišťují pro své děti jejich rodiče. Pro případ, že by hlídané dítě nemělo od rodičů zajištěno vlastní pití, zajistí centrum Hafík pitný režim dítěte využitím balené vody, která je v centru Hafík k dispozici.</li>
                         </ul>
                     </li>
                 </ul>
@@ -104,16 +104,16 @@ include('inc_header.php');
                 </ul>
                 <p>Cena zahrnuje</p>
                 <ul>
-                    <li>Hlídání dětí</li>
+                    <li>hlídání dětí</li>
                 </ul>
                 <p>Cena nezahrnuje</p>
                 <ul>
                     <li>nápoje</li>
-                    <li>stravu - svačiny, obědy</li>
+                    <li>stravu - svačiny, obědy, večeře, snídaně</li>
                 </ul>
                 <h4>Výňatek z Provozního řádu centra Hafík – hlídání dětí s.r.o.</h4>
                 <p>„Každý lichý pátek centrum Hafík poskytuje možnost v případě dostatečného zájmu a naplnění kapacity zajištění péče o děti spolu s přespáním druhého dne, tj. pátku od 18.30 hod. do následující soboty do 9.00 hod. I v tomto případě platí podmínka zajištění stravy pro nezletilé dítě jeho rodiči (večeře, snídaně). Bližší informace ohledně možnosti pátečního přespávání budou vždy vyvěšeny na nástěnce a webových stránkách centra Hafík. Děti musí být rodiči na přespání v dostatečném časovém předstihu přihlášené.“ „Odměna za jednorázové hlídání se platí za každou započatou hodinu hlídání, a to hotově v okamžiku vyzvednutí dítěte z Centra, a to podle strávené doby dítěte v centru Hafík. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.“</p>
-                <p>Vydáno: Platnost Provozního řádu od 2.5.2016</p>
+                <p>Platnost Provozního řádu od 2.5.2016</p>
             </div>
         </div>
     </div>

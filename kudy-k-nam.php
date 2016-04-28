@@ -32,17 +32,15 @@ include('inc_header.php');
                 <h1>Kudy k nám</h1>
                 <address>
                     <h3>Dětské centrum „HAFÍK“</h3>
-                    <p>Adresa provozovny: Štefánikova 102/7, 284 01  Kutná Hora</p>
-                    <p>Vedoucí provozovny: Adéla Nejezchlebová</p>
-                    <p>Kontakt:   tel. číslo: 604787347</p>
-                    <p>E-mail: info@skolkahafik.cz</p>
-                    <p>Web. stránky:  skolkahafik.cz</p>
-                    <p>Obchodní firma:  Hafík – hlídání dětí s.r.o.</p>
-                    <p>IČO:  04498518</p>
+                    <p>Adresa provozovny <strong>Štefánikova 102/7, 284 01  Kutná Hora</strong></p>
+                    <p>Vedoucí provozovny <strong>Adéla Nejezchlebová</strong></p>
+                    <p>Tel. číslo <strong>604787347</strong></p>
+                    <p>E-mail <strong>info@skolkahafik.cz</strong></p>
+                    <p>Web. stránky <strong>skolkahafik.cz</strong></p>
+                    <p>Obchodní firma <strong>Hafík – hlídání dětí s.r.o.</strong></p>
+                    <p>IČO <strong>04498518</strong></p>
                 </address>
-            </div>
-            <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.1112090297884!2d15.269234015945358!3d49.9530163309622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c41a9ea26d729%3A0xbf843cc5a2d4856e!2zxaB0ZWbDoW5pa292YSAxMDIvNywgSGxvdcWha2EsIDI4NCAwMSBLdXRuw6EgSG9yYSwgQ3plY2ggUmVwdWJsaWM!5e0!3m2!1sen!2stw!4v1461503134143" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="//api.mapy.cz/frame?params=%7B%22x%22%3A15.27141402932302%2C%22y%22%3A49.9530164617787%2C%22base%22%3A%221%22%2C%22layers%22%3A%5B%5D%2C%22zoom%22%3A17%2C%22url%22%3A%22https%3A%2F%2Fmapy.cz%2Fs%2FCQCp%22%2C%22mark%22%3A%7B%22x%22%3A%2215.27141402932302%22%2C%22y%22%3A%2249.9530164617787%22%2C%22title%22%3A%22%C5%A0tef%C3%A1nikova%20102%2F7%2C%20Kutn%C3%A1%20Hora%22%7D%2C%22overview%22%3Afalse%7D&amp;width=100&amp;height=350" height="350" frameborder="0" style="border:0; width: calc(100% - 305px);" allowfullscreen></iframe>
             </div>
         </div>
     </div>
