@@ -121,9 +121,9 @@ $email .=				'<li>Prohlašuji, že všechny mnou uvedené údaje jsou pravdivé 
 $email .=				'<li>Prohlašuji, že souhlasím s  monitorováním dítěte kdykoliv po předání do Centra Hafík, jeho focením a pořízením videa a s následným umístěním videa či fotografie dítěte na webové stránky Hafíka. </li>';
 $email .=				'<li>Prohlašuji, že souhlasím se zpracováním osobních údajů svých a svého dítěte, pro evidenční potřeby centra Hafík</li>';
 						if ($cleanedFields['vaccinationStatement'] == 'on') {
-$email .=				'<li>Prohlašuji, že dítě <b>bylo/<s>nebylo</s></b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
+$email .=				'<li>Prohlašuji, že dítě <b>bylo</b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
 						} else {
-$email .=				'<li>Prohlašuji, že dítě <b><s>bylo</s>/nebylo</b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
+$email .=				'<li>Prohlašuji, že dítě <b>nebylo</b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
 						}
 $email .=				'</ul>';
 $email .=			'</p>';

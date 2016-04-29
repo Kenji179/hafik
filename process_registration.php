@@ -3,6 +3,18 @@ include 'helpers.php';
 
 startSession();
 
+require_once 'vendor/autoload.php';
+
+//use mikehaertl\wkhtmlto\Pdf;
+//
+//echo exec('whoami');
+//$pdf = new Pdf('email.html');
+//$pdf->binary = '/usr/local/bin/wkhtmltopdf';
+//if (!$pdf->saveAs('email.pdf')) {
+//    echo $pdf->getError();
+//}
+//exit;
+
 $formFields = $_POST;
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
@@ -17,7 +29,12 @@ $cleanedFields = checkInput($formFields);
 $preschoolEmail = include 'preschool-email.php';
 
 //$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
-$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
+$preschoolEmailResult = sendMail(
+	'info@skolkahafik.cz',
+	'Rezervace hlídání',
+	$preschoolEmail,
+	$cleanedFields['guardianEmail']
+);
 
 // email for customers is in file customer-registration-email.php which
 // uses variable $cleanedFields
@@ -38,13 +55,23 @@ if ($preschoolEmailResult) {
 
 function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 {
-	$headers = "From: " . strip_tags($from) . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+//	$headers = "From: " . strip_tags($from) . "\r\n";
+//	$headers .= "MIME-Version: 1.0\r\n";
+//	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+//	$headers .= "Content-Transfer-Encoding: base64" . PHP_EOL;
+//
+//	$result = mail($to, $subject, $message, $headers);
 
-	$result = mail($to, $subject, $message, $headers);
+	$mail = new PHPMailer();
+	$mail->CharSet = 'utf-8';
+	$mail->isHTML(true);
 
-	return $result;
+	$mail->setFrom($from);
+	$mail->addAddress($to);
+	$mail->Subject = $subject;
+	$mail->Body = $message;
+
+	return $mail->send();
 }
 
 function clean($value)

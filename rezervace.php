@@ -4,6 +4,17 @@ $menu = '2'; // 0 or an empty string for nothing highlighted
 
 include('inc_header.php');
 //include 'helpers.php';
+
+//require_once 'vendor/autoload.php';
+//use mikehaertl\wkhtmlto\Pdf;
+//
+//echo exec('whoami');
+//$pdf = new Pdf('email.html');
+//$pdf->binary = '/usr/local/bin/wkhtmltopdf';
+//if (!$pdf->saveAs('email.pdf')) {
+//    echo $pdf->getError();
+//}
+//exit;
 ?>
 
 
