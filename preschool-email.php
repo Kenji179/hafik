@@ -101,7 +101,7 @@ $email .=				'<tr>
 							<td>Vztah k dítěti</td>
 							<td>Telefon</td>
 						</tr>';
-                        '<tr>
+$email .=               '<tr>
 							<td><strong>'. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</strong></td>
 							<td><strong>Registrující zákonný zástupce</strong></td>
 							<td><strong>'. $cleanedFields['guardianPhone'] .'</strong></td>
