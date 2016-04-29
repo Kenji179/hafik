@@ -49,7 +49,7 @@ $email .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 		'</style>'.
 	'</head>'.
 '<body>';
-$email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width:800px;table-layout:fixed">';
+$email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width:800px">';
 $email .=	'<tr>';
 $email .=		'<td>';
 $email .=			'<p style="text-align:center">';
@@ -59,9 +59,9 @@ $email .=			'</p>';
 $email .= '<p>Zákonný zástupce dítěte:</p>';
 $email .=			'<table>';
 $email .=				'<tr>';
-$email .=					'<td>Jméno a příjmení: '. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</td>';
-$email .=					'<td>, č. OP '. $cleanedFields['guardianIDCard'] .'</td>';
-$email .=					'<td>, r. č. '. $cleanedFields['guardianID'] .'</td>';
+$email .=					'<td style="width:33%">Jméno a příjmení: '. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</td>';
+$email .=					'<td style="width:33%">, č. OP '. $cleanedFields['guardianIDCard'] .'</td>';
+$email .=					'<td style="width:33%">, r. č. '. $cleanedFields['guardianID'] .'</td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
 $email .=					'<td colspan="3">Bydliště: '. $cleanedFields['guardianAddress'] .', ' . $cleanedFields['guardianCity'] .' '. $cleanedFields['guardianZIP'] .'</td>';
