@@ -19,7 +19,8 @@ $preschoolEmail = include 'preschool-email.php';
 
 //$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
 $preschoolEmailResult = sendMail(
-	'info@skolkahafik.cz',
+	'kuba@karellen.cz',
+//	'info@skolkahafik.cz',
 	'Rezervace hlídání',
 	$preschoolEmail,
 	$cleanedFields['guardianEmail']
@@ -29,7 +30,8 @@ $preschoolEmailResult = sendMail(
 // uses variable $cleanedFields
 $customerEmail = include 'customer-registration-email.php';
 $customerEmailResult = sendMail(
-	$cleanedFields['guardianEmail'],
+	'kuba@karellen.cz',
+//	$cleanedFields['guardianEmail'],
 	'Dětské centrum Hafík - potvrzení registrace',
 	$customerEmail
 );
