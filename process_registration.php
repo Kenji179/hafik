@@ -5,6 +5,8 @@ require_once 'vendor/autoload.php';
 startSession();
 
 $formFields = $_POST;
+$_SESSION['reg-form-data'] = $_POST;
+
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
@@ -35,6 +37,7 @@ $customerEmailResult = sendMail(
 );
 
 if ($preschoolEmailResult) {
+	unset($_SESSION['reg-form-data']);
 	flash('registration', 'Registrace byla úšpěšně dokončena a na Vaši e-mailovou adresu jsme zaslali její potvrzení. Děkujeme a těšíme se na Vás v Hafíkovi.', 'alert alert-success');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 	exit;
