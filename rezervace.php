@@ -40,7 +40,10 @@ include('inc_header.php');
         <div class="row">
             <div class="col-md-12">
 
-                <?php displayFlash('registration'); ?>
+                <?php
+                    displayFlash('registration');
+                    displayFlash('registration-form-error');
+                ?>
 
                 <h1>Rezervace</h1>
                 <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 4. 2016. Děkujeme</p>

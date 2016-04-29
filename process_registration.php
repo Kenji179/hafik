@@ -1,19 +1,8 @@
 <?php
 include 'helpers.php';
-
-startSession();
-
 require_once 'vendor/autoload.php';
 
-//use mikehaertl\wkhtmlto\Pdf;
-//
-//echo exec('whoami');
-//$pdf = new Pdf('email.html');
-//$pdf->binary = '/usr/local/bin/wkhtmltopdf';
-//if (!$pdf->saveAs('email.pdf')) {
-//    echo $pdf->getError();
-//}
-//exit;
+startSession();
 
 $formFields = $_POST;
 if (empty($formFields)) {
@@ -48,9 +37,11 @@ $customerEmailResult = sendMail(
 if ($preschoolEmailResult) {
 	flash('registration', 'Registrace byla úšpěšně dokončena a na Vaši e-mailovou adresu jsme zaslali její potvrzení. Děkujeme a těšíme se na Vás v Hafíkovi.', 'alert alert-success');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
+	exit;
 } else {
 	flash('registration', 'Chyba při zpracování registrace. Zkuste registraci prosím vyplnit ještě jednou a pokud se Vám tato zpráva objeví podruhé, tak nám prosím zavolejte na tel. číslo: 604787347.', 'alert alert-danger');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
+	exit;
 }
 
 function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
@@ -94,16 +85,30 @@ function checkInput($formFields) {
 		$emptyFields[] = 'konec hlídání';
 	}
 
+	$start = DateTime::createFromFormat('d.m.Y H:i', $cleanedFields['careStart']);
+	$end = DateTime::createFromFormat('d.m.Y H:i', $cleanedFields['careEnd']);
+	$datesError = false;
+	if ($end <= $start) {
+		$datesError = true;
+	}
+
 	$careDateTimes = $formFields['care'];
 	$cleanedFields['care'] = [];
 	foreach ($careDateTimes as $key => $careDateTime) {
 		if (!empty($careDateTime['start']) && !empty($careDateTime['end'])) {
+			$start = DateTime::createFromFormat('d.m.Y H:i', $careDateTime['start']);
+			$end = DateTime::createFromFormat('d.m.Y H:i', $careDateTime['end']);
+			if ($end <= $start) {
+				$datesError = true;
+			}
 			$cleanedFields['care'][] = [
-				'start' => clean($careDateTime['start']),
-				'end' => clean($careDateTime['end']),
+				'start' => $start,
+				'end' => $end,
 			];
 		}
 	}
+
+	if ($datesError) $emptyFields[] = 'Termín vyzvednutí bylo zadáno před začátkem hlídání';
 
 	if (!empty($formFields['guardianName'])) {
 		$cleanedFields['guardianName'] = clean($formFields['guardianName']);
@@ -227,6 +232,16 @@ function checkInput($formFields) {
 		$emptyFields[] = 'potvrzení podmínek';
 	}
 	$cleanedFields['vaccinationStatement'] = $formFields['vaccinationStatement'];
+
+	if (!empty($emptyFields)) {
+		$messages = [];
+		foreach ($emptyFields as $emptyField) {
+			$messages[] = '<p>'. $emptyField .'</p>';
+		}
+		flash('registration-form-error', implode(', ', $messages), 'alert alert-danger');
+		header('Location: http://' .$_SERVER['HTTP_HOST'].'/hafik/rezervace.php');
+		exit;
+	}
 
 	return $cleanedFields;
 }
