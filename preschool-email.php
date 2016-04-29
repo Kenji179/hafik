@@ -139,7 +139,7 @@ $email .=	'<p>Podpis oprávněné osoby:</p>';
 $email .=	'</td>';
 $email .=	'</tr>';
 $email .=   '</table>';
-$email .=           '<table style="width:800px;table-layout:fixed">';
+$email .=           '<table style="width:800px;table-layout:fixed;font-family: Arial;">';
 $email .=               '<tr><td><strong>Dítě je registrované na termíny</strong></td></tr>';
 $email .=               '<tr><td><ul><li>Od '. $cleanedFields['careStart'] .' do '. $cleanedFields['careEnd'] .'</li>';
 					foreach ($cleanedFields['care'] as $careDates) {
