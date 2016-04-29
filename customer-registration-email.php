@@ -51,11 +51,13 @@ $email .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 	'<body>';
 $email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width: 800px">';
 $email .=	'<tr>';
-$email .=		'<p>';
+$email .=		'<td>';
 $email .=			'Tento e-mail shrnuje informace zadané při registraci hlídání v děckém centru Hafík.';
-$email .=	    '</p>';
+$email .=	    '</td>';
+$email .=	'</tr>';
+$email .=	'<tr>';
 $email .=       '<td>';
-$email .=           '<table>';
+$email .=           '<table style="width:800px;table-layout:fixed">';
 $email .=               '<tr><td>Jméno dítěte: '. $cleanedFields['childName'] .' '. $cleanedFields['childSurname'] .'</td></tr>';
 $email .=               '<tr><td>Zákonný zástupce: '. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</td>';
 					if (count($cleanedFields['otherGuardians']) > 0) {
