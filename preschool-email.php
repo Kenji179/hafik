@@ -57,11 +57,11 @@ $email .=				'<strong>Přihláška pro přijetí dítěte na hlídání v centru
 $email .=			'Se sídlem Míru 426, 280 02 Kolín, IČ <strong>04498518</strong> provozovna: Štefánikova 102/7, Kutná Hora';
 $email .=			'</p>';
 $email .= '<p>Zákonný zástupce dítěte:</p>';
-$email .=			'<table style="width:100%;table-layout:fixed">';
+$email .=			'<table style="width:800px;table-layout:fixed">';
 $email .=				'<tr>';
 $email .=					'<td>Jméno a příjmení: '. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</td>';
-$email .=					'<td>, č. OP '. $cleanedFields['guardianIDCard'] .'</td>';
-$email .=					'<td>, r. č. '. $cleanedFields['guardianID'] .'</td>';
+$email .=					'<td>č. OP '. $cleanedFields['guardianIDCard'] .'</td>';
+$email .=					'<td>r. č. '. $cleanedFields['guardianID'] .'</td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
 $email .=					'<td colspan="3">Bydliště: '. $cleanedFields['guardianAddress'] .', ' . $cleanedFields['guardianCity'] .' '. $cleanedFields['guardianZIP'] .'</td>';
