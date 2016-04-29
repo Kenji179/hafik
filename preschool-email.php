@@ -52,8 +52,8 @@ $email .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 $email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width: 800px">';
 $email .=	'<tr>';
 $email .=		'<td>';
-$email .=			'<p>';
-$email .=				'<b>Přihláška pro přijetí dítěte na hlídání v centru Hafík - hlídání dětí s.r.o.</b><br>';
+$email .=			'<p style="text-align:center">';
+$email .=				'<strong>Přihláška pro přijetí dítěte na hlídání v centru Hafík - hlídání dětí s.r.o.</strong><br>';
 $email .=			'Se sídlem Míru 426, 280 02 Kolín, IČ <strong>04498518</strong> provozovna: Štefánikova 102/7, Kutná Hora';
 $email .=			'</p>';
 $email .= '<p>Zákonný zástupce dítěte:</p>';
