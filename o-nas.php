@@ -74,7 +74,7 @@ include('inc_header.php');
                     </div>
                     <div class="col-md-4">
                         <img class="img-responsive" src="docs/pics/pic11.jpg" alt="Vychovatelka - Hafik hlidani deti" />
-                        <p class="mem-name">Maria Gaia Kovaříková</p>
+                        <p class="mem-name">Maria Gaia Kováříková</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>péče o mentálně postižené děti i dospělé</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>práce v soc.službách</li>
