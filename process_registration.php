@@ -126,7 +126,8 @@ function checkInput($formFields) {
 		$emptyFields[] = 'číslo občanského průkazu zákonného zástupce';
 	}
 	if (!empty($formFields['guardianID'])) {
-		$cleanedFields['guardianID'] = clean($formFields['guardianID']);
+		$id = clean($formFields['guardianID']);
+		$cleanedFields['guardianID'] = str_replace('/', '', $id);
 	} else {
 		$emptyFields[] = 'rodné číslo zákonného zástupce';
 	}
@@ -184,7 +185,8 @@ function checkInput($formFields) {
 		$emptyFields[] = 'příjmení dítěte';
 	}
 	if (!empty($formFields['childID'])) {
-		$cleanedFields['childID'] = clean($formFields['childID']);
+		$id = clean($formFields['childID']);
+		$cleanedFields['childID'] = str_replace('/', '', $id);
 	} else {
 		$emptyFields[] = 'rodné číslo dítěte';
 	}
