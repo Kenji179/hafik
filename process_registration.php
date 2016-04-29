@@ -6,7 +6,7 @@ startSession();
 $formFields = $_POST;
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
-	header('Location: http://localhost/hafik/rezervace.php');
+	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 }
 
 // check if input fields are filled and uses htmlspecialchars to prevent XSS
@@ -140,7 +140,7 @@ function checkInput($formFields) {
 			$cleanedFields['otherGuardians'][] = [
 				'name' => clean($otherGuardian['name']),
 				'surname' => clean($otherGuardian['surname']),
-				'surname' => clean($otherGuardian['relationship']),
+				'relationship' => clean($otherGuardian['relationship']),
 				'phone' => clean($otherGuardian['phone']),
 			];
 		}
