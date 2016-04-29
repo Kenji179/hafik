@@ -214,7 +214,7 @@ include('inc_header.php');
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group full">
-                        <textarea data-minlength="5" rows="3" type="text" class="form-control" id="inputOtherInfoChild" name="childImportantInfo" placeholder="Zdravotní stav a další důležité informace (alergie, zdravotního omezení aj.)"></textarea>
+                        <textarea data-minlength="5" rows="3" maxlength="100" type="text" class="form-control" id="inputOtherInfoChild" name="childImportantInfo" placeholder="Zdravotní stav a další důležité informace (alergie, zdravotního omezení aj.)"></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="clearfix"></div>
