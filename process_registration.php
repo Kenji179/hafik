@@ -87,10 +87,14 @@ function checkInput($formFields) {
 
 	$start = DateTime::createFromFormat('d.m.Y H:i', $cleanedFields['careStart']);
 	$end = DateTime::createFromFormat('d.m.Y H:i', $cleanedFields['careEnd']);
-	$datesError = false;
-	if ($end <= $start) {
-		$datesError = true;
-	}
+
+	$datesError = false; // indicates that end date is set before start
+	$pastError = false; // indicates that start or end date is set to past
+
+	if ($end <= $start) $datesError = true;
+
+	$now = new DateTime();
+	if ($end <= $now || $start <= $now) $pastError = true;
 
 	$careDateTimes = $formFields['care'];
 	$cleanedFields['care'] = [];
@@ -98,17 +102,19 @@ function checkInput($formFields) {
 		if (!empty($careDateTime['start']) && !empty($careDateTime['end'])) {
 			$start = DateTime::createFromFormat('d.m.Y H:i', $careDateTime['start']);
 			$end = DateTime::createFromFormat('d.m.Y H:i', $careDateTime['end']);
-			if ($end <= $start) {
-				$datesError = true;
-			}
+
+			if ($end <= $start) $datesError = true;
+			if ($end <= new DateTime('now') || $start <= new DateTime('now')) $pastError = true;
+
 			$cleanedFields['care'][] = [
-				'start' => $start,
-				'end' => $end,
+				'start' => clean($careDateTime['start']),
+				'end' => clean($careDateTime['end']),
 			];
 		}
 	}
 
 	if ($datesError) $emptyFields[] = 'Termín vyzvednutí bylo zadáno před začátkem hlídání';
+	if ($pastError) $emptyFields[] = 'Termín začátku hlídání nesmí být zadán před dnešním dnem';
 
 	if (!empty($formFields['guardianName'])) {
 		$cleanedFields['guardianName'] = clean($formFields['guardianName']);
@@ -201,9 +207,14 @@ function checkInput($formFields) {
 		$emptyFields[] = 'pohlaví dítěte';
 	}
 	if (!empty($formFields['childBirth'])) {
+		$birthday = DateTime::createFromFormat('d.m.Y', clean($formFields['childBirth']));
+		$now = new DateTime();
+		if ($birthday >= $now) {
+			$emptyFields[] = 'Datum narození dítěte bylo zadáno před dnešním dnem';
+		}
 		$cleanedFields['childBirth'] = clean($formFields['childBirth']);
 	} else {
-		$emptyFields[] = 'pohlaví dítěte';
+		$emptyFields[] = 'narození dítěte';
 	}
 	if (!empty($formFields['childAddress'])) {
 		$cleanedFields['childAddress'] = clean($formFields['childAddress']);
@@ -238,8 +249,8 @@ function checkInput($formFields) {
 		foreach ($emptyFields as $emptyField) {
 			$messages[] = '<p>'. $emptyField .'</p>';
 		}
-		flash('registration-form-error', implode(', ', $messages), 'alert alert-danger');
-		header('Location: http://' .$_SERVER['HTTP_HOST'].'/hafik/rezervace.php');
+		flash('registration-form-error', implode('', $messages), 'alert alert-danger');
+		header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 		exit;
 	}
 
