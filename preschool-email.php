@@ -49,7 +49,7 @@ $email .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 		'</style>'.
 	'</head>'.
 '<body>';
-$email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width: 800px">';
+$email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width:800px;table-layout:fixed">';
 $email .=	'<tr>';
 $email .=		'<td>';
 $email .=			'<p style="text-align:center">';
