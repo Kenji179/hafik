@@ -51,7 +51,8 @@ startSession();
                 <div class="logo">
                     <a href="index.php"><img src="assets/img/logo.jpg" alt="Hafík hlídání dětí - logo"></a>
                 </div>
-                <h1 class="logo-h1">Rodiče máte volno!<span>hlídací centrum pro děti od 2 - 8 let</span></h1>
+                <h1 class="logo-h1">Hlídání v Kutné Hoře<span> pro děti od 2 - 8 let</span></h1>
+                <div class="open-hours">OTEVŘENO: PO - PÁ 8:00 - 17:30 <span>Liché týdny přespání z PÁ 18:30 na SO 9:00</span></div>
             </div>
         </div>
         <section class="menu">
