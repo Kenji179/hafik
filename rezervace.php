@@ -146,6 +146,9 @@ include('inc_header.php');
                             <input type="text" class="form-control" id="inputSurnameGuardian2" name="otherGuardians[1][surname]" placeholder="Příjmení">
                         </div>
                         <div class="form-group">
+                            <input type="text" class="form-control" id="inputRelationshipGuardian2" name="otherGuardians[1][relationship]" placeholder="Vztah k dítěti">
+                        </div>
+                        <div class="form-group">
                             <input type="text" class="form-control" id="inputPhoneGuardian2" name="otherGuardians[1][phone]" placeholder="Telefon">
                         </div>
                         <div class="clearfix"></div>
@@ -160,6 +163,9 @@ include('inc_header.php');
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="inputSurnameGuardian3" name="otherGuardians[2][surname]" placeholder="Příjmení">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inputRelationshipGuardian3" name="otherGuardians[2][relationship]" placeholder="Vztah k dítěti">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="inputPhoneGuardian3" name="otherGuardians[2][phone]" placeholder="Telefon">
@@ -208,7 +214,8 @@ include('inc_header.php');
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group full">
-                        <textarea rows="3" type="text" class="form-control" id="inputOtherInfoChild" name="childImportantInfo" placeholder="Zdravotní stav a další důležité informace (alergie, zdravotního omezení aj.)"></textarea>
+                        <textarea data-minlength="5" rows="3" type="text" class="form-control" id="inputOtherInfoChild" name="childImportantInfo" placeholder="Zdravotní stav a další důležité informace (alergie, zdravotního omezení aj.)"></textarea>
+                        <div class="help-block with-errors"></div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-group checkbox">

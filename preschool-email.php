@@ -60,49 +60,56 @@ $email .= '<p>Zákonný zástupce dítěte:</p>';
 $email .=			'<table style="width:800px;table-layout:fixed">';
 $email .=				'<tr>';
 $email .=					'<td>Jméno a příjmení: <strong>'. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</strong></td>';
-$email .=					'<td>č. OP <strong>'. $cleanedFields['guardianIDCard'] .'</strong></td>';
-$email .=					'<td>r. č. <strong>'. $cleanedFields['guardianID'] .'</strong></td>';
+$email .=					'<td>Č. OP <strong>'. $cleanedFields['guardianIDCard'] .'</strong></td>';
+$email .=					'<td>R. č. <strong>'. $cleanedFields['guardianID'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
-$email .=					'<td colspan="3">Bydliště: '. $cleanedFields['guardianAddress'] .', ' . $cleanedFields['guardianCity'] .' '. $cleanedFields['guardianZIP'] .'</td>';
+$email .=					'<td colspan="3">Bydliště: '. $cleanedFields['guardianAddress'] .', ' . $cleanedFields['guardianCity'] .' '. $cleanedFields['guardianZIP'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
-$email .=					'<td>Kontakt telefon: '. $cleanedFields['guardianPhone'] .'</td>';
-$email .=					'<td colspan="2">E-mail: '. $cleanedFields['guardianEmail'] .'</td>';
+$email .=					'<td>Telefon: <strong>'. $cleanedFields['guardianPhone'] .'</strong></td>';
+$email .=					'<td colspan="2">E-mail: <strong>'. $cleanedFields['guardianEmail'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'</table>';
 $email .=			'<p>přihlašuje <strong>dítě</strong>:</p>';
 $email .=			'<table>';
 $email .=			'<tr>';
-$email .=					'<td colspan="2">Jméno a příjmení: '. $cleanedFields['childName'] .' '. $cleanedFields['childSurname'] .'</td>';
+$email .=					'<td colspan="2">Jméno a příjmení: '. $cleanedFields['childName'] .' '. $cleanedFields['childSurname'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
-$email .=					'<td>Datum narození: '. $cleanedFields['childBirth'] .'</td>';
-$email .=					'<td>Rodné číslo: '. $cleanedFields['childID'] .'</td>';
+$email .=					'<td>Datum narození: <strong>'. $cleanedFields['childBirth'] .'</strong></td>';
+$email .=					'<td>Rodné číslo: <strong>'. $cleanedFields['childID'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
-$email .=					'<td colspan="2">Bydliště: '. $cleanedFields['childAddress'] .', '. $cleanedFields['childCity'] .' '. $cleanedFields['childZIP'] .'</td>';
+$email .=					'<td colspan="2">Bydliště: <strong>'. $cleanedFields['childAddress'] .', '. $cleanedFields['childCity'] .' '. $cleanedFields['childZIP'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'<tr>';
-$email .=					'<td colspan="2">Zdravotní pojišťovna: '. $cleanedFields['childHealthInsurance'] .'</td>';
+$email .=					'<td colspan="2">Zdravotní pojišťovna: <strong>'. $cleanedFields['childHealthInsurance'] .'</strong></td>';
 $email .=				'</tr>';
 $email .=				'<tr><td colspan="2">Zdravotní stav (v případě alergie, zdravotního omezení aj., prosím specifikujte):</td></tr>';
-$email .=				'<tr><td colspan="2">'. $cleanedFields['childImportantInfo'] .'</td></tr>';
+$email .=				'<tr><td colspan="2"><strong>'. $cleanedFields['childImportantInfo'] .'</strong></td></tr>';
 $email .=				'</table>';
 $email .=			'<p>';
 $email .=				'na hlídání v centru Hafík – hlídání dětí s.r.o., se sídlem  Míru 426, 280 02 Kolín, IČ <strong>04498518</strong>, v provozovně Štefánikova 102/7, 284 01 Kutná Hora (dále také jen „Centrum Hafík“)';
 $email .=			'</p>';
 $email .=			'<p>';
-$email .=				'<b>Osoby oprávněné k vyzvednutí dítěte</b>:';
+$email .=				'<strong>Osoby oprávněné k vyzvednutí dítěte</strong>:';
 $email .=			'</p>';
-$email .=			'<table>';
+$email .=			'<table style="width:800px;table-layout:fixed">';
 $email .=				'<tr>
-							<th>Jméno a příjmení</th>
-							<th>Telefon</th>
+							<td>Jméno a příjmení</td>
+							<td>Vztah k dítěti</td>
+							<td>Telefon</td>
+						</tr>';
+                        '<tr>
+							<td><strong>'. $cleanedFields['guardianName'] .' '. $cleanedFields['guardianSurname'] .'</strong></td>
+							<td><strong>Registrující zákonný zástupce</strong></td>
+							<td><strong>'. $cleanedFields['guardianPhone'] .'</strong></td>
 						</tr>';
 						foreach ($cleanedFields['otherGuardians'] as $otherGuardian) {
 $email .=				'<tr>';
 $email .=					'<td>'. $otherGuardian['name'] .' '. $otherGuardian['surname'] .'</td>';
+$email .=					'<td>'. $otherGuardian['relationship'] .'</td>';
 $email .=					'<td>'. $otherGuardian['phone'] .'</td>';
 $email .=				'<tr>';
 						}

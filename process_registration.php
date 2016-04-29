@@ -134,11 +134,13 @@ function checkInput($formFields) {
 	foreach ($otherGuardians as $key => $otherGuardian) {
 		if (!empty($otherGuardian['name']) &&
 			!empty($otherGuardian['surname']) &&
+			!empty($otherGuardian['relationship']) &&
 			!empty($otherGuardian['phone'])
 		) {
 			$cleanedFields['otherGuardians'][] = [
 				'name' => clean($otherGuardian['name']),
 				'surname' => clean($otherGuardian['surname']),
+				'surname' => clean($otherGuardian['relationship']),
 				'phone' => clean($otherGuardian['phone']),
 			];
 		}
