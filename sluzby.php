@@ -1,7 +1,7 @@
 <?php
 
 $title = 'Služby | Hafík - hlídání dětí v Kutné Hoře';
-$menu = '2'; // 0 or an empty string for nothing highlighted
+$menu = '3'; // 0 or an empty string for nothing highlighted
 
 include('inc_header.php');
 ?>
