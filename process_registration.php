@@ -29,10 +29,10 @@ $customerEmailResult = sendMail(
 );
 
 if ($preschoolEmailResult) {
-	flash('registration', 'Registrace byla úšpěšně dokončena', 'alert alert-success');
+	flash('registration', 'Registrace byla úšpěšně dokončena a na Vaši e-mailovou adresu jsme zaslali potvrzení. Děkujeme a těšíme se na Vás v Hafíkovi', 'alert alert-success');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 } else {
-	flash('registration', 'Chyba při zpracování registrace. Pracujeme na nápravě.', 'alert alert-danger');
+	flash('registration', 'Chyba při zpracování registrace. Zkuste registraci prosím vyplnit ještě jednou a pokud se Vám tato zpráva objeví podruhé, tak nám prosím zavolejte na tel. číslo: 604787347.', 'alert alert-danger');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
 }
 
