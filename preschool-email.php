@@ -128,14 +128,22 @@ $email .=				'<li>Prohlašuji, že dítě <b><s>bylo</s>/nebylo</b>   očkováno
 $email .=				'</ul>';
 $email .=			'</p>';
 $email .=			'<p>';
-$email .=				'V Kutné Hoře dne ';
+$email .=				'V Kutné Hoře dne: ';
 $email .=				'</p>';
 $email .=	'<p>Podpis zákonného zástupce:</p>';
 $email .=	'<p>Dítě bylo oprávněnou osobou v pořádku převzato dne ................... v ........... hod</p>';
 $email .=	'<p>Podpis oprávněné osoby:</p>';
 $email .=	'</td>';
 $email .=	'</tr>';
-$email .= '</table>';
+$email .=   '</table>';
+$email .=           '<table style="width:800px;table-layout:fixed">';
+$email .=               '<tr><td><strong>Dítě je registrované na termíny</strong></td></tr>';
+$email .=               '<tr><td><ul><li>Od '. $cleanedFields['careStart'] .' do '. $cleanedFields['careEnd'] .'</li>';
+					foreach ($cleanedFields['care'] as $careDates) {
+$email .=               '<li>Od '. $careDates['start'] .' do '. $careDates['end'] .'</li>';
+					}
+$email .=               '</ul></td></tr>';
+$email .=   '</table>';
 $email .= '</body>';
 $email .= '</html>';
 
