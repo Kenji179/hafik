@@ -108,9 +108,9 @@ $email .=				'<tr>
 						</tr>';
 						foreach ($cleanedFields['otherGuardians'] as $otherGuardian) {
 $email .=				'<tr>';
-$email .=					'<td>'. $otherGuardian['name'] .' '. $otherGuardian['surname'] .'</td>';
-$email .=					'<td>'. $otherGuardian['relationship'] .'</td>';
-$email .=					'<td>'. $otherGuardian['phone'] .'</td>';
+$email .=					'<td><strong>'. $otherGuardian['name'] .' '. $otherGuardian['surname'] .'</strong></td>';
+$email .=					'<td><strong>'. $otherGuardian['relationship'] .'</strong></td>';
+$email .=					'<td><strong>'. $otherGuardian['phone'] .'</strong></td>';
 $email .=				'<tr>';
 						}
 $email .=			'</table>';
