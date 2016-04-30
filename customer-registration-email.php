@@ -7,7 +7,7 @@ $email .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 	'<head>'.
 	'<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'.
 	'<meta name="viewport" content="width=device-width, initial-scale=1.0"/>'.
-	'<title>Notifications from Arctrack</title>'.
+	'<title>Hlídání Hafík</title>'.
 	'<style type="text/css">'.
 	'#outlook a {padding:0;}'.
 	'body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}'.
