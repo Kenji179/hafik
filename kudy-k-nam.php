@@ -34,9 +34,9 @@ include('inc_header.php');
                     <h3>Dětské centrum „HAFÍK“</h3>
                     <p>Adresa provozovny <strong>Štefánikova 102/7, 284 01  Kutná Hora</strong></p>
                     <p>Vedoucí provozovny <strong>Adéla Nejezchlebová</strong></p>
-                    <p>Tel. číslo <strong>604787347</strong></p>
+                    <p>Telefonní číslo <strong>604 787 347</strong></p>
                     <p>E-mail <strong>info@skolkahafik.cz</strong></p>
-                    <p>Web. stránky <strong>skolkahafik.cz</strong></p>
+                    <p>Webové stránky <strong>skolkahafik.cz</strong></p>
                     <p>Obchodní firma <strong>Hafík – hlídání dětí s.r.o.</strong></p>
                     <p>IČO <strong>04498518</strong></p>
                 </address>

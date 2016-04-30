@@ -49,7 +49,7 @@ $email .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.
 		'</style>'.
 	'</head>'.
 '<body>';
-$email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width:800px">';
+$email .= '<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="width:800px; font-family: Arial;">';
 $email .=	'<tr>';
 $email .=		'<td>';
 $email .=			'<p style="text-align:center">';
@@ -121,9 +121,9 @@ $email .=				'<li>Prohlašuji, že všechny mnou uvedené údaje jsou pravdivé 
 $email .=				'<li>Prohlašuji, že souhlasím s  monitorováním dítěte kdykoliv po předání do Centra Hafík, jeho focením a pořízením videa a s následným umístěním videa či fotografie dítěte na webové stránky Hafíka. </li>';
 $email .=				'<li>Prohlašuji, že souhlasím se zpracováním osobních údajů svých a svého dítěte, pro evidenční potřeby centra Hafík</li>';
 						if ($cleanedFields['vaccinationStatement'] == 'on') {
-$email .=				'<li>Prohlašuji, že dítě <b>bylo/<s>nebylo</s></b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
+$email .=				'<li>Prohlašuji, že dítě <b>bylo</b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
 						} else {
-$email .=				'<li>Prohlašuji, že dítě <b><s>bylo</s>/nebylo</b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
+$email .=				'<li>Prohlašuji, že dítě <b>nebylo</b>   očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb. </li>';
 						}
 $email .=				'</ul>';
 $email .=			'</p>';
@@ -139,7 +139,7 @@ $email .=	'<p>Podpis oprávněné osoby:</p>';
 $email .=	'</td>';
 $email .=	'</tr>';
 $email .=   '</table>';
-$email .=           '<table style="width:800px;table-layout:fixed">';
+$email .=           '<table style="width:800px;table-layout:fixed;font-family: Arial;">';
 $email .=               '<tr><td><strong>Dítě je registrované na termíny</strong></td></tr>';
 $email .=               '<tr><td><ul><li>Od '. $cleanedFields['careStart'] .' do '. $cleanedFields['careEnd'] .'</li>';
 					foreach ($cleanedFields['care'] as $careDates) {

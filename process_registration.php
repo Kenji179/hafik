@@ -1,9 +1,12 @@
 <?php
 include 'helpers.php';
+require_once 'vendor/autoload.php';
 
 startSession();
 
 $formFields = $_POST;
+$_SESSION['reg-form-data'] = $_POST;
+
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
@@ -17,7 +20,12 @@ $cleanedFields = checkInput($formFields);
 $preschoolEmail = include 'preschool-email.php';
 
 //$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
-$preschoolEmailResult = sendMail('info@skolkahafik.cz', 'Rezervace hlídání', $preschoolEmail);
+$preschoolEmailResult = sendMail(
+	'info@skolkahafik.cz',
+	'Rezervace hlídání',
+	$preschoolEmail,
+	$cleanedFields['guardianEmail']
+);
 
 // email for customers is in file customer-registration-email.php which
 // uses variable $cleanedFields
@@ -29,22 +37,35 @@ $customerEmailResult = sendMail(
 );
 
 if ($preschoolEmailResult) {
+	unset($_SESSION['reg-form-data']);
 	flash('registration', 'Registrace byla úšpěšně dokončena a na Vaši e-mailovou adresu jsme zaslali její potvrzení. Děkujeme a těšíme se na Vás v Hafíkovi.', 'alert alert-success');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
+	exit;
 } else {
 	flash('registration', 'Chyba při zpracování registrace. Zkuste registraci prosím vyplnit ještě jednou a pokud se Vám tato zpráva objeví podruhé, tak nám prosím zavolejte na tel. číslo: 604787347.', 'alert alert-danger');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
+	exit;
 }
 
 function sendMail($to, $subject, $message, $from = 'rezervace@skolkahafik.cz')
 {
-	$headers = "From: " . strip_tags($from) . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+//	$headers = "From: " . strip_tags($from) . "\r\n";
+//	$headers .= "MIME-Version: 1.0\r\n";
+//	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+//	$headers .= "Content-Transfer-Encoding: base64" . PHP_EOL;
+//
+//	$result = mail($to, $subject, $message, $headers);
 
-	$result = mail($to, $subject, $message, $headers);
+	$mail = new PHPMailer();
+	$mail->CharSet = 'utf-8';
+	$mail->isHTML(true);
 
-	return $result;
+	$mail->setFrom($from);
+	$mail->addAddress($to);
+	$mail->Subject = $subject;
+	$mail->Body = $message;
+
+	return $mail->send();
 }
 
 function clean($value)
@@ -67,16 +88,36 @@ function checkInput($formFields) {
 		$emptyFields[] = 'konec hlídání';
 	}
 
+	$start = DateTime::createFromFormat('d.m.Y H:i', $cleanedFields['careStart']);
+	$end = DateTime::createFromFormat('d.m.Y H:i', $cleanedFields['careEnd']);
+
+	$datesError = false; // indicates that end date is set before start
+	$pastError = false; // indicates that start or end date is set to past
+
+	if ($end <= $start) $datesError = true;
+
+	$now = new DateTime();
+	if ($end <= $now || $start <= $now) $pastError = true;
+
 	$careDateTimes = $formFields['care'];
 	$cleanedFields['care'] = [];
 	foreach ($careDateTimes as $key => $careDateTime) {
 		if (!empty($careDateTime['start']) && !empty($careDateTime['end'])) {
+			$start = DateTime::createFromFormat('d.m.Y H:i', $careDateTime['start']);
+			$end = DateTime::createFromFormat('d.m.Y H:i', $careDateTime['end']);
+
+			if ($end <= $start) $datesError = true;
+			if ($end <= new DateTime('now') || $start <= new DateTime('now')) $pastError = true;
+
 			$cleanedFields['care'][] = [
 				'start' => clean($careDateTime['start']),
 				'end' => clean($careDateTime['end']),
 			];
 		}
 	}
+
+	if ($datesError) $emptyFields[] = 'Termín vyzvednutí bylo zadáno před začátkem hlídání';
+	if ($pastError) $emptyFields[] = 'Termín začátku hlídání nesmí být zadán před dnešním dnem';
 
 	if (!empty($formFields['guardianName'])) {
 		$cleanedFields['guardianName'] = clean($formFields['guardianName']);
@@ -99,7 +140,8 @@ function checkInput($formFields) {
 		$emptyFields[] = 'číslo občanského průkazu zákonného zástupce';
 	}
 	if (!empty($formFields['guardianID'])) {
-		$cleanedFields['guardianID'] = clean($formFields['guardianID']);
+		$id = clean($formFields['guardianID']);
+		$cleanedFields['guardianID'] = str_replace('/', '', $id);
 	} else {
 		$emptyFields[] = 'rodné číslo zákonného zástupce';
 	}
@@ -157,7 +199,8 @@ function checkInput($formFields) {
 		$emptyFields[] = 'příjmení dítěte';
 	}
 	if (!empty($formFields['childID'])) {
-		$cleanedFields['childID'] = clean($formFields['childID']);
+		$id = clean($formFields['childID']);
+		$cleanedFields['childID'] = str_replace('/', '', $id);
 	} else {
 		$emptyFields[] = 'rodné číslo dítěte';
 	}
@@ -167,9 +210,14 @@ function checkInput($formFields) {
 		$emptyFields[] = 'pohlaví dítěte';
 	}
 	if (!empty($formFields['childBirth'])) {
+		$birthday = DateTime::createFromFormat('d.m.Y', clean($formFields['childBirth']));
+		$now = new DateTime();
+		if ($birthday >= $now) {
+			$emptyFields[] = 'Datum narození dítěte bylo zadáno před dnešním dnem';
+		}
 		$cleanedFields['childBirth'] = clean($formFields['childBirth']);
 	} else {
-		$emptyFields[] = 'pohlaví dítěte';
+		$emptyFields[] = 'narození dítěte';
 	}
 	if (!empty($formFields['childAddress'])) {
 		$cleanedFields['childAddress'] = clean($formFields['childAddress']);
@@ -198,6 +246,16 @@ function checkInput($formFields) {
 		$emptyFields[] = 'potvrzení podmínek';
 	}
 	$cleanedFields['vaccinationStatement'] = $formFields['vaccinationStatement'];
+
+	if (!empty($emptyFields)) {
+		$messages = [];
+		foreach ($emptyFields as $emptyField) {
+			$messages[] = '<p>'. $emptyField .'</p>';
+		}
+		flash('registration-form-error', implode('', $messages), 'alert alert-danger');
+		header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace.php');
+		exit;
+	}
 
 	return $cleanedFields;
 }

@@ -1,7 +1,7 @@
 <?php
 
 $title = 'Služby | Hafík - hlídání dětí v Kutné Hoře';
-$menu = '2'; // 0 or an empty string for nothing highlighted
+$menu = '3'; // 0 or an empty string for nothing highlighted
 
 include('inc_header.php');
 ?>
@@ -33,7 +33,7 @@ include('inc_header.php');
                 <h2>Co nabízíme</h2>
                 <ul>
                     <li>Nepravidelné hlídání dětí ve věku od 2 do 8 let.</li>
-                    <li>OTEVŘENO: PO - PÁ 8:00 - 17:30 a v liché týdny přespání z PÁ 18:30 na SO 9:00</li>
+                    <li>OTEVŘENO: PO - PÁ 7:30 - 17:30 a v liché týdny přespání z PÁ 18:30 na SO 9:00</li>
                     <li>Nabízíme hygienické a bezpečnostní zázemí pro děti dle platných vyhlášek a norem.</li>
                     <li>Dětem se věnují tety-chůvy, které mají Individuální přístup k dětem, děti mají možnost hravě strávit čas s vrstevníky, poznat nové kamarády a veselé zážitky.</li>
                     <li>Nabízíme pro děti vybavenou hernu, tělocvičnu a zahradu.</li>
