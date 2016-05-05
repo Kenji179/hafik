@@ -62,7 +62,7 @@ include('inc_header.php');
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-responsive" src="docs/pics/pic9.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                        <img class="img-responsive" src="docs/pics/martina.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Martina Vecková</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>certifikovaná chůva</li>
@@ -73,7 +73,7 @@ include('inc_header.php');
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-responsive" src="docs/pics/pic11.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                        <img class="img-responsive" src="docs/pics/maria.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Maria Gaia Kováříková</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>péče o mentálně postižené děti i dospělé</li>
@@ -84,6 +84,22 @@ include('inc_header.php');
                         </ul>
                     </div>
                     <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-top-margin">
+            <div class="col-md-12">
+                <div class="members">
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="docs/pics/gabca.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                        <p class="mem-name">Gabriela Blumentálová</p>
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>dlouholeté zkušenosti s péčí o děti</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe chůvy v domácnosti</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>milovník zvířátek a domácích mazlíčků</li>
+                            <li><strong>motto: „Dětská radost je moje starost“</strong></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

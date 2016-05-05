@@ -32,7 +32,7 @@ include('inc_header.php');
                 <h1>Ceník</h1>
                 <ul>
                     <li>
-                        <h2>Základní částka za hlídání dětí je <strong>80,- Kč za 1 hodinu</strong> (účtuje se každá započatá hodina).</h2></li>
+                        <h2>Základní částka za hlídání dětí je <strong>80,- Kč za 1 hodinu</strong> (dále se účtuje každá započatá půlhodina tzn. 40,- Kč).</h2></li>
                     <li>
                         <h2>Částka za přespávání je jednotná <strong>450,- Kč za dítě</strong> (dle předchozího objednání).</h2></li>
                 </ul>

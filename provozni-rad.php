@@ -72,7 +72,7 @@ include('inc_header.php');
                     </li>
                     <li>Cena za poskytnutí služby
                         <ul>
-                            <li>Rodiče jsou povinni za poskytnutou službu uhradit centru Hafík cenu (odměnu). Výše odměny je stanovena ceníkem centra Hafík (dále jen „Ceník“), který je součástí tohoto Provozního řádu. Podpisem Přihlášky rodiče potvrzují, že jim byl tento Provozní řád i Ceník předložen, seznámili se s nimi a souhlasí zejména s výší úhrady dle tohoto Ceníku hlídání. Ceník úhrad je veřejně přístupný na webových stránkách poskytovatele www.skolkahafik.cz. Odměna za jednorázové hlídání se platí za každou započatou hodinu hlídání, a to hotově v okamžiku vyzvednutí dítěte z centra Hafík, a to podle strávené doby dítěte v Centru. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.</li>
+                            <li>Rodiče jsou povinni za poskytnutou službu uhradit centru Hafík cenu (odměnu). Výše odměny je stanovena ceníkem centra Hafík (dále jen „Ceník“), který je součástí tohoto Provozního řádu. Podpisem Přihlášky rodiče potvrzují, že jim byl tento Provozní řád i Ceník předložen, seznámili se s nimi a souhlasí zejména s výší úhrady dle tohoto Ceníku hlídání. Ceník úhrad je veřejně přístupný na webových stránkách poskytovatele www.skolkahafik.cz. Odměna za jednorázové hlídání se platí za každou započatou půlhodinu hlídání, a to hotově v okamžiku vyzvednutí dítěte z centra Hafík, a to podle strávené doby dítěte v Centru. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.</li>
                         </ul>
                     </li>
                     <li>Stravování a pitný režim
@@ -99,7 +99,7 @@ include('inc_header.php');
                 <p>Tento Provozní řád je platný od 2.5.2016 a musí být umístěna na viditelném a rodičům přístupném místě v provozovně centra Hafík tak, aby se s ním mohli všichni řádně seznámit. Tato povinnost je rovněž splněna vyvěšením provozního řádu na nástěnce centra Hafík a na webových stránkách centra Hafík.</p>
                 <h3>Ceník za hlídání dětí v centru Hafík – hlídání dětí s.r.o.</h3>
                 <ul>
-                    <li><strong>80,- Kč</strong> za každou započatou hodinu pobytu dítěte v centru Hafík v běžné provozní </li>
+                    <li><strong>80,- Kč</strong> za každou hodinu pobytu dítěte v centru Hafík v běžné provozní době, dále <strong>40,- Kč</strong> za každou započatou půlhodinu pobytu dítěte. </li>
                     <li><strong>450,- Kč</strong> za noční přespání dítěte v centru Hafík – lichý pátek od 18.30h až následující sobota do 9.00h.</li>
                 </ul>
                 <p>Cena zahrnuje</p>
@@ -112,7 +112,7 @@ include('inc_header.php');
                     <li>stravu - svačiny, obědy, večeře, snídaně</li>
                 </ul>
                 <h4>Výňatek z Provozního řádu centra Hafík – hlídání dětí s.r.o.</h4>
-                <p>„Každý lichý pátek centrum Hafík poskytuje možnost v případě dostatečného zájmu a naplnění kapacity zajištění péče o děti spolu s přespáním druhého dne, tj. pátku od 18.30 hod. do následující soboty do 9.00 hod. I v tomto případě platí podmínka zajištění stravy pro nezletilé dítě jeho rodiči (večeře, snídaně). Bližší informace ohledně možnosti pátečního přespávání budou vždy vyvěšeny na nástěnce a webových stránkách centra Hafík. Děti musí být rodiči na přespání v dostatečném časovém předstihu přihlášené.“ „Odměna za jednorázové hlídání se platí za každou započatou hodinu hlídání, a to hotově v okamžiku vyzvednutí dítěte z Centra, a to podle strávené doby dítěte v centru Hafík. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.“</p>
+                <p>„Každý lichý pátek centrum Hafík poskytuje možnost v případě dostatečného zájmu a naplnění kapacity zajištění péče o děti spolu s přespáním druhého dne, tj. pátku od 18.30 hod. do následující soboty do 9.00 hod. I v tomto případě platí podmínka zajištění stravy pro nezletilé dítě jeho rodiči (večeře, snídaně). Bližší informace ohledně možnosti pátečního přespávání budou vždy vyvěšeny na nástěnce a webových stránkách centra Hafík. Děti musí být rodiči na přespání v dostatečném časovém předstihu přihlášené.“ „Odměna za jednorázové hlídání se platí za každou započatou půlhodinu hlídání, a to hotově v okamžiku vyzvednutí dítěte z Centra, a to podle strávené doby dítěte v centru Hafík. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.“</p>
                 <p>Platnost Provozního řádu od 2.5.2016</p>
             </div>
         </div>
