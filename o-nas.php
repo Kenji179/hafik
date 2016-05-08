@@ -50,7 +50,7 @@ include('inc_header.php');
             <div class="col-md-12">
                 <h2>Náš tým</h2>
                 <div class="members">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <img class="img-responsive" src="docs/pics/pic7.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Adéla Nejezchlebová</p>
                         <ul class="fa-ul">
@@ -61,7 +61,7 @@ include('inc_header.php');
                             <li><strong>motto: „Sestra v akci“</strong></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <img class="img-responsive" src="docs/pics/martina.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Martina Vecková</p>
                         <ul class="fa-ul">
@@ -72,7 +72,7 @@ include('inc_header.php');
                             <li><strong>motto: „Veselá chůva“</strong></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <img class="img-responsive" src="docs/pics/maria.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Maria Gaia Kováříková</p>
                         <ul class="fa-ul">
@@ -83,14 +83,7 @@ include('inc_header.php');
                             <li><strong>motto: „Radost za každého počasí“</strong></li>
                         </ul>
                     </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-top-margin">
-            <div class="col-md-12">
-                <div class="members">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <img class="img-responsive" src="docs/pics/gabca.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Gabriela Blumentálová</p>
                         <ul class="fa-ul">
@@ -100,6 +93,7 @@ include('inc_header.php');
                             <li><strong>motto: „Dětská radost je moje starost“</strong></li>
                         </ul>
                     </div>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>

@@ -51,10 +51,11 @@ include('inc_header.php');
                     }
                 ?>
 
-                <h1>Rezervace<span class="heading-link"><a href="docs/hafik-pdf-prihlaska.pdf" title="Formulář ke stažení" download="hafik-registracni-formular.pdf"><img src="assets/img/pdf-icon.png">FORMULÁŘ KE STAŽENÍ</a></span></h1>
+                <h1>Rezervace</h1>
 <!--                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 4. 2016. Děkujeme</p>-->
-                <p>Rezervace online je volitelná.
-                    Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání, s námi vyplnit tento formulář anebo přijít již s ručně vyplněným formulářem, který při předání dítěte podepíšete.</p>
+                <p>Rezervace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání, s námi vyplnit tento formulář anebo přijít již s ručně vyplněným formulářem, který při předání dítěte podepíšete.</p>
+                <a href="docs/hafik-pdf-prihlaska.pdf" title="Formulář ke stažení" download="hafik-registracni-formular.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; FORMULÁŘ KE STAŽENÍ</a>
+                <h2><strong>Online rezervace</strong></h2>
                 <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
                     <h3>Období hlídání</h3>
                     <div class="form-group">
