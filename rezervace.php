@@ -3,6 +3,7 @@ $title = 'Rezervaceace | Hafík - hlídání dětí v Kutné Hoře';
 $menu = '2'; // 0 or an empty string for nothing highlighted
 
 include('inc_header.php');
+require_once 'db_queries.php';
 //include 'helpers.php';
 
 //require_once 'vendor/autoload.php';
@@ -48,6 +49,15 @@ include('inc_header.php');
                         $oldFormData = $_SESSION['reg-form-data'];
                     } else {
                         $oldFormData = [];
+                        $oldFormData['care'] = [];
+                        $oldFormData['care'][1] = [];
+                        $oldFormData['care'][2] = [];
+                        $oldFormData['care'][3] = [];
+                        $oldFormData['care'][4] = [];
+                        $oldFormData['care'][5] = [];
+                        $oldFormData['otherGuardians'] = [];
+                        $oldFormData['otherGuardians'][1] = [];
+                        $oldFormData['otherGuardians'][2] = [];
                     }
                 ?>
 
@@ -126,19 +136,25 @@ include('inc_header.php');
                         <select class="form-control" id="selectSexGuardian" name="guardianSex" data-error="Toto pole je nutno vyplnit" required>
                             <option class="disabled" disabled selected>Pohlaví</option>
                             <?php
-                            if (array_key_exists('guardianSex', $oldFormData)) {
-                                $guardianSex = $oldFormData['guardianSex'];
-                            }
-                            if ($guardianSex == 1) {
-                                echo '<option value="1" selected>Žena</option>';
-                            } else {
-                                echo '<option value="1">Žena</option>';
-                            }
-                            if ($guardianSex == 2) {
-                                echo '<option value="2" selected>Muž</option>';
-                            } else {
-                                echo '<option value="2">Muž</option>';
-                            }
+                                if (array_key_exists('guardianSex', $oldFormData)) {
+                                    $guardianSex = $oldFormData['guardianSex'];
+
+                                    if ($guardianSex == 1) {
+                                        echo '<option value="1" selected>Žena</option>';
+                                    } else {
+                                        echo '<option value="1">Žena</option>';
+                                    }
+                                    if ($guardianSex == 2) {
+                                        echo '<option value="2" selected>Muž</option>';
+                                    } else {
+                                        echo '<option value="2">Muž</option>';
+                                    }
+                                } else {
+                                    $genders = findAllGenders();
+                                    foreach ($genders as $gender) {
+                                        echo "<option value=\"$gender[id]\">$gender[adult]</option>";
+                                    }
+                                }
                             ?>
                         </select>
                         <div class="help-block with-errors"></div>
@@ -226,16 +242,22 @@ include('inc_header.php');
                             <?php
                             if (array_key_exists('childSex', $oldFormData)) {
                                 $childSex = $oldFormData['childSex'];
-                            }
-                            if ($childSex == 1) {
-                                echo '<option value="1" selected>Dívka</option>';
+
+                                if ($childSex == 1) {
+                                    echo '<option value="1" selected>Dívka</option>';
+                                } else {
+                                    echo '<option value="1">Dívka</option>';
+                                }
+                                if ($childSex == 2) {
+                                    echo '<option value="2" selected>Chlapec</option>';
+                                } else {
+                                    echo '<option value="2">Chlapec</option>';
+                                }
                             } else {
-                                echo '<option value="1">Dívka</option>';
-                            }
-                            if ($childSex == 2) {
-                                echo '<option value="2" selected>Chlapec</option>';
-                            } else {
-                                echo '<option value="2">Chlapec</option>';
+                                $genders = findAllGenders();
+                                foreach ($genders as $gender) {
+                                    echo "<option value=\"$gender[id]\">$gender[child]</option>";
+                                }
                             }
                             ?>
                         </select>

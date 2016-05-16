@@ -1,6 +1,7 @@
 {
     "require": {
         "phpmailer/phpmailer": "^5.2",
-        "mikehaertl/phpwkhtmltopdf": "^2.1"
+        "mikehaertl/phpwkhtmltopdf": "^2.1",
+        "vlucas/phpdotenv": "^2.2"
     }
 }
