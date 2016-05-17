@@ -44,12 +44,11 @@ include('inc_header.php');
                             <a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>-->
-                    <h1>Otevíráme v pondělí 2. 5. 2016</h1>
-                    <p class="article-date">Publikováno: 25. 4. 2016</p>
+                    <h1>Akce pro sourozence</h1>
+                    <p class="article-date">Publikováno: 15. 5. 2016</p>
                 </div>
                 <div class="article-content">
-                    <p>Rádi bychom zájemcům o naší službu hlídání dětí v Kutné Hoře oznámili, že náš provoz zahájíme v pondělí 2. 5. 2016.</p>
-                    <p>Místo pro hlídání Vašich dětí můžete zarezervovat elektronicky na našich stránkách anebo můžete hlídání dětí využít i bez předchozí rezervace. Jen přijdete a my pohlídáme.</p>
+                    <p>V případě hlídání nebo přespání dvou sourozenců je hlídání druhého sourozence cenově zvýhodněné na poloviční cenu.</p>
                 </div>
             </div>
         </div>

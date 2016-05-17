@@ -43,13 +43,13 @@ include('inc_header.php');
                 </div>
                 <a href="clanek1.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
-                    <span>25.4.2016</span>
-                    <h4>Otevíráme v pondělí 2. 5. 2016</h4>
+                    <span>15.5.2016</span>
+                    <h4>Akce pro sourozence</h4>
                     <div class="clearfix"></div>
                 </a>
                 <a href="clanek2.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek2s.jpg" alt="news">
-                    <span>23.4.2016</span>
+                    <span>13.5.2016</span>
                     <h4>Páteční přespání dětí</h4>
                     <div class="clearfix"></div>
                 </a>
@@ -79,7 +79,7 @@ include('inc_header.php');
                                 <img class="img-responsive" src="docs/pics/pic2.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                 //   <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href="docs/pics/pic3.jpg" rel="new-pictures" class="fancybox">
                                 <img class="img-responsive" src="docs/pics/pic3.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>

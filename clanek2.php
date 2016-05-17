@@ -45,10 +45,10 @@ include('inc_header.php');
                         </li>
                     </ul>-->
                     <h1>Páteční přespání dětí</h1>
-                    <p class="article-date">Publikováno: 23. 4. 2016</p>
+                    <p class="article-date">Publikováno: 13. 5. 2016</p>
                 </div>
                 <div class="article-content">
-                    <p>První páteční přespání dětí v našem hlídání dětí v Kutné Hoře se uskuteční v pátek 13. 5. 2016 od 18:30 do soboty 14. 5. 2016 do 9:00. <strong>Upozorňujeme, že pro přespání je nutné předchozí objednání.</strong></p>
+                    <p>Další páteční přespání dětí v našem hlídání dětí v Kutné Hoře se uskuteční v pátek 27. 5. 2016 od 18:30 do soboty 14. 5. 2016 do 9:00. <strong>Upozorňujeme, že pro přespání je nutné předchozí objednání.</strong> <br>V případě hlídání nebo přespání dvou sourozenců je hlídání druhého sourozence cenově zvýhodněné na poloviční cenu.</p>
                 </div>
             </div>
         </div>
