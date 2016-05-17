@@ -42,12 +42,6 @@ include('inc_header.php');
                             <img class="img-responsive" src="docs/pics/pic2.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
                 </div>
-         <!--       <div class="col-sm-4">
-                    <div class="gallery-item">
-                        <a href="docs/pics/pic3.jpg" rel="new-pictures" class="fancybox">
-                            <img class="img-responsive" src="docs/pics/pic3.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
-                    </div>
-                </div>-->
                 <div class="col-sm-4">
                     <div class="gallery-item">
                         <a href="docs/pics/pic5.jpg" rel="new-pictures" class="fancybox">
@@ -60,36 +54,36 @@ include('inc_header.php');
                             <img class="img-responsive" src="docs/pics/pic6.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
                 </div>
-             <!--   <div class="col-sm-4">
+                <div class="col-sm-4">
                     <div class="gallery-item">
-                        <a href="docs/pics/pic7.jpg" rel="new-pictures" class="fancybox">
-                            <img class="img-responsive" src="docs/pics/pic7.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
+                        <a href="docs/pics/pic21.jpg" rel="new-pictures" class="fancybox">
+                            <img class="img-responsive" src="docs/pics/pic21.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
-                </div>-->
+                </div>
                 <div class="col-sm-4">
                     <div class="gallery-item">
                         <a href="docs/pics/pic8.jpg" rel="new-pictures" class="fancybox">
                             <img class="img-responsive" src="docs/pics/pic8.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
                 </div>
-           <!--     <div class="col-sm-4">
+                <div class="col-sm-4">
                     <div class="gallery-item">
-                        <a href="docs/pics/pic9.jpg" rel="new-pictures" class="fancybox">
-                            <img class="img-responsive" src="docs/pics/pic9.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
+                        <a href="docs/pics/pic22.jpg" rel="new-pictures" class="fancybox">
+                            <img class="img-responsive" src="docs/pics/pic22.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-sm-4">
                     <div class="gallery-item">
                         <a href="docs/pics/pic10.jpg" rel="new-pictures" class="fancybox">
                             <img class="img-responsive" src="docs/pics/pic10.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
                 </div>
-          <!--      <div class="col-sm-4">
+                <div class="col-sm-4">
                     <div class="gallery-item">
-                        <a href="docs/pics/pic11.jpg" rel="new-pictures" class="fancybox">
-                            <img class="img-responsive" src="docs/pics/pic11.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
+                        <a href="docs/pics/pic23.jpg" rel="new-pictures" class="fancybox">
+                            <img class="img-responsive" src="docs/pics/pic23.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-sm-4">
                     <div class="gallery-item">
                         <a href="docs/pics/pic12.jpg" rel="new-pictures" class="fancybox">

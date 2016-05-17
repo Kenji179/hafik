@@ -79,12 +79,12 @@ include('inc_header.php');
                                 <img class="img-responsive" src="docs/pics/pic2.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                         </div>
                     </div>
-                 <!--   <div class="col-sm-3">
+                    <div class="col-sm-3">
                         <div class="gallery-item">
-                            <a href="docs/pics/pic3.jpg" rel="new-pictures" class="fancybox">
-                                <img class="img-responsive" src="docs/pics/pic3.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
+                            <a href="docs/pics/pic21.jpg" rel="new-pictures" class="fancybox">
+                                <img class="img-responsive" src="docs/pics/pic21.jpg" alt="Hafík - hlídání dětí v Kutné Hoře"></a>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href="docs/pics/pic5.jpg" rel="new-pictures" class="fancybox">
