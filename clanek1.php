@@ -15,7 +15,7 @@ include('inc_header.php');
                 <ol class="breadcrumb">
                     <li><a href="index.php">Úvod</a></li>
                     <li><a href="#">Aktuality</a></li>
-                    <li class="active">Otevíráme v pondělí 2. 5. 2016</li>
+                    <li class="active">Vyráběcí den pro všechny děti</li>
                 </ol>
             </div>
         </div>
@@ -33,7 +33,7 @@ include('inc_header.php');
                 <div class="article-header">
                     <img class="img-responsive" src="docs/news/clanek1.jpg" alt="Hafik - hlidani deti v Kutne Hore">
                     <p class="category">Aktuality</p>
-         <!--           <ul class="share-list">
+                    <!--           <ul class="share-list">
                         <li>
                             <a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
@@ -44,11 +44,15 @@ include('inc_header.php');
                             <a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>-->
-                    <h1>Akce pro sourozence</h1>
-                    <p class="article-date">Publikováno: 15. 5. 2016</p>
+                    <h1>Vyráběcí den pro všechny děti</h1>
+                    <p class="article-date">Publikováno: 10. 6. 2016</p>
                 </div>
                 <div class="article-content">
-                    <p>V případě hlídání nebo přespání dvou sourozenců je hlídání druhého sourozence cenově zvýhodněné na poloviční cenu.</p>
+                    <p>Vyráběcí den pro všechny děti (vstup 40Kč/dítě ) - Středa 22. 6. 2016
+                        <br> Přijďte si k nám vyrobit něco pro radost, zasoutěžit nebo jen tak si zařádit v herně či na zahradě na trampolíně, skluzavce, pískovišti. Těšíme se na všechny rošťáky :)</p>
+                    <ul>
+                        <li><a href="docs/files/vyrabeci_den.pdf" target="_blank">Tvořivý a hravý den - leták</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

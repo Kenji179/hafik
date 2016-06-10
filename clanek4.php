@@ -15,7 +15,7 @@ include('inc_header.php');
                 <ol class="breadcrumb">
                     <li><a href="index.php">Úvod</a></li>
                     <li><a href="#">Aktuality</a></li>
-                    <li class="active">Dětský den v Hafíku </li>
+                    <li class="active">Příměstský tábor v Hafíkovi</li>
                 </ol>
             </div>
         </div>
@@ -33,7 +33,7 @@ include('inc_header.php');
                 <div class="article-header">
                     <img class="img-responsive" src="docs/news/clanek4.jpg" alt="Hafik - hlidani deti v Kutne Hore">
                     <p class="category">Aktuality</p>
-         <!--           <ul class="share-list">
+                    <!--           <ul class="share-list">
                         <li>
                             <a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
@@ -44,11 +44,18 @@ include('inc_header.php');
                             <a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>-->
-                    <h1>Dětský den v Hafíku</h1>
-                    <p class="article-date">Publikováno: 25. 5. 2016</p>
+                    <h1>Příměstský tábor v Hafíkovi</h1>
+                    <p class="article-date">Publikováno: 10. 6. 2016</p>
                 </div>
                 <div class="article-content">
-                    <p>Přiveďte k nám Vaše děti na oslavu dětského dne ve středu 1. 6. 2016. Děti si mohou pohrát a společně něco vyrobit (40 Kč za jedno dítě).</p>
+                    <p>Příměstský tábor v Hafíkovi - 18.-22. 7. 2016 / 25.-29.7.2016 Vítáme všechny děti ve věku 2-8 let! Přijďte si užít léto plné řádění, koupání, vyrábění, výletu za pokladem nebo i případným dobrodružným přespáním u nás v Hafíkovi, viz přílohy ke stažení.</p>
+                    <u>
+                        <li><a href="docs/files/bezinfekcnost.pdf" target="_blank">Bezinfekčnost (pdf)</a></li>
+                        <li><a href="docs/files/pokyny_tabor.pdf" target="_blank">Pokyny k příměstskému táboru (pdf)</a></li>
+                        <li><a href="docs/files/prihlaska_tabor_1.pdf" target="_blank">Přihláška pro přijetí dítěte na příměstský tábor 18.7.-22.7.2016 (pdf)</a></li>
+                        <li><a href="docs/files/prihlaska_tabor_2.pdf" target="_blank">Přihláška pro přijetí dítěte na příměstský tábor 25.7.-29.7.2016 (pdf)</a></li>
+                        <li><a href="docs/files/tabor_letak.pdf" target="_blank">Příměstský tábor - letáček (pdf)</a></li>
+                    </u>
                 </div>
             </div>
         </div>

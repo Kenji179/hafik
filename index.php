@@ -41,16 +41,22 @@ include('inc_header.php');
                     <h2>Aktuality</h2>
                     <div class="clearfix"></div>
                 </div>
-                <a href="clanek2.php" class="news">
-                    <img class="img-responsive" src="docs/news/clanek2s.jpg" alt="news">
-                    <span>2.6.2016</span>
-                    <h4>Páteční přespání dětí v červnu</h4>
+                <a href="clanek4.php" class="news">
+                    <img class="img-responsive" src="docs/news/clanek4s.jpg" alt="news">
+                    <span>10.6.2016</span>
+                    <h4>Příměstský tábor v Hafíkovi</h4>
                     <div class="clearfix"></div>
                 </a>
                 <a href="clanek1.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
-                    <span>15.5.2016</span>
-                    <h4>Akce pro sourozence</h4>
+                    <span>10.6.2016</span>
+                    <h4>Vyráběcí den pro všechny děti</h4>
+                    <div class="clearfix"></div>
+                </a>
+                <a href="clanek2.php" class="news">
+                    <img class="img-responsive" src="docs/news/clanek2s.jpg" alt="news">
+                    <span>2.6.2016</span>
+                    <h4>Páteční přespání dětí v červnu</h4>
                     <div class="clearfix"></div>
                 </a>
                 <a href="clanek3.php" class="news">
