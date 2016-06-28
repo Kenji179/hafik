@@ -64,9 +64,10 @@ require_once 'db_queries.php';
                 <h1>Rezervace</h1>
 <!--                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 4. 2016. Děkujeme</p>-->
                 <p>Rezervace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání, s námi vyplnit tento formulář anebo přijít již s ručně vyplněným formulářem, který při předání dítěte podepíšete.</p>
+                <p class="bg-danger">Omlouváme se, ale online rezervace je dočasně nedostupná. Situaci řešíme a prozatím je možné použít formulář ke stažení.</p>
                 <a href="docs/hafik-pdf-prihlaska.pdf" title="Formulář ke stažení" download="hafik-registracni-formular.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; FORMULÁŘ KE STAŽENÍ</a>
                 <h2><strong>Online rezervace</strong></h2>
-                <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
+     <!--           <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
                     <h3>Období hlídání</h3>
                     <div class="form-group">
                         <input class="date-time-from form-control" id="inputCareStart" type="text" name="careStart" value="<?php if (array_key_exists('careStart', $oldFormData)) echo $oldFormData['careStart']; ?>" placeholder="Začátek hlídání" data-error="Toto pole je nutno vyplnit" required>
@@ -300,7 +301,7 @@ require_once 'db_queries.php';
                         </label>
                     </div>
                     <button type="submit" class="btn">Odeslat žádost</button>
-                </form>
+                </form> -->
 
             </div>
         </div>
