@@ -30,9 +30,9 @@ include('inc_header.php');
         <div class="row">
             <div class="col-md-12 ">
                 <h1>Provozní řád</h1>
-                <a href="docs/provozni_rad.pdf" target="_blank">Provozní řád ke stažení v PDF</a>
+                <a href="docs/provozni_rad.pdf" title="Provozní řád" download="provozni_rad.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; PROVOZNÍ ŘÁD KE STAŽENÍ</a>
                 <h2>Charakteristika poskytované služby centrem Hafík</h2>
-                <p>Centrum Hafík – hlídání dětí s.r.o. (dále také jen „Hafík“) nabízí své služby rodičům, kteří potřebují krátkodobě své děti pohlídat. Služba není náhradou za mateřskou školu, není ani pravidelnou docházkou a nezahrnuje v sobě výuku dětí, kterou poskytují předškolní zařízení. Na hlídání dítěte v Hafíkovi nevzniká podáním Přihlášky pro přijetí dítěte na hlídání v Hafíkovi (dále také jen Přihláška) žádný právní nárok. V Hafíkovi je rodičům nabízeno volné hraní jejich dětí pod dozorem zodpovědných osob a je určeno pro děti ve věku od 2 do 8 let. Provoz služby je zajištěn každý všední den od 7:30 do 17:30h. V době prázdnin může být provoz omezen.</p>
+                <p>Centrum Hafík – hlídání dětí s.r.o. (dále také jen „Hafík“) nabízí své služby rodičům, kteří potřebují krátkodobě své děti pohlídat. Služba není náhradou za mateřskou školu, není ani pravidelnou docházkou a nezahrnuje v sobě výuku dětí, kterou poskytují předškolní zařízení. Na hlídání dítěte v Hafíkovi nevzniká podáním Přihlášky pro přijetí dítěte na hlídání v Hafíkovi (dále také jen Přihláška) žádný právní nárok. V Hafíkovi je rodičům nabízeno volné hraní jejich dětí pod dozorem zodpovědných osob a je určeno pro děti ve věku od 2 do 8 let (v případě dohody I děti mladší nebo starší). Provoz služby je zajištěn každý všední den od 7:30 do 17:30h. V době prázdnin může být provoz omezen.</p>
                 <h2>Materiální zajištění centra Hafík</h2>
                 <ul>
                     <li>Centrum Hafík má pro účely provozování služby hlídání dětí k dispozici jednotku v přízemí budovy o rozloze 100 m2 a zahradu o rozloze 300 m2, která se nachází na adrese: Štefánikova 102/7, 284 01 Kutná Hora.</li>
@@ -100,7 +100,7 @@ include('inc_header.php');
                 <h3>Ceník za hlídání dětí v centru Hafík – hlídání dětí s.r.o.</h3>
                 <ul>
                     <li><strong>80,- Kč</strong> za každou hodinu pobytu dítěte v centru Hafík v běžné provozní době, dále <strong>40,- Kč</strong> za každou započatou půlhodinu pobytu dítěte. </li>
-                    <li><strong>450,- Kč</strong> za noční přespání dítěte v centru Hafík – lichý pátek od 18.30h až následující sobota do 9.00h.</li>
+                    <li><strong>300,- Kč</strong> za noční přespání dítěte v centru Hafík – lichý pátek od 18.30h až následující sobota do 9.00h.</li>
                 </ul>
                 <p>Cena zahrnuje</p>
                 <ul>
@@ -113,7 +113,7 @@ include('inc_header.php');
                 </ul>
                 <h4>Výňatek z Provozního řádu centra Hafík – hlídání dětí s.r.o.</h4>
                 <p>„Každý lichý pátek centrum Hafík poskytuje možnost v případě dostatečného zájmu a naplnění kapacity zajištění péče o děti spolu s přespáním druhého dne, tj. pátku od 18.30 hod. do následující soboty do 9.00 hod. I v tomto případě platí podmínka zajištění stravy pro nezletilé dítě jeho rodiči (večeře, snídaně). Bližší informace ohledně možnosti pátečního přespávání budou vždy vyvěšeny na nástěnce a webových stránkách centra Hafík. Děti musí být rodiči na přespání v dostatečném časovém předstihu přihlášené.“ „Odměna za jednorázové hlídání se platí za každou započatou půlhodinu hlídání, a to hotově v okamžiku vyzvednutí dítěte z Centra, a to podle strávené doby dítěte v centru Hafík. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.“</p>
-                <p>Platnost Provozního řádu od 2.5.2016</p>
+                <p>Platnost Provozního řádu od 25.6.2016</p>
             </div>
         </div>
     </div>
