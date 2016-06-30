@@ -32,14 +32,15 @@ include('inc_header.php');
                 <h1>Naše služby</h1>
                 <h2>Co nabízíme</h2>
                 <ul>
-                    <li>Nepravidelné hlídání dětí ve věku od 2 do 8 let.</li>
+                    <li>Školku pro stálou skupinu dětí od 2 – 6let (zajišťujeme stravu - 2x svačina a oběd nebo ohřejeme stravu Vámi donesenou)</li>
+                    <li>Nepravidelné hlídání dětí ve věku od 2 do 8 let (po předchozí domluvě zajistíme oběd i svačinku nebo si můžete přinést jídlo vlastní).</li>
                     <li>OTEVŘENO: PO - PÁ 7:30 - 17:30 a v liché týdny přespání z PÁ 18:30 na SO 9:00</li>
                     <li>Nabízíme hygienické a bezpečnostní zázemí pro děti dle platných vyhlášek a norem.</li>
-                    <li>Dětem se věnují tety-chůvy, které mají Individuální přístup k dětem, děti mají možnost hravě strávit čas s vrstevníky, poznat nové kamarády a veselé zážitky.</li>
-                    <li>Nabízíme pro děti vybavenou hernu, tělocvičnu a zahradu.</li>
+                    <li>Dětem se věnují tety-chůvy, které mají individuální přístup k dětem, děti mají možnost hravě strávit čas s vrstevníky, poznat nové kamarády a veselé zážitky.</li>
+                    <li>Nabízíme pro děti vybavenou hernu, tělocvičnu a velkou zahradu.</li>
                     <li>Snažíme se, aby děti trávily venku co nejvíce času.</li>
-                    <li>Rádi pohlídáme děti s menším handicapem po předchozí dohodě a objednání, dále dle počtu dětí a vašeho individuálního zvážení.</li>
-                    <li>Jednou za 14 dní pořádáme v dětském centru přespávání po předchozím objednání – každý lichý pátek od18:30 hod. do soboty 9:00 hod.</li>
+                    <li>Rádi pohlídáme děti s menším handicapem po předchozí dohodě a objednání, dále dle počtu dětí a Vašeho individuálního zvážení.</li>
+                    <li>Jednou za 14 dní pořádáme v dětském centru přespávání po předchozím objednání – každý lichý pátek od18:30 hod. do soboty 9:00 hod dle obsazenosti.</li>
                     <li>Máme otevřeno i o prázdninách v červenci.</li>
                 </ul>
             </div>
@@ -48,7 +49,6 @@ include('inc_header.php');
                 <ul>
                     <li>Děti přebíráme a vydáváme jen zletilým rodinným příslušníkům oproti jejich podpisu.</li>
                     <li>Přijímáme pouze zdravé děti.</li>
-                    <li>Stravu nezajišťujeme. Doporučujeme přinést si vlastní svačinku.</li>
                     <li>Při předávání dětí do dětského centra vyplní rodiče evidenční list - kartu svého dítěte.</li>
                 </ul>
             </div>
