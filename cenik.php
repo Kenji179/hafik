@@ -83,7 +83,6 @@ include('inc_header.php');
                         </tr>
                     </tbody>
                 </table>
-                <br>
                 <table>
                     <tbody>
                         <tr>
@@ -137,7 +136,6 @@ include('inc_header.php');
                         </tr>
                     </tbody>
                 </table>
-                <br>
                 <table>
                     <tbody>
                         <tr>
