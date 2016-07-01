@@ -12,7 +12,7 @@ include('inc_header.php');
     <div class="container">
         <div class="row">
             <div class="header">
-                <img src="assets/img/hafik.jpg" alt="Hafík - hlídání dětí v Kutné Hoře">
+                <img src="assets/img/hafik2.jpg" alt="Hafík - hlídání dětí v Kutné Hoře">
                 <!--<div class="info-text">
                     <h3>Lorem ispum dolor sit amet med selectum et orbi</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
