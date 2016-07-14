@@ -73,20 +73,10 @@ include('inc_header.php');
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-responsive" src="docs/pics/maria.jpg" alt="Vychovatelka - Hafik hlidani deti" />
-                        <p class="mem-name">Maria Gaia Kováříková</p>
-                        <ul class="fa-ul">
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>péče o mentálně postižené děti i dospělé</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>práce v soc.službách</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>učitelka v MŠ</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>NZP</li>
-                            <li><strong>motto: „Radost za každého počasí“</strong></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
                         <img class="img-responsive" src="docs/pics/gabca.jpg" alt="Vychovatelka - Hafik hlidani deti" />
                         <p class="mem-name">Gabriela Blumentálová</p>
                         <ul class="fa-ul">
+                          <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>certifikovaná chůva</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>dlouholeté zkušenosti s péčí o děti</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe chůvy v domácnosti</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>milovník zvířátek a domácích mazlíčků</li>
