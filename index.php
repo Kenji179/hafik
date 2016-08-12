@@ -41,18 +41,18 @@ include('inc_header.php');
                     <h2>Aktuality</h2>
                     <div class="clearfix"></div>
                 </div>
-                <a href="#" class="news">
+                <a href="clanek5.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
                     <span>Publikováno: 1.7.2016</span>
                     <h4>1. 9. 2016 - Otevíráme školku</h4>
                     <div class="clearfix"></div>
                 </a>
-                <a href="clanek4.php" class="news">
+                <!-- <a href="clanek4.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek4s.jpg" alt="news">
                     <span>Publikováno: 10.6.2016</span>
                     <h4>Příměstský tábor v Hafíkovi</h4>
                     <div class="clearfix"></div>
-                </a>
+                </a> -->
           <!--      <a href="clanek1.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
                     <span>Publikováno: 10.6.2016</span>
@@ -68,7 +68,7 @@ include('inc_header.php');
                 <a href="clanek3.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek3s.jpg" alt="news">
                     <span>Publikováno: 22.4.2016</span>
-                    <h4>Prázdninový provoz</h4>
+                    <h4>Prázdninový provoz - v srpnu máme zavřeno</h4>
                     <div class="clearfix"></div>
                 </a>
             </div>

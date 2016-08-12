@@ -6,7 +6,6 @@ $menu = '6'; // 0 or an empty string for nothing highlighted
 include('inc_header.php');
 ?>
 
-
     <!-- Breadcrumb -->
 
     <section class="sub-nav">
