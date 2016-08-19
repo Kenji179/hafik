@@ -400,13 +400,9 @@ include('inc_header.php');
                 2 - 8 let
               </td>
               <td>&nbsp;</td>
-
               <td>&nbsp;</td>
-
               <td>&nbsp;</td>
-
               <td>&nbsp;</td>
-
             </tr>
             <tr>
               <td>
@@ -415,6 +411,10 @@ include('inc_header.php');
               <td>
                 dle obsazenosti centra
               </td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
             </tr>
             <tr>
               <td>
@@ -424,13 +424,9 @@ include('inc_header.php');
                 po dohodě lze zajistit nebo podáme stravu donesenou
               </td>
               <td>&nbsp;</td>
-
               <td>&nbsp;</td>
-
               <td>&nbsp;</td>
-
               <td>&nbsp;</td>
-
             </tr>
           </tbody>
         </table>
