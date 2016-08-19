@@ -325,8 +325,9 @@ include('inc_header.php');
 
             </tr>
           </tbody>
-          <h3>Ceny hlídání dětí pro veřejnost</h3>
         </table>
+        <br>
+        <h3>Ceny hlídání dětí pro veřejnost</h3>
         <table class="table">
           <thead>
             <tr>
@@ -429,7 +430,7 @@ include('inc_header.php');
               <td>&nbsp;</td>
 
               <td>&nbsp;</td>
-              
+
             </tr>
           </tbody>
         </table>
