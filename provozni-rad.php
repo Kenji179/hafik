@@ -67,52 +67,44 @@ include('inc_header.php');
           8. Rodiče zajistí dítěti přezůvky, oblečení vhodné pro pohybové a hrací aktivity, náhradní oblečení (plínku) a oblečení na ven, vše čitelně podepsané, aby nedošlo k záměně.
         </p>
         <h2>Předání dítěte do péče centra Hafík</h2>
-        <ul>
-          <li>a. Do centra Hafík mohou být přijímány pouze děti zdravé. Odpovědný pracovník - hlídací teta - při příchodu dítěte posoudí, zda je dítě schopné pobytu v zařízení či ne (teplota, kašel, vši, opary, rýma a další, zejména infekční onemocnění),
-            a to s ohledem na přítomnost ostatních zdravých dětí.</li>
-          <li>b. Předání dětí do školky je možné v době od 7.30 do 9:00, na nepravidelné hlídání je možné dítě přivézt kdykoliv v rámci otevírací doby. </li>
-          <li>c. Centrum Hafík si dále vyhrazuje právo hlídání dítěte odmítnout, nebo přerušit, či ukončit v případě, že
-            <ul>
+        <p>9. Do centra Hafík mohou být přijímány pouze děti zdravé. Odpovědný pracovník - hlídací teta - při příchodu dítěte posoudí, zda je dítě schopné pobytu v zařízení či ne (teplota, kašel, vši, opary, rýma a další, zejména infekční onemocnění), a to s ohledem na přítomnost ostatních zdravých dětí.</p>
+        <p>10. Předání dětí do školky je možné v době od 7.30 do 9:00, na nepravidelné hlídání je možné dítě přivézt kdykoliv v rámci otevírací doby.</p>
+        <p>11. Centrum Hafík si dále vyhrazuje právo hlídání dítěte odmítnout, nebo přerušit, či ukončit v případě, že:
+            <ol type="a">
               <li>rodič závažným způsobem opakovaně narušuje provoz centra Hafík;</li>
               <li>rodič neuhradí náklady poskytované služby či jiné platby dle této smlouvy;</li>
               <li>dítě není způsobilé k pobytu v centru Hafík, zejména pokud je dítě kolektivu dětské skupiny, soustavně narušuje režim, dopouští se fyzických útoků nebo jiným závažným způsobem porušuje vnitřní pravidla poskytovatele.</li>
-            </ul>
-          </li>
-          <li>V takovém případě jsou rodiče dítěte povinni dítě co nejdříve od centra převzít.</li>
-          <li>d. Rodiče podpisem Přihlášky výslovně potvrzují, že dítě netrpí žádným onemocněním, infekčním onemocněním či nemá jiné zdravotní komplikace, které by vyžadovaly zvláštní péči či přístup. Při výskytu příznaků onemocnění u dítěte se centrum Hafík
-            zavazuje bezodkladně telefonicky informovat rodiče dítěte a předat dítě rodiči nebo v případě naléhavosti zajistit poskytnutí zdravotních služeb. Rodiče podpisem na Přihlášky výslovně souhlasí se zajištěním příjezdu rychlé záchranné služby
-            pro nezletilé dítě. Dále rodiče svým podpisem na Přihlášce potvrzují způsobilost dítěte k pobytu v centru Hafík a absolvování ze zákona povinných očkování. V případě, že dítě není očkováno, přinese rodič v den nástupu potvrzení od lékaře,
-            ne starší 3 dnů, že je dítě zdravé a může pobývat v dětském</li>
-          <li>e. Dále rodiče svým podpisem na Přihlášce potvrzují způsobilost dítěte k pobytu v centru Hafík a absolvování ze zákona povinných očkování. V případě, že dítě není očkováno, přinese rodič v den nástupu potvrzení od lékaře, ne starší 3 dnů, že
-            je dítě zdravé a může pobývat v dětském kolektivu.</li>
-        </ul>
+            </ol>
+          <p>V takovém případě jsou rodiče dítěte povinni dítě co nejdříve od centra převzít.</p>
+          <p>12. Rodiče podpisem Přihlášky výslovně potvrzují, že dítě netrpí žádným onemocněním, infekčním onemocněním či nemá jiné zdravotní komplikace, které by vyžadovaly zvláštní péči či přístup. Při výskytu příznaků onemocnění u dítěte se centrum Hafík zavazuje bezodkladně telefonicky informovat rodiče dítěte a předat dítě rodiči nebo v případě naléhavosti zajistit poskytnutí zdravotních služeb. Rodiče podpisem na Přihlášky výslovně souhlasí se zajištěním příjezdu rychlé záchranné služby pro nezletilé dítě.</p>
+          <p>13. Dále rodiče svým podpisem na Přihlášce potvrzují způsobilost dítěte k pobytu v centru Hafík a absolvování ze zákona povinných očkování. V případě, že dítě není očkováno, přinese rodič v den nástupu potvrzení od lékaře, ne starší 3 dnů, že je dítě zdravé a může pobývat v dětském kolektivu.</p>
         <h2>Vyzvednutí dítěte</h2>
         <p>
-          9. Při vyzvednutí dítěte z hlídání z centra Hafík je možné předat dítě pouze osobě, která dítě přivedla, případně osobě oprávněné k jeho vyzvednutí uvedené v Přihlášce. Po prokázání totožnosti a oprávnění k vyzvednutí dítěte centrum Hafík zapíše čas vyzvednutí
+          14. Při vyzvednutí dítěte z hlídání z centra Hafík je možné předat dítě pouze osobě, která dítě přivedla, případně osobě oprávněné k jeho vyzvednutí uvedené v Přihlášce. Po prokázání totožnosti a oprávnění k vyzvednutí dítěte centrum Hafík zapíše čas vyzvednutí
           dítěte z centra Hafík a vyzvedávající osoba svým podpisem na Přihlášce nebo v docházkovém archu potvrdí, že dítě převzala zpět do své péče zdravé a v pořádku. Tímto okamžikem končí odpovědnost centra Hafík za svěřené dítě.
         </p>
         <p>
-          10. Při vyzvednutí dítěte ze školky z centra Hafík je možné předat dítě pouze osobě oprávněné k jeho vyzvednutí uvedené v Přihlášce po prokázání totožnosti. Rodič svým podpisem na Přihlášce potvrzuje, že dítě bude přebírat zpět do své péče v době dané
+          15. Při vyzvednutí dítěte ze školky z centra Hafík je možné předat dítě pouze osobě oprávněné k jeho vyzvednutí uvedené v Přihlášce po prokázání totožnosti. Rodič svým podpisem na Přihlášce potvrzuje, že dítě bude přebírat zpět do své péče v době dané
           režimem docházky (pro dopolední režim po obědě mezi 12:30 do 13:00, pro odpolední režim od 15:00 do 17:30, pro celodenní režim v některém z uvedených termínů). Tímto okamžikem končí odpovědnost centra Hafík za svěřené dítě.
         </p>
         <h2>Cena za poskytnutí služby</h2>
         <p>
-          a. Rodiče jsou povinni za poskytnutou službu uhradit centru Hafík cenu (odměnu). Výše odměny je stanovena ceníkem centra Hafík (dále jen „Ceník“), který je součástí tohoto Provozního řádu – viz Příloha 1. Podpisem Přihlášky rodiče potvrzují, že jim byl
+          16. Rodiče jsou povinni za poskytnutou službu uhradit centru Hafík cenu (odměnu). Výše odměny je stanovena ceníkem centra Hafík (dále jen „Ceník“), který je součástí tohoto Provozního řádu – viz Příloha 1. Podpisem Přihlášky rodiče potvrzují, že jim byl
           tento Provozní řád i Ceník předložen, seznámili se s nimi a souhlasí zejména s výší úhrady dle tohoto ceníku. Ceník je veřejně přístupný na webových stránkách poskytovatele www.skolkahafik.cz.
         </p>
         <p>
-          11. Odměna za jednorázové hlídání se platí za každou započatou půl hodinu hlídání hotově v okamžiku vyzvednutí dítěte z centra Hafík, a to podle strávené doby dítěte v Centru. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.
+          17. Odměna za jednorázové hlídání se platí za každou započatou půl hodinu hlídání hotově v okamžiku vyzvednutí dítěte z centra Hafík, a to podle strávené doby dítěte v Centru. Na požádání centrum Hafík vystaví daňový doklad o zaplacení.
         </p>
         <p>
-          12. Odměna za školku se platí na základě vystavené faktury, která bude rodičům zaslána vždy na začátku měsíce, za který odměna centru Hafík náleží.
+          18. Odměna za školku se platí na základě vystavené faktury, která bude rodičům zaslána vždy na začátku měsíce, za který odměna centru Hafík náleží.
         </p>
         <h2>Stravování a pitný režim</h2>
         <p>
-          13. Děti se ve školce stravují 3x denně dle Denního programu. Personál dětem připravuje jídlo v kuchyňce. Provádí se každodenní měření teploty pokrmu těsně před podáním. Strava je plnohodnotná a vyvážená dle příslušných předpisů, je zachována vhodná skladby
+          19. Děti se ve školce stravují 3x denně dle Denního programu. Personál dětem připravuje jídlo v kuchyňce. Provádí se každodenní měření teploty pokrmu těsně před podáním. Strava je plnohodnotná a vyvážená dle příslušných předpisů, je zachována vhodná skladby
           jídelníčku, který splňuje veškeré hygienické požadavky. Jídlo je pestré, obsahuje celozrnné výrobky, mléčné výrobky a dostatek ovoce a zeleniny.
         </p>
         <p>
-          14. V centru Hafík je dbáno na dodržování pitného režimu dětí. Nápoje dětem v dostatečném množství připravuje personál centra Hafík.
+          20. V centru Hafík je dbáno na dodržování pitného režimu dětí. Nápoje dětem v dostatečném množství připravuje personál centra Hafík.
         </p>
         <h3>Denní program</h3>
         <table class="table">
@@ -157,20 +149,15 @@ include('inc_header.php');
         </table>
 
         <h2>První pomoc</h2>
-        <p>15. První pomoc při úrazech je povinen poskytnout každý pracovník zařízení. Každý úraz dítěte je zapisován do knihy úrazů, která se nachází v kuchyňce, kdy bude zaznamenáno jméno dítěte, kdy se úraz stal a jeho popis. Lékárnička je umístěna v
+        <p>21. První pomoc při úrazech je povinen poskytnout každý pracovník zařízení. Každý úraz dítěte je zapisován do knihy úrazů, která se nachází v kuchyňce, kdy bude zaznamenáno jméno dítěte, kdy se úraz stal a jeho popis. Lékárnička je umístěna v
           prostoru jídelního koutu na viditelném místě mimo dosah dětí a je přístupná pracovníkům v době provozu. </p>
         <h2>Závěrečná ustanovení</h2>
-        <ul>
-          <li> 1. O všech výjimkách z tohoto Provozního řádu rozhoduje vedoucí pracovník centra Hafík nebo jeho zástupce. </li>
-          <li>2. Za oba rodiče a za dítě je oprávněn v záležitostech vyplývajících z této smlouvy jednat každý rodič samostatně.</li>
-          <li>3. Centrum Hafík je monitorováno kamerovým systémem se 14-ti denním záznamem, zejména s ohledem na bezpečnost dětí. Rodiče podpisem na Přihlášce berou monitoring dětí na vědomí a souhlasí s jeho využíváním.</li>
-          <li>4. Rodiče dítěte souhlasí s tím, aby centrum Hafík zpracovávalo jimi poskytnutá data obsažená v Přihlášce, případně předaná jiným způsobem, pro plnění svých úkolů, a to po dobu nezbytnou k zajištění práv a povinností spojených s poskytováním
-            péče o dítě, a dále se zavazují bez zbytečného odkladu nahlásit jakoukoli změnu zpracovávaných osobních údajů a prohlašují, že byli ve smyslu zákona č. 101/2000 Sb. ve znění pozdějších předpisů informováni o zpracování osobních údajů.</li>
-          <li>5. Podpisem Přihlášky dávají rodiče za dítě souhlas, aby poskytovatel pořizoval obrazové, zvukové či audiovizuální záznamy dítěte a rodičů za účelem propagace svých služeb a tyto záznamy zveřejňoval. Při tom se provozovatel zavazuje nakládat
-            se záznamy šetrně a šetřit důstojnost dítěte.</li>
-        </ul>
-        <p>TTento Provozní řád je platný od 1.9.2016 a musí být umístěna na viditelném a rodičům přístupném místě v provozovně centra Hafík tak, aby se s ním mohli všichni řádně seznámit. Tato povinnost je rovněž splněna vyvěšením provozního řádu na webu
-          www.skolkahafik.cz. </p>
+          <p>1. O všech výjimkách z tohoto Provozního řádu rozhoduje vedoucí pracovník centra Hafík nebo jeho zástupce. </p>
+          <p>2. Za oba rodiče a za dítě je oprávněn v záležitostech vyplývajících z této smlouvy jednat každý rodič samostatně.</p>
+          <p>3. Centrum Hafík je monitorováno kamerovým systémem se 14-ti denním záznamem, zejména s ohledem na bezpečnost dětí. Rodiče podpisem na Přihlášce berou monitoring dětí na vědomí a souhlasí s jeho využíváním.</p>
+          <p>4. Rodiče dítěte souhlasí s tím, aby centrum Hafík zpracovávalo jimi poskytnutá data obsažená v Přihlášce, případně předaná jiným způsobem, pro plnění svých úkolů, a to po dobu nezbytnou k zajištění práv a povinností spojených s poskytováním péče o dítě, a dále se zavazují bez zbytečného odkladu nahlásit jakoukoli změnu zpracovávaných osobních údajů a prohlašují, že byli ve smyslu zákona č. 101/2000 Sb. ve znění pozdějších předpisů informováni o zpracování osobních údajů.</p>
+          <p>5. Podpisem Přihlášky dávají rodiče za dítě souhlas, aby poskytovatel pořizoval obrazové, zvukové či audiovizuální záznamy dítěte a rodičů za účelem propagace svých služeb a tyto záznamy zveřejňoval. Při tom se provozovatel zavazuje nakládat se záznamy šetrně a šetřit důstojnost dítěte.</p>
+        <p>TTento Provozní řád je platný od 1.9.2016 a musí být umístěna na viditelném a rodičům přístupném místě v provozovně centra Hafík tak, aby se s ním mohli všichni řádně seznámit. Tato povinnost je rovněž splněna vyvěšením provozního řádu na webu www.skolkahafik.cz. </p>
 
         <h3>Ceník docházky stálé skupiny za měsíc</h3>
         <table class="table">
