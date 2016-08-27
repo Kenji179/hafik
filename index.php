@@ -20,19 +20,39 @@ include('inc_header.php');
             </div>
         </div>
     </div>
-    <!--
     <div class="container long-message">
         <div class="row">
             <div class="col-md-12">
                 <div class="title">
                     <hr>
-                    <h2>Dlouha zprava</h2>
+                    <h2>Hledáme novou superučitelku i superučitele</h2>
                     <div class="clearfix"></div>
                 </div>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
+                <p>Dětské centrum HAFÍK v Kutné Hoře přijme kvalifikovanou učitelku na plný úvazek. Požadujeme pedagogické vzdělání se zaměřením na předškolní pedagogiku, praxe v mateřské školce výhodou, ne však podmínkou. Důležitá je ochota učit se novým dovednostem, sebevzdělávání, znalost práce se ŠVP, zároveň ovšem samostatnost a kreativita při tvorbě vlastního programu. Výhodou je znalost AJ a umělecké dovednosti – hudební, výtvarné, pohybové.</p>
+                <div class="row">
+                <div class="col-md-6">
+                <p><strong>Požadujeme:</strong></p>
+                <ul>
+                  <li>Pedagogické vzdělání (předškolní pedagogika)</li>
+                  <li>Ochotu učit se a sebevzdělávat</li>
+                  <li>Spolehlivost a zodpovědnost za kvalitu péče o děti</li>
+                  <li>Hudební, výtvarné nebo pohybové dovednosti</li>
+                  <li>Výhodou znalost AJ</li>
+                </ul>
+                </div>
+                <div class="col-md-6">
+                <p><strong>Nabízíme:</strong></p>
+                <ul>
+                  <li>Platové ohodnocení odpovídající kvalifikaci s reálnou možností růstu</li>
+                  <li>Hlavní pracovní poměr </li>
+                  <li>Možnost seberealizace při rozšiřování aktivit Dětského centra</li>
+                  <li>Příjemné pracovní prostředí</li>
+                </ul>
+                </div>
+              </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <div class="container main">
         <div class="row">
             <div class="col-md-4">
