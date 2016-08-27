@@ -44,19 +44,16 @@ include('inc_header.php');
         <p>
           3. Centrum Hafík má pro účely provozování služby školky a hlídání dětí k dispozici nebytovou jednotku v přízemí budovy o rozloze 100 m2 a zahradu o rozloze 300 m2, která se nachází na adrese: Štefánikova 102/7, 284 01 Kutná Hora.
         </p>
-        <ul>
-          <li>4. Popis dispozičního řešení zařízení:
-            <ul>
+        <p>4. Popis dispozičního řešení zařízení:</p>
+            <ol type="a">
               <li>Vstupní šatna slouží jako šatna k převlékání a ukládání svršků a obuvi. Za ní se nachází přijímací pult a kancelářské zázemí zaměstnanců.</li>
               <li>Herna 1 - je určena k volným i organizovaným hrám dětí a odpočinku v odpočívacím koutku. Herna je vybavena hračkami, které velikostí a účelností odpovídají věku a potřebám dětí.</li>
               <li>Kuchyňka s malou kuchyňskou linkou (vybavenou nádobím), která slouží k stravy zaměstnanců centra Hafík. Jídlo se v centru nevaří a Hafík ani nemá možnost zajistit stravování dětem. Dětem zaměstnanci Centra v určenou denní dobu podají suchou
                 trvanlivou svačinu, kterou jim přinesou rodiče.</li>
               <li>Herna 2 - je vybavena molitanovými kostkami a stavebnicemi, bazénkem se skluzavkou a kuličkami, ribstolemi, žíněnkou a dalšími herními prvky.</li>
               <li>Sociální zázemí zahrnuje dvě samostatné toalety pro děti. K dispozici jsou v Centru i nočníky.</li>
-            </ul>
-          </li>
-        </ul>
-        5. Centrum Hafík má k dispozici rovněž prostornou zahradu o velikosti 300 m2, na které jsou umístěny certifikované atrakce pro děti, jako jsou pískoviště, trampolína apod. V centru je centrální plynové vytápění a ohřev vody.
+            </ol>
+        <p>5. Centrum Hafík má k dispozici rovněž prostornou zahradu o velikosti 300 m2, na které jsou umístěny certifikované atrakce pro děti, jako jsou pískoviště, trampolína apod. V centru je centrální plynové vytápění a ohřev vody.</p>
         <h2>Zajištění provozu centra Hafík</h2>
         <p>
           6. Přednostně je kapacita Hafíka obsazována dětmi ze stálé skupiny – školky. Služba hlídání dětí je poskytována i bez nutnosti předchozího objednání, avšak vždy s ohledem na aktuální naplněnost a kapacitu centra Hafík. Hlídání dítěte je možné zajistit
@@ -304,24 +301,18 @@ include('inc_header.php');
               <td>
                 strava:
               </td>
-              <td>
+              <td colspan="3">
                 65Kč/den zahrnuje oběd a 2x svačinku
               </td>
-              <td>&nbsp;</td>
-
-              <td>&nbsp;</td>
 
             </tr>
             <tr>
               <td>
                 absence:
               </td>
-              <td>
+              <td colspan="3">
                 náhrada nejpozději v následujícím měsíci nebo sleva 20% z ceny omluvených dní
               </td>
-              <td>&nbsp;</td>
-
-              <td>&nbsp;</td>
 
             </tr>
           </tbody>
@@ -408,11 +399,9 @@ include('inc_header.php');
               <td>
                 kapacita:
               </td>
-              <td>
+              <td colspan="3">
                 dle obsazenosti centra
               </td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
@@ -420,11 +409,9 @@ include('inc_header.php');
               <td>
                 strava:
               </td>
-              <td>
+              <td colspan="3">
                 po dohodě lze zajistit nebo podáme stravu donesenou
               </td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
