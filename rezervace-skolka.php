@@ -80,63 +80,7 @@ require_once 'db_queries.php';
                     <a href="docs/hafik-pdf-prihlaska.pdf" title="Formulář ke stažení" download="hafik-registracni-formular.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; FORMULÁŘ KE STAŽENÍ</a>
                     <h2><strong>Online rezervace</strong></h2>
                     <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
-                        <h3>Období hlídání</h3>
-                        <div class="form-group">
-                            <input class="date-time-from form-control" id="inputCareStart" type="text" name="careStart" value="<?php if (array_key_exists('careStart', $oldFormData)) echo $oldFormData['careStart']; ?>" placeholder="Začátek hlídání" data-error="Toto pole je nutno vyplnit" required>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input class="date-time-to form-control" id="inputCareEnd" type="text" name="careEnd" value="<?php if (array_key_exists('careEnd', $oldFormData)) echo $oldFormData['careEnd']; ?>" placeholder="Konec hlídání" data-error="Toto pole je nutno vyplnit" required>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
-                        <div class="collapse" id="addMoreDates">
-                            <div class="form-group">
-                                <input class="date-time-from form-control" id="inputCareStart2" name="care[1][start]" type="text" value="<?php if (array_key_exists('start', $oldFormData['care'][1])) echo $oldFormData['care'][1]['start']; ?>" placeholder="Začátek hlídání">
-                            </div>
-                            <div class="form-group">
-                                <input class="date-time-to form-control" id="inputCareEnd2" name="care[1][end]" type="text" value="<?php if (array_key_exists('end', $oldFormData['care'][1])) echo $oldFormData['care'][1]['end']; ?>" placeholder="Konec hlídání">
-                            </div>
-                            <a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates2" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
-                        </div>
-                        <div class="collapse" id="addMoreDates2">
-                            <div class="form-group">
-                                <input class="date-time-from form-control" id="inputCareStart3" name="care[2][start]" type="text" value="<?php if (array_key_exists('start', $oldFormData['care'][2])) echo $oldFormData['care'][2]['start']; ?>" placeholder="Začátek hlídání">
-                            </div>
-                            <div class="form-group">
-                                <input class="date-time-to form-control" id="inputCareEnd3" name="care[2][end]" type="text" value="<?php if (array_key_exists('end', $oldFormData)) echo $oldFormData['care'][2]['end']; ?>" placeholder="Konec hlídání">
-                            </div>
-                            <a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates3" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
-                        </div>
-                        <div class="collapse" id="addMoreDates3">
-                            <div class="form-group">
-                                <input class="date-time-from form-control" id="inputCareStart4" name="care[3][start]" type="text" value="<?php if (array_key_exists('start', $oldFormData['care'][3])) echo $oldFormData['care'][3]['start']; ?>" placeholder="Začátek hlídání">
-                            </div>
-                            <div class="form-group">
-                                <input class="date-time-to form-control" id="inputCareEnd2" name="care[3][end]" type="text" value="<?php if (array_key_exists('end', $oldFormData['care'][3])) echo $oldFormData['care'][3]['end']; ?>" placeholder="Konec hlídání">
-                            </div>
-                            <a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates4" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
-                        </div>
-                        <div class="collapse" id="addMoreDates4">
-                            <div class="form-group">
-                                <input class="date-time-from form-control" id="inputCareStart4" name="care[4][start]" type="text" value="<?php if (array_key_exists('start', $oldFormData['care'][4])) echo $oldFormData['care'][4]['start']; ?>" placeholder="Začátek hlídání">
-                            </div>
-                            <div class="form-group">
-                                <input class="date-time-to form-control" id="inputCareEnd4" name="care[4][end]" type="text" value="<?php if (array_key_exists('end', $oldFormData['care'][4])) echo $oldFormData['care'][4]['end']; ?>" placeholder="Konec hlídání">
-                            </div>
-                            <a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates5" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
-                        </div>
-                        <div class="collapse" id="addMoreDates5">
-                            <div class="form-group">
-                                <input class="date-time-from form-control" id="inputCareStart6" name="care[5][start]" type="text" value="<?php if (array_key_exists('care', $oldFormData['care'][5])) echo $oldFormData['careEnd'][5]['start']; ?>" placeholder="Začátek hlídání">
-                            </div>
-                            <div class="form-group">
-                                <input class="date-time-to form-control" id="inputCareEnd6" name="care[5][end]" type="text" value="<?php if (array_key_exists('care', $oldFormData['care'][5])) echo $oldFormData['careEnd'][5]['start']; ?>" placeholder="Konec hlídání">
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <h3>Zákonný zástupce dítěte</h3>
+                        <h3>Informace o rodičích</h3>
                         <div class="form-group">
                             <input type="text" class="form-control" id="inputNameGuardian" name="guardianName" value="<?php if (array_key_exists('guardianName', $oldFormData)) echo $oldFormData['guardianName']; ?>" placeholder="Jméno" data-error="Toto pole je nutno vyplnit" required>
                             <div class="help-block with-errors"></div>
