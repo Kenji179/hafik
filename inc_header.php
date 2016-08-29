@@ -35,7 +35,7 @@ startSession();
     <link href="assets/css/datetimepicker.css" rel="stylesheet">
     <link href="assets/css/font.css" rel="stylesheet">
     <link href="assets/css/icons.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -62,9 +62,9 @@ startSession();
                     <ul class="nav">
                         <li <?php $menu==0 ? print( 'class="active"') : '' ?>><a href="index.php">Úvod</a></li>
                         <li <?php $menu==1 ? print( 'class="active"') : '' ?>><a href="o-nas.php">O Nás</a></li>
-                        <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace</a></li>
-                        <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="sluzby.php">Služby</a></li>
-                        <li <?php $menu==4 ? print( 'class="active"') : '' ?>><a href="cenik.php">Ceník</a></li>
+                        <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace hlídání</a></li>
+                        <!-- <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="rezervace-skolka.php">Přihláška do školky</a></li> -->
+                        <li <?php $menu==4 ? print( 'class="active"') : '' ?>><a href="sluzby-a-cenik.php">Služby a ceník</a></li>
                         <li <?php $menu==5 ? print( 'class="active"') : '' ?>><a href="provozni-rad.php">Provozní řád</a></li>
                         <li <?php $menu==6 ? print( 'class="active"') : '' ?>><a href="co-s-sebou-do-batuzku.php">Co s sebou do batůžku</a></li>
                         <li <?php $menu==7 ? print( 'class="active"') : '' ?>><a href="kudy-k-nam.php">Kudy k nám</a></li>

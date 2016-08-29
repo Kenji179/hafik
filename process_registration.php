@@ -80,7 +80,7 @@ try {
 		$statement->bindValue(':updated_at', date('Y-m-d H:i:s'));
 		$statement->bindValue(':deleted_at', null);
 		$statement->execute();
-		
+
 		$parentId = $connection->lastInsertId();
 	} else {
 
@@ -147,7 +147,7 @@ try {
 		$statement->bindValue(':updated_at', date('Y-m-d H:i:s'));
 		$statement->bindValue(':deleted_at', null);
 		$statement->execute();
-		
+
 		$parentId = $parent['id'];
 	}
 
@@ -351,7 +351,7 @@ try {
 			$guardianStudentTableColumns
 		);
 		$guardianStudentInsertSql = 'INSERT INTO guardian_student ('. implode(', ', $guardianStudentTableColumns) .') VALUES ('. implode(', ', $guardianStudentNamedParameters) .')';
-		
+
 		foreach ($cleanedFields['otherGuardians'] as $guardian) {
 			$statement = $connection->prepare($guardianInsertSql);
 			$statement->bindValue(':user_id', null);
@@ -363,7 +363,7 @@ try {
 			$statement->bindValue(':deleted_at', null);
 			$statement->execute();
 			$guardianId = $connection->lastInsertId();
-			
+
 			$statement = $connection->prepare($guardianStudentInsertSql);
 			$statement->bindValue(':student_id', $studentId);
 			$statement->bindValue(':guardian_id', $guardianId);
