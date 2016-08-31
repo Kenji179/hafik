@@ -246,31 +246,31 @@
       $wholeDayAttendance = $data['wholeDayAttendance'];
       ?>
       <td></td>
-      <td> <?php echo !empty(array_search(0, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(1, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(2, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(3, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(4, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo (array_search(0, $wholeDayAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(1, $wholeDayAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(2, $wholeDayAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(3, $wholeDayAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(4, $wholeDayAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
 
       <?php
       $morningAttendance = $data['morningAttendance'];
       ?>
       <td></td>
-      <td> <?php echo !empty(array_search(0, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(1, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(2, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(3, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(4, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo (array_search(0, $morningAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(1, $morningAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(2, $morningAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(3, $morningAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(4, $morningAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
 
       <?php
       $afternoonAttendance = $data['afternoonAttendance'];
       ?>
       <td></td>
-      <td> <?php echo !empty(array_search(0, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(1, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(2, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(3, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
-      <td> <?php echo !empty(array_search(4, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo (array_search(0, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(1, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(2, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(3, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(4, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
     </tr>
   </table>
   <br>
