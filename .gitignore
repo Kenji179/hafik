@@ -5,3 +5,4 @@
 .env.*.php
 .env.php
 .env
+log.txt

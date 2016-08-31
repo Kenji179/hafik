@@ -28,10 +28,10 @@ somewhere in your codebase.
 ```php
 use mikehaertl\wkhtmlto\Pdf;
 
-// You can pass a filename, a HTML string or an URL to the constructor
+// You can pass a filename, a HTML string, an URL or an options array to the constructor
 $pdf = new Pdf('/path/to/page.html');
 
-// On some systems you may have to set the binary path.
+// On some systems you may have to set the path to the wkhtmltopdf executable
 // $pdf->binary = 'C:\...';
 
 if (!$pdf->saveAs('/path/to/page.pdf')) {
@@ -74,7 +74,7 @@ $content = $pdf->toString();
 ```php
 use mikehaertl\wkhtmlto\Image;
 
-// You can pass a filename, a HTML string or an URL to the constructor
+// You can pass a filename, a HTML string, an URL or an options array to the constructor
 $image = new Image('/path/to/page.html');
 $image->saveAs('/path/to/page.png');
 
@@ -139,8 +139,8 @@ $image->setOptions($options);   // Set image options (alternative)
 
 ### Wrapper options
 
-The wrapper itself is configured by the following options that can be passed
-to the constructor or set via `setOptions()`:
+The wrapper itself is configured by the following special options that can be passed
+to the constructor, set as object properties or via `setOptions()`:
 
  * `binary`: Full path to the `wkhtmltopdf` command. Default is `wkhtmltopdf` which assumes that the
    command is in your shell's search path.
@@ -155,10 +155,12 @@ the `Image` class also has a `type` option:
  * `type`: The image type. Default is `png`. You can also use `jpg` or `bmp`.
 
 `commandOptions` can be used to set environment variables for `wkhtmltopdf`. For example, if you
-want to pass UTF-8 encoded arguments, you may have to set the `LANG` environment variable:
+want to pass UTF-8 encoded arguments, you may have to set the `LANG` environment variable.
 
 ```php
 $pdf = new Pdf(array(
+    'binary' => '/obscure/path/to/wkhtmltopdf',
+    'ignoreWarnings' => true,
     'commandOptions' => array(
         'procEnv' => array(
             // Check the output of 'locale' on your system to find supported languages
@@ -251,10 +253,11 @@ $pdf = new Pdf(array(
         'enableXvfb' => true,
 
         // Optional: Set your path to xvfb-run. Default is just 'xvfb-run'.
-        // 'xvfbRunBin' => '/usr/bin/xvfb-run',
+        // 'xvfbRunBinary' => '/usr/bin/xvfb-run',
 
         // Optional: Set options for xfvb-run. The following defaults are used.
         // 'xvfbRunOptions' =>  '--server-args="-screen 0, 1024x768x24"',
+    ),
 ));
 ```
 

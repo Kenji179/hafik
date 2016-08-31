@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 2.2.0
+
+ * Add a `$type` parameter to `addPage()` and `addToc()` (#169)
+
+## 2.1.1
+
+ * Add `-a` to default `xvfb-run` options
+
 ## 2.1.0
 
  * We now follow [semver](http://semver.org/)!

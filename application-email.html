@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Přihláška do mateřské školy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body style="margin: 0; padding: 0;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr>
+      <td><img src="assets/img/logo.jpg"></td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr>
+      <td align="center"><strong>Přihláška pro přijetí dítěte do školky v centru Hafík – dětské centrum, z.s.</strong></td>
+    </tr>
+    <tr>
+      <td align="center">Se sídlem a provozovnou: Štefánikova 102/7, Kutná Hora. IČ 05340063</td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" border="1" cellpadding="5" cellspacing="0" width="800">
+    <tr>
+      <td colspan="3">
+        Informace o rodičích
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Jméno a příjmení - matka
+      </td>
+      <td>
+        Číslo OP - matka
+      </td>
+      <td>
+        Rodné číslo - matka
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $data['motherName']; ?> <?php echo $data['motherSurname']; ?>
+      </td>
+      <td>
+          <?php echo $data['motherIDCard']; ?>
+      </td>
+      <td>
+          <?php echo $data['motherID']; ?>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Bydliště - matka
+      </td>
+      <td>
+        Telefon - matka
+      </td>
+      <td>
+        Email - matka
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $data['motherAddress']; ?>, <?php echo $data['motherCity']; ?> <?php echo $data['motherZIP']; ?>
+      </td>
+      <td>
+          <?php echo $data['motherPhone']; ?>
+      </td>
+      <td>
+          <?php echo $data['motherEmail']; ?>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Jméno a příjmení - otec
+      </td>
+      <td>
+        Číslo OP - otec
+      </td>
+      <td>
+        Rodné číslo - otec
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $data['fatherName']; ?> <?php echo $data['fatherSurname']; ?>
+      </td>
+      <td>
+          <?php echo $data['fatherIDCard']; ?>
+      </td>
+      <td>
+          <?php echo $data['fatherID']; ?>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Bydliště - otec
+      </td>
+      <td>
+        Telefon - otec
+      </td>
+      <td>
+        Email - otec
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $data['fatherAddress']; ?>, <?php echo $data['fatherCity']; ?> <?php echo $data['fatherZIP']; ?>
+      </td>
+      <td>
+          <?php echo $data['fatherPhone']; ?>
+      </td>
+      <td>
+          <?php echo $data['fatherZIP']; ?>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" border="1" cellpadding="5" cellspacing="0" width="800">
+    <tr>
+      <td colspan="3">
+        Informace o dítěti
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Jméno a příjmení
+      </td>
+      <td>
+        Datum narození
+      </td>
+      <td>
+        Rodné číslo
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $data['childName']; ?> <?php echo $data['childSurname']; ?>
+      </td>
+      <td>
+          <?php echo $data['childBirth']; ?>
+      </td>
+      <td>
+          <?php echo $data['childID']; ?>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Bydliště
+      </td>
+      <td colspan="2">
+        Zdravotní pojišťovna
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $data['childAddress']; ?>, <?php echo $data['childCity']; ?> <?php echo $data['childZIP']; ?>
+      </td>
+      <td colspan="2">
+          <?php echo $data['childHealthInsurance'] ?>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        Zdravotní stav (v případě alergie, zdravotního omezení aj. prosím specifikujte)
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+          <?php
+            if (array_key_exists('childImportantInfo', $data)) {
+                echo $data['childImportantInfo'];
+            }
+          ?>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" border="1" cellpadding="5" cellspacing="0" width="800">
+    <tr>
+      <td colspan="18">
+        Docházka dítěte
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Celodenní
+      </td>
+      <td>
+        PO
+      </td>
+      <td>
+        ÚT
+      </td>
+      <td>
+        ST
+      </td>
+      <td>
+        ČT
+      </td>
+      <td>
+        PÁ
+      </td>
+      <td>
+        Dopolední
+      </td>
+      <td>
+        PO
+      </td>
+      <td>
+        ÚT
+      </td>
+      <td>
+        ST
+      </td>
+      <td>
+        ČT
+      </td>
+      <td>
+        PÁ
+      </td>
+      <td>
+        Odpolední
+      </td>
+      <td>
+        PO
+      </td>
+      <td>
+        ÚT
+      </td>
+      <td>
+        ST
+      </td>
+      <td>
+        ČT
+      </td>
+      <td>
+        PÁ
+      </td>
+    </tr>
+    <tr>
+      <?php
+      $wholeDayAttendance = $data['wholeDayAttendance'];
+      ?>
+      <td></td>
+      <td> <?php echo !empty(array_search(0, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(1, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(2, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(3, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(4, $wholeDayAttendance)) ? 'Ano' : 'Ne' ?> </td>
+
+      <?php
+      $morningAttendance = $data['morningAttendance'];
+      ?>
+      <td></td>
+      <td> <?php echo !empty(array_search(0, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(1, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(2, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(3, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(4, $morningAttendance)) ? 'Ano' : 'Ne' ?> </td>
+
+      <?php
+      $afternoonAttendance = $data['afternoonAttendance'];
+      ?>
+      <td></td>
+      <td> <?php echo !empty(array_search(0, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(1, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(2, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(3, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
+      <td> <?php echo !empty(array_search(4, $afternoonAttendance)) ? 'Ano' : 'Ne' ?> </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" border="1" cellpadding="5" cellspacing="0" width="800">
+
+      <?php foreach($data['otherGuardians'] as $guardian) { ?>
+    <tr>
+      <td colspan="3">
+        Osoby oprávněné k vyzvednutí dítěte
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Jméno a příjmení
+      </td>
+      <td>
+        Vztah k dítěti
+      </td>
+      <td>
+        Telefon
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <?php echo $guardian['name']; ?> <?php echo $guardian['surname']; ?>
+      </td>
+      <td>
+          <?php echo $guardian['relationship'] ?>
+      </td>
+      <td>
+          <?php echo $guardian['phone'] ?>
+      </td>
+    </tr>
+
+    <?php } ?>
+
+  </table>
+  <br>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr>
+      <td>
+        Rodiče se zavazují k oznamovaní veškerých změn údajů tykajících se pobytu dítěte v Centru Hafík (např. změna bydliště dítěte, změna kontaktů, změna osob vyzvedávajících, apod.) a oznamovaní veškerých změn souvisejících se změnou zdravotního stavu dítěte (např. výskyt přenosné́ choroby v rodině nebo nejbližším okolí dítěte apod.).
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <ul>
+        <li>Prohlašuji, že jsem se seznámil/a s Ceníkem za poskytované služby a Provozním řádem Centra Hafík – hlídání dětí s.r.o., ve kterém jsou uvedeny veškeré podrobnosti týkající se hlídací služby, a tento se zavazuji respektovat.</li>
+        <li>Prohlašuji, že všechny mnou uvedené údaje jsou pravdivé a správné.</li>
+        <li>Prohlašuji, že souhlasím s monitorováním dítěte kdykoliv po předání do Centra Hafík, jeho focením a pořízením videa a s následným umístěním videa či fotografie dítěte na webové stránky Hafíka.</li>
+        <li>Prohlašuji, že souhlasím se zpracováním osobních údajů svých a svého dítěte, pro evidenční potřeby centra Hafík</li>
+        <li>Prohlašuji, že dítě <?php echo array_key_exists('vaccinationStatement', $data) ? '<strong>bylo</strong>' : '<strong>nebylo</strong>'; ?> očkováno proti infekčním nemocem (tedy absolvovalo povinná očkování), zejména dle vyhlášky Ministerstva zdravotnictví MZ č.537/2006 Sb.</li>
+      </ul>
+      </td>
+    </tr>
+  </table>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr>
+      <td>
+        V Kutné Hoře dne <?php echo date('d.m.Y'); ?>
+      </td>
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+</html>

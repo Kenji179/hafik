@@ -53,3 +53,12 @@ function findStudentByPersonId($personId)
 	$statement->execute();
 	return $statement->fetch(PDO::FETCH_ASSOC);
 }
+
+function findOneAddressByPersonId($personId)
+{
+	$connection = getDbConnection();
+	$statement = $connection->prepare('SELECT * FROM addresses WHERE id IN (SELECT address_id FROM address_person WHERE person_id = :person_id)');
+	$statement->bindValue(':person_id', $personId);
+	$statement->execute();
+	return $statement->fetchAll(PDO::FETCH_ASSOC);
+}
