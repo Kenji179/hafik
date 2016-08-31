@@ -49,23 +49,14 @@ require_once 'db_queries.php';
                         $oldFormData['otherGuardians'][2] = [];
                     }
                 ?>
-                    <div class="panel panel-success">
-                        <div class="panel-heading">Registrace k docházce do mateřské školy</div>
-                        <div class="panel-body">
-                            Pro informace o registraci k docházce do mateřské školy nás prosím kontaktujte na níže uvedeném emailu nebo telefonním čísle.
-                            <br><strong>Přihláška do školky ke <a href="docs/prihlaska_do_skolky_hafik.pdf" title="Formulář ke stažení" download="prihlaska_do_skolky_hafik.pdf">stažení zde</a>. Vyplňenou přihlášku nám můžete zaslat na email nebo donést do školky osobně.</strong>
-                            <ul class="list-unstyled">
-                                <li><strong>Telefon:</strong> 604 787 347</li>
-                                <li><strong>Email:</strong> info@skolkahafik.cz</li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <h1>Rezervace hlídání dětí pro veřejnost</h1>
-                    <!--                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 4. 2016. Děkujeme</p>-->
-                    <p>Rezervace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání, s námi vyplnit tento formulář anebo přijít již s ručně vyplněným formulářem, který při předání dítěte podepíšete.</p>
-                    <!--                <p class="bg-danger">Omlouváme se, ale online rezervace je dočasně nedostupná. Situaci řešíme a prozatím je možné použít formulář ke stažení.</p> -->
-                    <a href="docs/hafik-pdf-prihlaska.pdf" title="Formulář ke stažení" download="hafik-registracni-formular.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; FORMULÁŘ KE STAŽENÍ</a>
+                    <h1>Registrace k docházce do mateřské školy</h1>
+                    <p>Pro informace o registraci k docházce do mateřské školy nás prosím kontaktujte na níže uvedeném emailu nebo telefonním čísle.</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Telefon:</strong> 604 787 347</li>
+                        <li><strong>Email:</strong> info@skolkahafik.cz</li>
+                    </ul>
+                    <a href="docs/prihlaska_do_skolky_hafik.pdf" title="Formulář ke stažení" download="prihlaska_do_skolky_hafik.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; FORMULÁŘ KE STAŽENÍ</a>
                     <h2><strong>Online registrace do školky</strong></h2>
                     <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_application.php">
                         <h3>Informace o rodičích</h3>
