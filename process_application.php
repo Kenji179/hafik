@@ -640,18 +640,7 @@ if (getenv('WKHTMLTOPDF_BIN')) {
 	file_put_contents('log.txt', 'Add path to wkhtmltopdf binary to .env file', FILE_APPEND);
 }
 
-$message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum sem nec quam pulvinar,
-congue rhoncus tortor placerat. Pellentesque quis enim in lectus volutpat tempor et et odio. Praesent quis
-porta ligula. Sed sed urna a sem efficitur sollicitudin nec gravida quam. Vivamus bibendum massa imperdiet,
-malesuada ligula quis, venenatis est. Vestibulum sagittis augue in mi feugiat, in aliquam ex ullamcorper.
-Etiam placerat magna sit amet commodo aliquam. Donec sed turpis semper, sodales ex in, condimentum mi.
-
-Aenean vitae volutpat urna. Nunc ut diam ut mi consectetur maximus sed nec neque. Etiam arcu nisl, sagittis
-sed tempor ac, facilisis ac mauris. Sed id sagittis dolor. Donec venenatis tempus nibh a molestie. Sed volutpat
- nulla a risus congue, nec tempor felis hendrerit. Sed tincidunt ultrices enim at scelerisque. Maecenas sagittis
- vehicula dolor, sed elementum neque commodo id. Maecenas scelerisque elit at est dapibus, vitae fermentum purus
- vehicula. Curabitur auctor leo vel erat porta finibus at ut purus. Proin vitae elementum ex, nec ultricies sem.
- Fusce sed velit nec massa interdum elementum in vel metus. Fusce eu finibus ipsum, vel fringilla felis.';
+$message = 'Dobrý den, přihláška do mateřské školy Centra Hafík, byla úspěšně podána. Kopie přihlášky je připojena k tomuto emailu.';
 
 if (getenv('MAIL_TEST')) {
 	$result = EmailSender::send(getenv('MAIL_TEST'), 'test', $message, 'rezervace@skolkahafik.cz', $pdf->toString());

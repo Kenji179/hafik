@@ -61,7 +61,7 @@ require_once 'db_queries.php';
                         $oldFormData['otherGuardians'][2] = [];
                     }
                 ?>
-                    <div class="panel panel-success">
+                    <!-- <div class="panel panel-success">
                         <div class="panel-heading">Registrace k docházce do mateřské školy</div>
                         <div class="panel-body">
                             Pro informace o registraci k docházce do mateřské školy nás prosím kontaktujte na níže uvedeném emailu nebo telefonním čísle.
@@ -71,7 +71,7 @@ require_once 'db_queries.php';
                                 <li><strong>Email:</strong> info@skolkahafik.cz</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
 
                     <h1>Rezervace hlídání dětí pro veřejnost</h1>
                     <!--                <p class="bg-danger">Rezervace se právě testují online - prosím nepoužívejte je. Online rezervace bude dostupná od 30. 4. 2016. Děkujeme</p>-->
