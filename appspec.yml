@@ -11,17 +11,17 @@ permissions:
     mode: 755
     type:
       - file
+  - object: /var/www/html/pdfs
+    owner: ec2-user
+    group: www
+    mode: 777
+    type:
+      - directory
   - object: /var/www/html
     except: [/var/www/html/pdfs]
     pattern: "**"
     owner: ec2-user
     group: www
     mode: 755
-    type:
-      - directory
-  - object: /var/www/html/pdfs
-    owner: ec2-user
-    group: www
-    mode: 777
     type:
       - directory
