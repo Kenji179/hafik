@@ -13,6 +13,7 @@ permissions:
       - file
   - object: /var/www/html
     pattern: "**"
+    except: [assets,dosc,vendor]
     owner: ec2-user
     group: www
     mode: 777
