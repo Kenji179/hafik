@@ -19,8 +19,7 @@ permissions:
     mode: 755
     type:
       - directory
-  - object: /var/www/html
-    pattern: "pdfs"
+  - object: /var/www/html/pdfs
     owner: ec2-user
     group: www
     mode: 777
