@@ -652,8 +652,8 @@ $message = 'Dobrý den, přihláška do mateřské školy Centra Hafík, byla ú
 
 if (getenv('MAIL_TEST')) {
 	$result = EmailSender::send(getenv('MAIL_TEST'), 'test', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
-	$parent1EmailResult = true;
-	$parent2EmailResult = true;
+	$parent1EmailResult = EmailSender::send($cleanedFields['fatherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
+	$parent2EmailResult = EmailSender::send($cleanedFields['motherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
 } else {
 	$result = EmailSender::send('info@skolkahafik.cz', 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
 	$parent1EmailResult = EmailSender::send($cleanedFields['fatherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
