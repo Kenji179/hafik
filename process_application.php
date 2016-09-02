@@ -16,6 +16,7 @@ $_SESSION['reg-form-data'] = $_POST;
 if (empty($formFields)) {
 	flash('empty_form', 'Empty form.', 'error');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace-skolka.php');
+	exit;
 }
 
 // check if input fields are filled and uses htmlspecialchars to prevent XSS
