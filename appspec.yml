@@ -19,8 +19,8 @@ permissions:
     mode: 755
     type:
       - directory
-  - object: /var/www/html/pdfs
-    pattern: "**"
+  - object: /var/www/html
+    except: [/var/www/html/dosc,/var/www/html/assets,/var/www/html/vendor]
     owner: ec2-user
     group: www
     mode: 777
