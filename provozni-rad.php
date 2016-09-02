@@ -41,7 +41,7 @@ include('inc_header.php');
         <p>
           3. Centrum Hafík má pro účely provozování služby školky a hlídání dětí k dispozici nebytovou jednotku v přízemí budovy o rozloze 100 m2 a zahradu o rozloze 300 m2, která se nachází na adrese: Štefánikova 102/7, 284 01 Kutná Hora.
         </p>
-        <p>4. Popis dispozičního řešení zařízení:</p>
+        <p>4. Popis dispzičního řešení zařízení:</p>
             <ol type="a">
               <li>Vstupní šatna slouží jako šatna k převlékání a ukládání svršků a obuvi. Za ní se nachází přijímací pult a kancelářské zázemí zaměstnanců.</li>
               <li>Herna 1  je určena k volným i organizovaným hrám dětí a odpočinku v odpočívacím koutku. Herna je vybavena hračkami, které velikostí a účelností odpovídají věku a potřebám dětí.</li>
