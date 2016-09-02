@@ -642,18 +642,27 @@ if (getenv('WKHTMLTOPDF_BIN')) {
 	file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . 'Add path to wkhtmltopdf binary to .env file', FILE_APPEND);
 }
 
+$pdfName = uniqid() . '.pdf';
+$pdfPath = 'pdfs/' . $pdfName;
+if (!$pdf->saveAs($pdfPath)) {
+    file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . $pdf->getError());
+}
+
 $message = 'Dobrý den, přihláška do mateřské školy Centra Hafík, byla úspěšně podána. Kopie přihlášky je připojena k tomuto emailu.';
 
 if (getenv('MAIL_TEST')) {
-	$result = EmailSender::send(getenv('MAIL_TEST'), 'test', $message, 'rezervace@skolkahafik.cz', $pdf->toString());
+	$result = EmailSender::send(getenv('MAIL_TEST'), 'test', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
+	$parent1EmailResult = true;
+	$parent2EmailResult = true;
 } else {
-	EmailSender::send('info@skolkahafik.cz', 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdf->toString());
-	EmailSender::send($cleanedFields['fatherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdf->toString());
-	EmailSender::send($cleanedFields['motherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdf->toString());
+	$result = EmailSender::send('info@skolkahafik.cz', 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
+	$parent1EmailResult = EmailSender::send($cleanedFields['fatherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
+	$parent2EmailResult = EmailSender::send($cleanedFields['motherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
 }
 
-if ($result) {
+if ($result && ($parent1EmailResult || $parent2EmailResult)) {
 	unset($_SESSION['reg-form-data']);
+	unlink('pdfs/'. $pdfName);
 	flash('registration', 'Přihláška byla úspěšně uložena a na Vaši e-mailovou adresu jsme zaslali její potvrzení', 'alert alert-success');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace-skolka.php');
 	exit;
