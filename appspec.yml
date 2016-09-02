@@ -20,7 +20,7 @@ permissions:
     type:
       - directory
   - object: /var/www/html
-    except: [assets,docs,vendor]
+    except: [assets/*,docs/*,vendor/*]
     owner: ec2-user
     group: www
     mode: 777
