@@ -439,6 +439,8 @@ try {
 		}
 		if (array_key_exists('childImportantInfo', $cleanedFields)) {
 			$statement->bindValue(':other_info', $cleanedFields['childImportantInfo']);
+		} else {
+			$statement->bindValue(':other_info', null);
 		}
 		$statement->bindValue(':created_at', date('Y-m-d H:i:s'));
 		$statement->bindValue(':updated_at', date('Y-m-d H:i:s'));
@@ -624,9 +626,9 @@ try {
 
 	$connection->commit();
 } catch (\Exception $e) {
-	file_put_contents('log.txt', $e->getMessage(), FILE_APPEND);
-	file_put_contents('log.txt', $e->getFile() . ': ' . $e->getLine(), FILE_APPEND);
-	file_put_contents('log.txt', $e->getTraceAsString(), FILE_APPEND);
+	file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . $e->getMessage(), FILE_APPEND);
+	file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . $e->getFile() . ': ' . $e->getLine(), FILE_APPEND);
+	file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . $e->getTraceAsString(), FILE_APPEND);
 	$connection->rollback();
 }
 
@@ -637,7 +639,7 @@ $pdf = new Pdf($template->parse());
 if (getenv('WKHTMLTOPDF_BIN')) {
 	$pdf->binary = getenv('WKHTMLTOPDF_BIN');
 } else {
-	file_put_contents('log.txt', 'Add path to wkhtmltopdf binary to .env file', FILE_APPEND);
+	file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . 'Add path to wkhtmltopdf binary to .env file', FILE_APPEND);
 }
 
 $message = 'Dobrý den, přihláška do mateřské školy Centra Hafík, byla úspěšně podána. Kopie přihlášky je připojena k tomuto emailu.';
