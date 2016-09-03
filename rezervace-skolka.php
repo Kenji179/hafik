@@ -251,7 +251,7 @@ require_once 'db_queries.php';
                             </label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <button type="submit" class="btn">Odeslat žádost</button>
+                        <button type="submit" class="btn ladda-button" data-style="zoom-in" data-plugin="laddaProgress"><span class="ladda-label">Odeslat žádost</span></button>
                     </form>
             </div>
         </div>

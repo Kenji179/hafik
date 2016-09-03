@@ -312,7 +312,7 @@ require_once 'db_queries.php';
                                 <input type="checkbox" id="checkboxVaccination" name="vaccinationStatement" <?php if (array_key_exists( 'vaccinationStatement', $oldFormData)) echo 'checked' ?>> Prohlašuji, že dítě bylo očkováno proti infekčním nemocem
                             </label>
                         </div>
-                        <button type="submit" class="btn">Odeslat žádost</button>
+                        <button type="submit" class="btn ladda-button" data-style="zoom-in" data-plugin="laddaProgress"><span class="ladda-label">Odeslat žádost</span></button>
                     </form>
 
             </div>
