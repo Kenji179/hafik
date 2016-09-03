@@ -8,10 +8,6 @@ require_once 'EmailSender.php';
 
 use mikehaertl\wkhtmlto\Pdf;
 
-if (!file_exists('pdfs')) {
-	mkdir('pdfs', 0777);
-}
-
 startSession();
 
 $formFields = $_POST;
@@ -647,7 +643,7 @@ if (getenv('WKHTMLTOPDF_BIN')) {
 }
 
 $pdfName = uniqid() . '.pdf';
-$pdfPath = 'pdfs/' . $pdfName;
+$pdfPath = getenv('TMP_FOLDER_PATH') . $pdfName;
 if (!$pdf->saveAs($pdfPath)) {
     file_put_contents('log.txt', date('d.m.Y H:i:s') . ': ' . $pdf->getError());
 }
@@ -655,7 +651,7 @@ if (!$pdf->saveAs($pdfPath)) {
 $message = 'Dobrý den, přihláška do mateřské školy Centra Hafík, byla úspěšně podána. Kopie přihlášky je připojena k tomuto emailu.';
 
 if (getenv('MAIL_TEST')) {
-	$result = EmailSender::send(getenv('MAIL_TEST'), 'test', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
+	$result = EmailSender::send(getenv('MAIL_TEST'), 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
 	$parent1EmailResult = EmailSender::send($cleanedFields['fatherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
 	$parent2EmailResult = EmailSender::send($cleanedFields['motherEmail'], 'Přihláška do školky', $message, 'rezervace@skolkahafik.cz', $pdfPath, 'hafik-prihlaska.pdf');
 } else {
@@ -666,7 +662,7 @@ if (getenv('MAIL_TEST')) {
 
 if ($result && ($parent1EmailResult || $parent2EmailResult)) {
 	unset($_SESSION['reg-form-data']);
-	unlink('pdfs/'. $pdfName);
+	unlink(getenv('TMP_FOLDER_PATH'). $pdfName);
 	flash('registration', 'Přihláška byla úspěšně uložena a na Vaši e-mailovou adresu jsme zaslali její potvrzení', 'alert alert-success');
 	header('Location: http://' .$_SERVER['HTTP_HOST'].'/rezervace-skolka.php');
 	exit;
