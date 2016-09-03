@@ -19,11 +19,3 @@ permissions:
     mode: 755
     type:
       - directory
-  - object: /var/www/html
-    except: [docs,assets,vendor]
-    pattern: "**"
-    owner: ec2-user
-    group: www
-    mode: 777
-    type:
-      - directory
