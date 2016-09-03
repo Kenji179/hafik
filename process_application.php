@@ -8,6 +8,10 @@ require_once 'EmailSender.php';
 
 use mikehaertl\wkhtmlto\Pdf;
 
+if (file_exists('pdfs')) {
+	mkdir('pdfs', 777);
+}
+
 startSession();
 
 $formFields = $_POST;
