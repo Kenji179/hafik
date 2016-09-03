@@ -9,7 +9,7 @@ require_once 'EmailSender.php';
 use mikehaertl\wkhtmlto\Pdf;
 
 if (file_exists('pdfs')) {
-	mkdir('pdfs', 777);
+	mkdir('pdfs', 0777);
 }
 
 startSession();
