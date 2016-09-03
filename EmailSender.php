@@ -17,7 +17,7 @@ abstract class EmailSender
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;
 
-        $mail->setFrom($from, 'Centrum - Hafík');
+        $mail->setFrom($from, 'Dětské centrum Hafík');
         $mail->addAddress($to);
         $mail->Subject = $subject;
         $mail->Body = $message;
