@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 $title = 'Provozní řád | Hafík - hlídání dětí v Kutné Hoře';
@@ -820,4 +819,3 @@ include('inc_header.php');
   <!-- Content End -->
 
   <?php include('inc_footer.php'); ?>
->>>>>>> db8d86f5109f04cef1f813885958cd2740c254f5
