@@ -34,6 +34,7 @@ jQuery(document).ready(function ($) {
         todayHighlight: 1
     });
     $('[data-toggle="popover"]').popover();
+    $( 'button[type=submit]' ).ladda( 'bind' );
 });
 
 function FillAddress(f) {
@@ -45,4 +46,3 @@ function FillAddress(f) {
 }
 
 //<a class="btn collapsed" role="button" data-toggle="collapse" href="#addMoreDates" aria-expanded="false"><i class="fa fa-plus"></i> <span class="add-date">Přidat další období</span><span class="rmv-date">Odebrat toto období</span></a>
-

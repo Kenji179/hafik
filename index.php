@@ -20,7 +20,7 @@ include('inc_header.php');
             </div>
         </div>
     </div>
-    <div class="container long-message">
+    <!-- <div class="container long-message">
         <div class="row">
             <div class="col-md-12">
                 <div class="title">
@@ -52,7 +52,7 @@ include('inc_header.php');
               </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="container main">
         <div class="row">
             <div class="col-md-4">
@@ -85,12 +85,12 @@ include('inc_header.php');
                     <h4>Páteční přespání dětí v červnu</h4>
                     <div class="clearfix"></div>
                 </a> -->
-                <a href="clanek3.php" class="news">
+                <!-- <a href="clanek3.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek3s.jpg" alt="news">
                     <span>Publikováno: 22.4.2016</span>
                     <h4>Prázdninový provoz - v srpnu máme zavřeno</h4>
                     <div class="clearfix"></div>
-                </a>
+                </a> -->
             </div>
             <div class="col-md-8">
                 <div class="title">

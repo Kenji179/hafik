@@ -23,6 +23,9 @@
 <script src="assets/js/datetimepicker.cs.js"></script>
 <script src="assets/js/validator.min.js"></script>
 <script src="assets/js/fancybox.js"></script>
+<script src="assets/js/spin.min.js"></script>
+<script src="assets/js/ladda.min.js"></script>
+<script src="assets/js/ladda-bootstrap.min.js"></script>
 <script src="assets/js/custom.js"></script>
 
 <!-- Analytics -->

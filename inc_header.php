@@ -35,6 +35,7 @@ startSession();
     <link href="assets/css/datetimepicker.css" rel="stylesheet">
     <link href="assets/css/font.css" rel="stylesheet">
     <link href="assets/css/icons.css" rel="stylesheet">
+    <link href="assets/css/ladda.min.css" rel="stylesheet">
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>

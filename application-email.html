@@ -42,13 +42,13 @@
     </tr>
     <tr>
       <td>
-          <?php echo $data['motherName']; ?> <?php echo $data['motherSurname']; ?>
+          <strong><?php echo $data['motherName']; ?> <?php echo $data['motherSurname']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['motherIDCard']; ?>
+          <strong><?php echo $data['motherIDCard']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['motherID']; ?>
+          <strong><?php echo $data['motherID']; ?> </strong>
       </td>
     </tr>
     <tr>
@@ -64,13 +64,13 @@
     </tr>
     <tr>
       <td>
-          <?php echo $data['motherAddress']; ?>, <?php echo $data['motherCity']; ?> <?php echo $data['motherZIP']; ?>
+          <strong><?php echo $data['motherAddress']; ?>, <?php echo $data['motherCity']; ?> <?php echo $data['motherZIP']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['motherPhone']; ?>
+          <strong><?php echo $data['motherPhone']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['motherEmail']; ?>
+          <strong><?php echo $data['motherEmail']; ?> </strong>
       </td>
     </tr>
     <tr>
@@ -86,13 +86,13 @@
     </tr>
     <tr>
       <td>
-          <?php echo $data['fatherName']; ?> <?php echo $data['fatherSurname']; ?>
+          <strong><?php echo $data['fatherName']; ?> <?php echo $data['fatherSurname']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['fatherIDCard']; ?>
+          <strong><?php echo $data['fatherIDCard']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['fatherID']; ?>
+          <strong><?php echo $data['fatherID']; ?> </strong>
       </td>
     </tr>
     <tr>
@@ -108,13 +108,13 @@
     </tr>
     <tr>
       <td>
-          <?php echo $data['fatherAddress']; ?>, <?php echo $data['fatherCity']; ?> <?php echo $data['fatherZIP']; ?>
+          <strong><?php echo $data['fatherAddress']; ?>, <?php echo $data['fatherCity']; ?> <?php echo $data['fatherZIP']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['fatherPhone']; ?>
+          <strong><?php echo $data['fatherPhone']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['fatherZIP']; ?>
+          <strong><?php echo $data['fatherZIP']; ?> </strong>
       </td>
     </tr>
   </table>
@@ -138,13 +138,13 @@
     </tr>
     <tr>
       <td>
-          <?php echo $data['childName']; ?> <?php echo $data['childSurname']; ?>
+          <strong><?php echo $data['childName']; ?> <?php echo $data['childSurname']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['childBirth']; ?>
+          <strong><?php echo $data['childBirth']; ?> </strong>
       </td>
       <td>
-          <?php echo $data['childID']; ?>
+          <strong><?php echo $data['childID']; ?> </strong>
       </td>
     </tr>
     <tr>
@@ -157,10 +157,10 @@
     </tr>
     <tr>
       <td>
-          <?php echo $data['childAddress']; ?>, <?php echo $data['childCity']; ?> <?php echo $data['childZIP']; ?>
+          <strong><?php echo $data['childAddress']; ?>, <?php echo $data['childCity']; ?> <?php echo $data['childZIP']; ?> </strong>
       </td>
       <td colspan="2">
-          <?php echo $data['childHealthInsurance'] ?>
+          <strong><?php echo $data['childHealthInsurance'] ?> </strong>
       </td>
     </tr>
     <tr>
@@ -170,11 +170,11 @@
     </tr>
     <tr>
       <td colspan="3">
-          <?php
+          <strong><?php
             if (array_key_exists('childImportantInfo', $data)) {
                 echo $data['childImportantInfo'];
             }
-          ?>
+          ?> </strong>
       </td>
     </tr>
   </table>
@@ -241,7 +241,7 @@
         PÁ
       </td>
     </tr>
-    <tr>
+    <tr><strong>
       <?php
       $wholeDayAttendance = $data['wholeDayAttendance'];
       ?>
@@ -270,7 +270,7 @@
       <td> <?php echo (array_search(1, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
       <td> <?php echo (array_search(2, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
       <td> <?php echo (array_search(3, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
-      <td> <?php echo (array_search(4, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td>
+      <td> <?php echo (array_search(4, $afternoonAttendance) === false) ? 'Ne' : 'Ano'; ?> </td></strong>
     </tr>
   </table>
   <br>
@@ -295,13 +295,13 @@
     </tr>
     <tr>
       <td>
-          <?php echo $guardian['name']; ?> <?php echo $guardian['surname']; ?>
+        <strong>  <?php echo $guardian['name']; ?> <?php echo $guardian['surname']; ?> </strong>
       </td>
       <td>
-          <?php echo $guardian['relationship'] ?>
+        <strong>  <?php echo $guardian['relationship'] ?> </strong>
       </td>
       <td>
-          <?php echo $guardian['phone'] ?>
+        <strong>  <?php echo $guardian['phone'] ?> </strong>
       </td>
     </tr>
 
