@@ -83,6 +83,17 @@ include('inc_header.php');
                             <li><strong>motto: „Dětská radost je moje starost“</strong></li>
                         </ul>
                     </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" src="docs/pics/lucka.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                        <p class="mem-name">Bc. Lucie Lázníčková</p>
+                        <ul class="fa-ul">
+                          <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>speciální pedagogika – vychovatelství</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>angličtina FCM</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe s nevidomými dětmi</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe s dětmi s dysfunkčními vadami</li>
+                            <li><strong>motto: „Lék na všechny bolesti - úsměv v malé ratolesti.“</strong></li>
+                        </ul>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
