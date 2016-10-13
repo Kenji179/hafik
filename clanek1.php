@@ -48,7 +48,7 @@ include('inc_header.php');
                     <p class="article-date">Publikováno: 10. 10. 2016</p>
                 </div>
                 <div class="article-content">
-                  <img src="docs/news/solnajeskyne.jpg" alt="" style="" />
+                  <img src="docs/news/solnajeskyne.jpg" alt="" style="display:block;margin:auto;" />
                 </div>
             </div>
         </div>
