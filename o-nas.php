@@ -85,13 +85,13 @@ include('inc_header.php');
                     </div>
                     <div class="col-md-6">
                         <img class="img-responsive" src="docs/pics/lucka.jpg" alt="Vychovatelka - Hafik hlidani deti" />
-                        <p class="mem-name">Bc. Lucie Lázníčková</p>
+                        <p class="mem-name">Bc. Lucie Lázničková</p>
                         <ul class="fa-ul">
                           <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>speciální pedagogika – vychovatelství</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>angličtina FCM</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>angličtina, zkouška Cambridge ESOL - FCE</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe s nevidomými dětmi</li>
                             <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe s dětmi s dysfunkčními vadami</li>
-                            <li><strong>motto: „Lék na všechny bolesti - úsměv v malé ratolesti.“</strong></li>
+                            <li><strong>motto: „Lék na všechny bolesti – úsměv malé ratolesti“</strong></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
