@@ -257,7 +257,6 @@ require_once 'db_queries.php';
         </div>
     </div>
 
-
     <!-- Modal for "Perdonal data" -->
     <div class="modal fade personal-data" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg">
