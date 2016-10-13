@@ -61,25 +61,19 @@ include('inc_header.php');
                     <h2>Aktuality</h2>
                     <div class="clearfix"></div>
                 </div>
-                <a href="clanek5.php" class="news">
-                    <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
-                    <span>Publikováno: 1.7.2016</span>
-                    <h4>1. 9. 2016 - Otevíráme školku</h4>
-                    <div class="clearfix"></div>
-                </a>
-                <!-- <a href="clanek4.php" class="news">
+                <a href="clanek4.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek4s.jpg" alt="news">
-                    <span>Publikováno: 10.6.2016</span>
-                    <h4>Příměstský tábor v Hafíkovi</h4>
-                    <div class="clearfix"></div>
-                </a> -->
-          <!--      <a href="clanek1.php" class="news">
-                    <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
-                    <span>Publikováno: 10.6.2016</span>
-                    <h4>Vyráběcí den pro všechny děti</h4>
+                    <span>Publikováno: 11.10.2016</span>
+                    <h4>Učíme se anglicky</h4>
                     <div class="clearfix"></div>
                 </a>
-                <a href="clanek2.php" class="news">
+               <a href="clanek1.php" class="news">
+                    <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
+                    <span>Publikováno: 10.10.2016</span>
+                    <h4>Solná jeskyně (pro školkové děti)</h4>
+                    <div class="clearfix"></div>
+                </a>
+                <!-- <a href="clanek2.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek2s.jpg" alt="news">
                     <span>Publikováno: 2.6.2016</span>
                     <h4>Páteční přespání dětí v červnu</h4>
@@ -91,6 +85,12 @@ include('inc_header.php');
                     <h4>Prázdninový provoz - v srpnu máme zavřeno</h4>
                     <div class="clearfix"></div>
                 </a> -->
+                <a href="clanek5.php" class="news">
+                    <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
+                    <span>Publikováno: 1.7.2016</span>
+                    <h4>1. 9. 2016 - Otevíráme školku</h4>
+                    <div class="clearfix"></div>
+                </a>
             </div>
             <div class="col-md-8">
                 <div class="title">

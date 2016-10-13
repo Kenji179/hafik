@@ -7,33 +7,33 @@ include('inc_header.php');
 ?>
 
 
-    <!-- Breadcrumb -->
+  <!-- Breadcrumb -->
 
-    <section class="sub-nav">
-        <div class="container">
-            <div class="row">
-                <ol class="breadcrumb">
-                    <li><a href="index.php">Úvod</a></li>
-                    <li><a href="#">Aktuality</a></li>
-                    <li class="active">Příměstský tábor v Hafíkovi</li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <!-- Breadcrumb End -->
-
-
-    <!-- Content -->
-
-
+  <section class="sub-nav">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="article-header">
-                    <img class="img-responsive" src="docs/news/clanek4.jpg" alt="Hafik - hlidani deti v Kutne Hore">
-                    <p class="category">Aktuality</p>
-                    <!--           <ul class="share-list">
+      <div class="row">
+        <ol class="breadcrumb">
+          <li><a href="index.php">Úvod</a></li>
+          <li><a href="#">Aktuality</a></li>
+          <li class="active">Učíme se anglicky</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Breadcrumb End -->
+
+
+  <!-- Content -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="article-header">
+          <img class="img-responsive" src="docs/news/clanek4.jpg" alt="Hafik - hlidani deti v Kutne Hore">
+          <p class="category">Aktuality</p>
+          <!--           <ul class="share-list">
                         <li>
                             <a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
@@ -44,24 +44,18 @@ include('inc_header.php');
                             <a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>-->
-                    <h1>Příměstský tábor v Hafíkovi</h1>
-                    <p class="article-date">Publikováno: 10. 6. 2016</p>
-                </div>
-                <div class="article-content">
-                    <p>Příměstský tábor v Hafíkovi - 18.-22. 7. 2016 / 25.-29.7.2016 Vítáme všechny děti ve věku 2-8 let! Přijďte si užít léto plné řádění, koupání, vyrábění, výletu za pokladem nebo i případným dobrodružným přespáním u nás v Hafíkovi, viz přílohy ke stažení.</p>
-                    <u>
-                        <li><a href="docs/files/bezinfekcnost.pdf" target="_blank">Bezinfekčnost (pdf)</a></li>
-                        <li><a href="docs/files/pokyny_tabor.pdf" target="_blank">Pokyny k příměstskému táboru (pdf)</a></li>
-                        <li><a href="docs/files/prihlaska_tabor_1.pdf" target="_blank">Přihláška pro přijetí dítěte na příměstský tábor 18.7.-22.7.2016 (pdf)</a></li>
-                        <li><a href="docs/files/prihlaska_tabor_2.pdf" target="_blank">Přihláška pro přijetí dítěte na příměstský tábor 25.7.-29.7.2016 (pdf)</a></li>
-                        <li><a href="docs/files/tabor_letak.pdf" target="_blank">Příměstský tábor - letáček (pdf)</a></li>
-                    </u>
-                </div>
-            </div>
+          <h1>Učíme se anglicky</h1>
+          <p class="article-date">Publikováno: 11. 10. 2016</p>
         </div>
+        <div class="article-content">
+          <p>Hafikovi deti maji nyni moznost seznamit se ze zaklady anglictiny hravou a nenasilnou formou. V prubehu celeho dne zarazujeme anglicka slovicka, pojmy a fraze - at uz pri hrach nebo rizenych cinnostech.</p>
+          <p>Deti se tak uci napr. barvy, pocitani nebo zakladni fraze. Anglictinou provazi nase ucitelky po cely den a diky tomu se zvladneme postarat i o deti cesky nehovorici s anglictinou jako komunikacnim jazykem. </p>
+        </div>
+      </div>
     </div>
+  </div>
 
 
-    <!-- Content End -->
+  <!-- Content End -->
 
-    <?php include('inc_footer.php'); ?>
+  <?php include('inc_footer.php'); ?>

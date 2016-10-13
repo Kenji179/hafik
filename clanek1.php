@@ -15,7 +15,7 @@ include('inc_header.php');
                 <ol class="breadcrumb">
                     <li><a href="index.php">Úvod</a></li>
                     <li><a href="#">Aktuality</a></li>
-                    <li class="active">Vyráběcí den pro všechny děti</li>
+                    <li class="active">Solná jeskyně</li>
                 </ol>
             </div>
         </div>
@@ -44,15 +44,11 @@ include('inc_header.php');
                             <a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>-->
-                    <h1>Vyráběcí den pro všechny děti</h1>
-                    <p class="article-date">Publikováno: 10. 6. 2016</p>
+                    <h1>Solná jeskyně (pro školkové děti)</h1>
+                    <p class="article-date">Publikováno: 10. 10. 2016</p>
                 </div>
                 <div class="article-content">
-                    <p>Vyráběcí den pro všechny děti (vstup 40Kč/dítě ) - Středa 22. 6. 2016
-                        <br> Přijďte si k nám vyrobit něco pro radost, zasoutěžit nebo jen tak si zařádit v herně či na zahradě na trampolíně, skluzavce, pískovišti. Těšíme se na všechny rošťáky :)</p>
-                    <ul>
-                        <li><a href="docs/files/vyrabeci_den.pdf" target="_blank">Tvořivý a hravý den - leták</a></li>
-                    </ul>
+                  <img src="docs/news/solnajeskyne.jpg" alt="" style="" />
                 </div>
             </div>
         </div>
