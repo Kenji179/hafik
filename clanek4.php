@@ -48,8 +48,8 @@ include('inc_header.php');
           <p class="article-date">Publikováno: 11. 10. 2016</p>
         </div>
         <div class="article-content">
-          <p>Hafikovi deti maji nyni moznost seznamit se ze zaklady anglictiny hravou a nenasilnou formou. V prubehu celeho dne zarazujeme anglicka slovicka, pojmy a fraze - at uz pri hrach nebo rizenych cinnostech.</p>
-          <p>Deti se tak uci napr. barvy, pocitani nebo zakladni fraze. Anglictinou provazi nase ucitelky po cely den a diky tomu se zvladneme postarat i o deti cesky nehovorici s anglictinou jako komunikacnim jazykem. </p>
+          <p>Hafíkovi děti mají nyní možnost seznámit se ze základy angličtiny hravou a nenásilnou formou. V průběhu celého dne zařazujeme anglická slovíčka, pojmy a fráze - ať už při hrách nebo řízených činnostech.</p>
+          <p>Děti se tak učí např. barvy, počítání nebo základné fráze. Angličtinou provází naše učitelky po celý den a diky tomu se zvládneme postarat i o děti česky nehovořící s angličtinou jako komunikačním jazykem.</p>
         </div>
       </div>
     </div>
