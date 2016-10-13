@@ -68,7 +68,7 @@ include('inc_header.php');
                     <div class="clearfix"></div>
                 </a>
                <a href="clanek1.php" class="news">
-                    <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
+                    <img class="img-responsive" src="docs/news/clanek2s.jpg" alt="news">
                     <span>Publikováno: 10.10.2016</span>
                     <h4>Solná jeskyně (pro školkové děti)</h4>
                     <div class="clearfix"></div>
