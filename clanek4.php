@@ -49,7 +49,7 @@ include('inc_header.php');
         </div>
         <div class="article-content">
           <p>Hafíkovi děti mají nyní možnost seznámit se ze základy angličtiny hravou a nenásilnou formou. V průběhu celého dne zařazujeme anglická slovíčka, pojmy a fráze - ať už při hrách nebo řízených činnostech.</p>
-          <p>Děti se tak učí např. barvy, počítání nebo základné fráze. Angličtinou provází naše učitelky po celý den a diky tomu se zvládneme postarat i o děti česky nehovořící s angličtinou jako komunikačním jazykem.</p>
+          <p>Děti se tak učí např. barvy, počítání nebo základní fráze. Angličtinou provází naše učitelky po celý den a diky tomu se zvládneme postarat i o děti česky nehovořící s angličtinou jako komunikačním jazykem.</p>
         </div>
       </div>
     </div>
