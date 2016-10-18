@@ -62,14 +62,14 @@ include('inc_header.php');
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-responsive" src="docs/pics/martina.jpg" alt="Vychovatelka - Hafik hlidani deti" />
-                        <p class="mem-name">Martina Vecková</p>
+                        <img class="img-responsive" src="docs/pics/katka.jpg" alt="Vychovatelka - Hafik hlidani deti" />
+                        <p class="mem-name">Kateřina Janíková</p>
                         <ul class="fa-ul">
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>certifikovaná chůva</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>psychologie dítěte</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>vedoucí oddílového plavání</li>
-                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>praxe jako táborová vedoucí</li>
-                            <li><strong>motto: „Veselá chůva“</strong></li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>zdravotní sestra</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>předškolní a mimoškolní pedagogika</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>dlouholetá táborová vedoucí</li>
+                            <li><i class="fa-li fa fa-thumbs-up" aria-hidden="true"></i>školitel 1.pomoci</li>
+                            <li><strong>motto: „Hudba je mým klíčem k dětskému srdci“</strong></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
