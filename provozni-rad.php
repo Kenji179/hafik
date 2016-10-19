@@ -32,7 +32,7 @@ include('inc_header.php');
         <h1>Provozní řád</h1>
         <a href="docs/provozni_rad.pdf" title="Provozní řád" download="provozni_rad.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; PROVOZNÍ ŘÁD KE STAŽENÍ</a>
         <h2>Charakteristika poskytované služby centrem Hafík</h2>
-        <p>1. Centrum HAFÍK – dětské centrum, v.z. (dále také jen „Hafík“) nabízí rodičům školku pro stálou skupinu dětí ve věku od 2 do 6 let a dále nepravidelné hlídání dětí ve věku od 2 do 8 let. Na pravidelnou docházku do školky nebo na hlídání dítěte v Hafíkovi nevzniká podáním Přihlášky žádný právní nárok a Hafík si vyhrazuje právo Přihlášku odmítnout z důvodů obsazenosti nebo jiných. V Hafíkovi je rodičům nabízena komplexní péče o děti ve věku 2-6 let se stálou docházkou nebo volné hraní hlídaných dětí ve věku 2-8 let pod dozorem odborně způsobilých osob. </p>
+        <p>1. Centrum HAFÍK – dětské centrum, v.z. (dále také jen „Hafík“) nabízí rodičům školku pro stálou skupinu dětí ve věku od 2 do 6 let a dále nepravidelné hlídání dětí ve věku od 2 do 8 let. Na pravidelnou docházku do školky nebo na hlídání dítěte v Hafíkovi nevzniká podáním Přihlášky žádný právní nárok a Hafík si vyhrazuje právo Přihlášku odmítnout z důvodů obsazenosti nebo jiných. V Hafíkovi je rodičům nabízena komplexní péče o děti ve věku 2-6 let se stálou docházkou nebo volné hraní hlídaných dětí ve věku 2-8 let pod dozorem odborně způsobilých osob. Služba hlídání dětí je nabízena pouze na základě předchozího objednání.</p>
         <p>
           2. Provoz je zajištěn každý všední den od 7:30 do 17:30h. V době prázdnin může být provoz omezen. Každý lichý pátek centrum Hafík poskytuje možnost v případě dostatečného zájmu a naplnění kapacity (minimum je 5 dětí) zajištění péče o děti spolu s přespáním do druhého dne, tj. pátku od 18.30 hod. do následující soboty do 9.00 hod. Bližší informace ohledně možnosti pátečního přespávání budou zveřejněny na webových stránkách centra Hafík nebo informaci podají pracovníci centra. Děti musí být rodiči na přespání v dostatečném časovém předstihu přihlášené.
         </p>
@@ -52,7 +52,7 @@ include('inc_header.php');
         <p>5. Centrum Hafík má k dispozici rovněž prostornou zahradu o velikosti 300 m2, na které jsou umístěny certifikované atrakce pro děti, jako jsou pískoviště, trampolína apod. V centru je centrální plynové vytápění a ohřev vody.</p>
         <h2>Zajištění provozu centra Hafík</h2>
         <p>
-          6. Přednostně je kapacita Hafíka obsazována dětmi ze stálé skupiny – školky. Služba hlídání dětí je poskytována i bez nutnosti předchozího objednání, avšak vždy s ohledem 2 na aktuální naplněnost a kapacitu centra Hafík. Hlídání dítěte je možné zajistit si dopředu rezervací, kterou je možné provádět osobně u pracovníků centra Hafík, telefonicky v rámci provozní doby na tel. čísle 604 787 347 nebo online prostřednictvím rezervačního formuláře na stánkách www.skolkahafik.cz.
+          6. Přednostně je kapacita Hafíka obsazována dětmi ze stálé skupiny – školky. Služba hlídání dětí je poskytována na základě předchozího objednání, avšak vždy s ohledem na aktuální naplněnost a kapacitu centra Hafík. Hlídání dítěte je nutné zajistit si dopředu rezervací, kterou je možné provádět osobně u pracovníků centra Hafík, telefonicky v rámci provozní doby na tel. čísle 604 787 347 nebo online prostřednictvím rezervačního formuláře na stánkách www.skolkahafik.cz.
         </p>
         <p>
           7. Provoz centra Hafík zajišťují pracovnice, které mají potřebnou kvalifikaci pro zajištění poskytovaných služeb. Po předchozí individuální dohodě je možné přijmout na hlídání i děti handicapované, děti trpící epilepsií či lehkou mozkovou dysfunkcí, případně i děti s poruchami pozornosti apod.
@@ -94,7 +94,7 @@ include('inc_header.php');
         </p>
         <h2>Stravování a pitný režim</h2>
         <p>
-          19. Děti se ve školce stravují 3x denně dle Denního programu. Personál dětem připravuje jídlo v kuchyňce. Provádí se každodenní měření teploty pokrmu těsně před podáním. Strava je plnohodnotná a vyvážená dle příslušných předpisů, je zachována vhodná skladby jídelníčku, který splňuje veškeré hygienické požadavky. Jídlo j
+          19. Děti se ve školce stravují 3x denně dle Denního programu. Personál dětem připravuje jídlo v kuchyňce. Provádí se každodenní měření teploty pokrmu těsně před podáním. Strava je plnohodnotná a vyvážená dle příslušných předpisů, je zachována vhodná skladby jídelníčku, který splňuje veškeré hygienické požadavky. Jídlo je pestré, obsahuje celozrnné výrobky, mléčné výrobky a dostatek ovoce a zeleniny.
         </p>
         <p>
           20. V centru Hafík je dbáno na dodržování pitného režimu dětí. Nápoje dětem v dostatečném množství připravuje personál centra Hafík.
@@ -475,7 +475,7 @@ include('inc_header.php');
         </p>
         <h2>Předání dítěte do péče centra Hafík</h2>
         <p>9. Do centra Hafík mohou být přijímány pouze děti zdravé. Odpovědný pracovník - hlídací teta - při příchodu dítěte posoudí, zda je dítě schopné pobytu v zařízení či ne (teplota, kašel, vši, opary, rýma a další, zejména infekční onemocnění), a to s ohledem na přítomnost ostatních zdravých dětí.</p>
-        <p>10. Předání dětí do školky je možné v době od 7.30 do 9:00, na nepravidelné hlídání je možné dítě přivézt kdykoliv v rámci otevírací doby.</p>
+        <p>10. Předání dětí do školky je možné v době od 7.30 do 9:00, na nepravidelné hlídání je možné dítě přivézt kdykoliv v rámci otevírací doby s výjimkou 9-12h, kdy jsou pracovníci Hafíka na vycházce mimo provozovnu s dětmi ze školky.</p>
         <p>11. Centrum Hafík si dále vyhrazuje právo hlídání dítěte odmítnout, nebo přerušit, či ukončit v případě, že:
             <ol type="a">
               <li>rodič závažným způsobem opakovaně narušuje provoz centra Hafík;</li>
@@ -563,7 +563,7 @@ include('inc_header.php');
           <p>3. Centrum Hafík je monitorováno kamerovým systémem se 14-ti denním záznamem, zejména s ohledem na bezpečnost dětí. Rodiče podpisem na Přihlášce berou monitoring dětí na vědomí a souhlasí s jeho využíváním.</p>
           <p>4. Rodiče dítěte souhlasí s tím, aby centrum Hafík zpracovávalo jimi poskytnutá data obsažená v Přihlášce, případně předaná jiným způsobem, pro plnění svých úkolů, a to po dobu nezbytnou k zajištění práv a povinností spojených s poskytováním péče o dítě, a dále se zavazují bez zbytečného odkladu nahlásit jakoukoli změnu zpracovávaných osobních údajů a prohlašují, že byli ve smyslu zákona č. 101/2000 Sb. ve znění pozdějších předpisů informováni o zpracování osobních údajů.</p>
           <p>5. Podpisem Přihlášky dávají rodiče za dítě souhlas, aby poskytovatel pořizoval obrazové, zvukové či audiovizuální záznamy dítěte a rodičů za účelem propagace svých služeb a tyto záznamy zveřejňoval. Při tom se provozovatel zavazuje nakládat se záznamy šetrně a šetřit důstojnost dítěte.</p>
-        <p>TTento Provozní řád je platný od 1.9.2016 a musí být umístěna na viditelném a rodičům přístupném místě v provozovně centra Hafík tak, aby se s ním mohli všichni řádně seznámit. Tato povinnost je rovněž splněna vyvěšením provozního řádu na webu www.skolkahafik.cz. </p>
+        <p>TTento Provozní řád je platný od 1.10.2016 a musí být umístěna na viditelném a rodičům přístupném místě v provozovně centra Hafík tak, aby se s ním mohli všichni řádně seznámit. Tato povinnost je rovněž splněna vyvěšením provozního řádu na webu www.skolkahafik.cz. </p>
 
         <h3>Ceník docházky stálé skupiny za měsíc</h3>
         <table class="table">
