@@ -62,7 +62,7 @@ include('inc_header.php');
         </p>
         <h2>Předání dítěte do péče centra Hafík</h2>
         <p>9. Do centra Hafík mohou být přijímány pouze děti zdravé. Odpovědný pracovník - hlídací teta - při příchodu dítěte posoudí, zda je dítě schopné pobytu v zařízení či ne (teplota, kašel, vši, opary, rýma a další, zejména infekční onemocnění), a to s ohledem na přítomnost ostatních zdravých dětí.</p>
-        <p>10. Předání dětí do školky je možné v době od 7.30 do 9:00, na nepravidelné hlídání je možné dítě přivézt kdykoliv v rámci otevírací doby.</p>
+        <p>10. Předání dětí do školky je možné v době od 7.30 do 9:00, na nepravidelné hlídání je možné dítě přivézt kdykoliv v rámci otevírací doby s výjimkou 9-12h, kdy jsou pracovnice Hafíka na vycházce mimo provozovnu s dětmi ze školky.</p>
         <p>11. Centrum Hafík si dále vyhrazuje právo hlídání dítěte odmítnout, nebo přerušit, či ukončit v případě, že:
             <ol type="a">
               <li>rodič závažným způsobem opakovaně narušuje provoz centra Hafík;</li>
