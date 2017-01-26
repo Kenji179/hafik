@@ -61,12 +61,6 @@ include('inc_header.php');
                     <h2>Aktuality</h2>
                     <div class="clearfix"></div>
                 </div>
-                <a href="#" class="news">
-                    <img class="img-responsive" src="docs/news/clanek5s.jpg" alt="news">
-                    <span>Publikováno: 1.11.2016</span>
-                    <h4> Vánoční prázdniny: 23.12.2016 máme již zavřeno, opět se na Vás budeme těšit od pondělí 2.1.2017</h4>
-                    <div class="clearfix"></div>
-                </a>
                 <a href="clanek4.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek4s.jpg" alt="news">
                     <span>Publikováno: 11.10.2016</span>

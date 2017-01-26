@@ -303,7 +303,7 @@ require_once 'db_queries.php';
                         <div class="clearfix"></div>
                         <div class="form-group checkbox">
                             <label>
-                                <input type="checkbox" id="checkboxPD" name="rulesApproval" data-error="Je nutné souhlasit" required> Souhlasím s <a href="javascript:void(0)" data-toggle="modal" data-target=".personal-data">pravidly Centra Hafík - hlídání dětí s.r.o.</a>
+                                <input type="checkbox" id="checkboxPD" name="rulesApproval" data-error="Je nutné souhlasit" required> Souhlasím s <a href="javascript:void(0)" data-toggle="modal" data-target=".personal-data">pravidly Centra Hafík</a>
                             </label>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -326,12 +326,12 @@ require_once 'db_queries.php';
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Zavřít"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Pravidla Centra Hafík - hlídání dětí s.r.o.</h4>
+                    <h4 class="modal-title">Pravidla Centra Hafík</h4>
                 </div>
                 <div class="modal-body">
                     <p>V případě opakované návštěvy dítěte v Centru Hafík se rodiče zavazuji k oznamování veškerých změn údajů týkajících se pobytu dítěte v Centru Hafík (např. změna bydliště dítěte, změna kontaktů, změna osob vyzvedávajících, apod.) a oznamování veškerých změn souvisejících se změnou zdravotního stavu dítěte (např. výskyt přenosné choroby v rodině nebo nejbližším okolí dítěte apod.).</p>
                     <ul>
-                        <li>Prohlašuji, že jsem se seznámil/a s Ceníkem za poskytované služby a Provozním řádem Centra Hafík – hlídání dětí s.r.o., ve kterém jsou uvedeny veškeré podrobnosti týkající se hlídací služby, a tento se zavazuji respektovat. </li>
+                        <li>Prohlašuji, že jsem se seznámil/a s Ceníkem za poskytované služby a Provozním řádem Centra Hafík, ve kterém jsou uvedeny veškeré podrobnosti týkající se hlídací služby, a tento se zavazuji respektovat. </li>
                         <li>Prohlašuji, že všechny mnou uvedené údaje jsou pravdivé a správné. </li>
                         <li>Prohlašuji, že souhlasím s monitorováním dítěte kdykoliv po předání do Centra Hafík, jeho focením a pořízením videa a s následným umístěním videa či fotografie dítěte na webové stránky Hafíka. </li>
                         <li>Prohlašuji, že souhlasím se zpracováním osobních údajů svých a svého dítěte, pro evidenční potřeby centra Hafík </li>
