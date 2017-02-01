@@ -92,7 +92,7 @@ include('inc_header.php');
                     <h2>Galerie</h2>
                     <div class="clearfix"></div>
                 </div>
-                <div class="gallery">
+                <!-- <div class="gallery">
                     <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href="docs/pics/pic1.jpg" rel="new-pictures" class="fancybox">
@@ -142,7 +142,7 @@ include('inc_header.php');
                         </div>
                     </div>
                 </div>
-                <div class="more news"><a href="galerie.php">Více fotografií zde <i class="fa fa-chevron-right"></i></a></div>
+                <div class="more news"><a href="galerie.php">Více fotografií zde <i class="fa fa-chevron-right"></i></a></div> -->
             </div>
         </div>
     </div>
