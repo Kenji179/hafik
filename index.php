@@ -61,16 +61,16 @@ include('inc_header.php');
                     <h2>Aktuality</h2>
                     <div class="clearfix"></div>
                 </div>
-                <a href="clanek4.php" class="news">
+                <a href="clanek1.php" class="news">
+                    <img class="img-responsive" src="docs/news/clanek4s.jpg" alt="news">
+                    <span>Publikováno: 17.07.2017</span>
+                    <h4>Nábor dětí pro nový školní rok 2017/2018</h4>
+                    <div class="clearfix"></div>
+                </a>
+                <a href="/" class="news">
                     <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
                     <span>Publikováno: 25.05.2017</span>
                     <h4>Do školkového programu nabíráme nové děti celý rok</h4>
-                    <div class="clearfix"></div>
-                </a>
-                <a href="clanek4.php" class="news">
-                    <img class="img-responsive" src="docs/news/clanek4s.jpg" alt="news">
-                    <span>Publikováno: 11.10.2016</span>
-                    <h4>Učíme se anglicky</h4>
                     <div class="clearfix"></div>
                 </a>
                <!-- <a href="clanek1.php" class="news">

@@ -15,7 +15,7 @@ include('inc_header.php');
                 <ol class="breadcrumb">
                     <li><a href="index.php">Úvod</a></li>
                     <li><a href="#">Aktuality</a></li>
-                    <li class="active">Solná jeskyně</li>
+                    <li class="active">Nábor dětí pro nový školní rok 2017/2018</li>
                 </ol>
             </div>
         </div>
@@ -44,11 +44,12 @@ include('inc_header.php');
                             <a href="#"><i class="fa fa-envelope"></i></a>
                         </li>
                     </ul>-->
-                    <h1>Solná jeskyně (pro školkové děti)</h1>
+                    <h1>Nábor dětí pro nový školní rok 2017/2018</h1>
                     <p class="article-date">Publikováno: 10. 10. 2016</p>
                 </div>
                 <div class="article-content">
                   <img src="docs/news/solnajeskyne.jpg" alt="" style="display:block;margin:auto;" />
+                  <p>Vážení rodiče, nový školní rok je za dveřmi. Již nyní máte možnost přihlašovat své ratolesti k nám do dětského centra HAFÍK. Preferujeme individuální přístup k dětem a rodičům, nic pro nás není překážkou. Bližší informace Vám poskytneme přímo u nás v Hafíkovi, nebo telefonicky na čísle 603 737 344. Těšíme se na Vás… HAF HAF.</p>
                 </div>
             </div>
         </div>
