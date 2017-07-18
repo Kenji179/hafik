@@ -67,12 +67,12 @@ include('inc_header.php');
                     <h4>Nábor dětí pro nový školní rok 2017/2018</h4>
                     <div class="clearfix"></div>
                 </a>
-                <a href="/" class="news">
+                <!-- <a href="/" class="news">
                     <img class="img-responsive" src="docs/news/clanek1s.jpg" alt="news">
                     <span>Publikováno: 25.05.2017</span>
                     <h4>Do školkového programu nabíráme nové děti celý rok</h4>
                     <div class="clearfix"></div>
-                </a>
+                </a> -->
                <!-- <a href="clanek1.php" class="news">
                     <img class="img-responsive" src="docs/news/clanek2s.jpg" alt="news">
                     <span>Publikováno: 10.10.2016</span>
