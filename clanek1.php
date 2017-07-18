@@ -45,7 +45,7 @@ include('inc_header.php');
                         </li>
                     </ul>-->
                     <h1>Nábor dětí pro nový školní rok 2017/2018</h1>
-                    <p class="article-date">Publikováno: 10. 10. 2016</p>
+                    <p class="article-date">Publikováno: 17. 07. 2017</p>
                 </div>
                 <div class="article-content">
                   <p>Vážení rodiče, nový školní rok je za dveřmi. Již nyní máte možnost přihlašovat své ratolesti k nám do dětského centra HAFÍK. Preferujeme individuální přístup k dětem a rodičům, nic pro nás není překážkou. Bližší informace Vám poskytneme přímo u nás v Hafíkovi, nebo telefonicky na čísle 603 737 344. Těšíme se na Vás… HAF HAF.</p>
