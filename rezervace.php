@@ -78,7 +78,7 @@ require_once 'db_queries.php';
                     <p>Rezervace online je volitelná. Do dětského centra můžete přivést Vaše dítě i bez předchozího objednání, s námi vyplnit tento formulář anebo přijít již s ručně vyplněným formulářem, který při předání dítěte podepíšete.</p>
                     <!--                <p class="bg-danger">Omlouváme se, ale online rezervace je dočasně nedostupná. Situaci řešíme a prozatím je možné použít formulář ke stažení.</p> -->
                     <a href="docs/hafik-pdf-prihlaska.pdf" title="Formulář ke stažení" download="hafik-registracni-formular.pdf"><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; FORMULÁŘ KE STAŽENÍ</a>
-                    <h2><strong>Online rezervace</strong></h2>
+                    <!-- <h2><strong>Online rezervace</strong></h2>
                     <form id="reg-form" data-toggle="validator" role="form" method="post" action="process_registration.php">
                         <h3>Období hlídání</h3>
                         <div class="form-group">
@@ -313,7 +313,7 @@ require_once 'db_queries.php';
                             </label>
                         </div>
                         <button type="submit" class="btn ladda-button" data-style="zoom-in" data-plugin="laddaProgress"><span class="ladda-label">Odeslat žádost</span></button>
-                    </form>
+                    </form> -->
 
             </div>
         </div>
