@@ -63,7 +63,7 @@ startSession();
                     <ul class="nav">
                         <li <?php $menu==0 ? print( 'class="active"') : '' ?>><a href="index.php">Úvod</a></li>
                         <li <?php $menu==1 ? print( 'class="active"') : '' ?>><a href="o-nas.php">O Nás</a></li>
-                        <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace hlídání</a></li>
+                        <!-- <li <?php $menu==2 ? print( 'class="active"') : '' ?>><a href="rezervace.php">Rezervace hlídání</a></li> -->
                         <li <?php $menu==3 ? print( 'class="active"') : '' ?>><a href="rezervace-skolka.php">Přihláška do školky</a></li>
                         <li <?php $menu==4 ? print( 'class="active"') : '' ?>><a href="sluzby-a-cenik.php">Služby a ceník</a></li>
                         <li <?php $menu==5 ? print( 'class="active"') : '' ?>><a href="provozni-rad.php">Provozní řád</a></li>
