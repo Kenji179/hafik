@@ -33,17 +33,7 @@ include('inc_header.php');
         <div class="article-header">
           <img class="img-responsive" src="docs/news/clanek4.jpg" alt="Hafik - hlidani deti v Kutne Hore">
           <p class="category">Aktuality</p>
-          <!--           <ul class="share-list">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                        </li>
-                    </ul>-->
+
           <h1>Učíme se anglicky</h1>
           <p class="article-date">Publikováno: 11. 10. 2016</p>
         </div>
